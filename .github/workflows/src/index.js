@@ -13,6 +13,15 @@ console.log("THIS IS NODE")
 console.log(`sha: ${process.env.GITHUB_SHA}`)
 console.log(`ref: ${process.env.GITHUB_REF}`)
 
+// # Node:
+const base = require('airtable').base('appnpTfSaHWAf964L');
+// EXAMPLE USING CUSTOM CONFIGURATION
+var Airtable = require('airtable');
+Airtable.configure({
+    endpointUrl: 'https://api.airtable.com',
+    apiKey: process.env.AIRTABLE_SECRET
+});
+var base = Airtable.base('appnpTfSaHWAf964L');
 
 // stepper
 

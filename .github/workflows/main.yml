@@ -2,7 +2,7 @@
 
 name: Graduation Helper
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   pull_request:
@@ -28,3 +28,5 @@ jobs:
         run: npm install
       - name: run entry point
         run: node index.js
+        env:
+          AIRTABLE_SECRET: ${{ secrets.AIRTABLE_SECRET }}
