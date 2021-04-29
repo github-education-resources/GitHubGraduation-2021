@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "airtable": "^0.11.0",
     "octokit": "^1.0.3"
   }
 }
