@@ -24,10 +24,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14
-      - run: pwd
-      - run: rm -rf ./node_modules
       - run: npm install
-      - run: ls node_modules
+      - run: pwd
+      - run: ls
+      - run: ls ./node_modules
       - name: run entry point
         run: node index.js
         env:
