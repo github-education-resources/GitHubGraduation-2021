@@ -105,7 +105,7 @@ const { repository: { pullRequest } } = await octokit.graphql(
   {
     name: "GitHubGraduation-2021",
     owner: "campus-experts",
-    pr: 2
+    pr: pr
   }
 );
 
