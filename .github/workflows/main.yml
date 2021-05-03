@@ -27,6 +27,7 @@ jobs:
       - run: pwd
       - run: rm -rf ./node_modules
       - run: npm install
+      - run: ls node_modules
       - name: run entry point
         run: node index.js
         env:
