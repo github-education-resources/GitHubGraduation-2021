@@ -46,7 +46,7 @@ airtable('Graduates Data').select({
   // Selecting the first 3 records in Pending Reviews:
   maxRecords: 3,
   view: "Pending Reviews",
-  filterByFormula: `{GitHub Username} = '${}'`
+  // filterByFormula: `{GitHub Username} = '${}'`
 }).eachPage(function page(records, fetchNextPage) {
   // This function (`page`) will get called for each page of records.
   records.forEach(function(record) {
