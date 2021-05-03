@@ -24,8 +24,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14
-      - run: npm install -g npm
-      - run: npm install
+      - name: Setup npm
+        run: npm install -g npm
+        run: npm install
       - name: run entry point
         run: node index.js
         env:
