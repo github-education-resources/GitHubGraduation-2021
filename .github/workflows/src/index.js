@@ -1,5 +1,5 @@
 
-if(process.env.GITHUB_ACTIONS) {
+if(!process.env.GITHUB_ACTIONS) {
   const result = require('dotenv').config();
 
   if (result.error) {
