@@ -34,6 +34,7 @@ const [ owner, repoName ] = process.env.GITHUB_REPOSITORY.split('/')
 
 let pr
 console.log("EVENT NAMEL: " + process.env.GITHUB_EVENT_NAME)
+console.log(process.env.GITHUB_REF)
 if (process.env.GITHUB_EVENT_NAME === "pull_request_target") {
   pr = process.env.GITHUB_REF.split("/")[2]
 }
