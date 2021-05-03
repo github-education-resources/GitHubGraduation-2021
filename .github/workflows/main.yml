@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
+        shell: bash
         working-directory: ./.github/workflows/src
     name: Initiate robot
     steps:
@@ -23,8 +24,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14
-      - name: install dependencies
-        run: rm -rf ./node_modules && npm install
+        run: npm install
       - name: run entry point
         run: node index.js
         env:
