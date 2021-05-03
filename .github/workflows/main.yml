@@ -24,6 +24,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14
+      - run: npm install -g npm
       - run: npm install
       - run: pwd
       - run: ls
