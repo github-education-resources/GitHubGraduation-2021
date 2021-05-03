@@ -1,6 +1,10 @@
-const result = require('dotenv').config();
-if (result.error) {
-  throw result.error
+
+if(process.env.GITHUB_ACTIONS) {
+  const result = require('dotenv').config();
+
+  if (result.error) {
+    throw result.error
+  }
 }
 
 const Airtable = require('airtable');
