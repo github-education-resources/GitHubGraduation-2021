@@ -32,8 +32,10 @@ const GRADUATION_TABLE = "appnpTfSaHWAf964L"
 const airtable = Airtable.base(GRADUATION_TABLE);
 const [ owner, repoName ] = process.env.GITHUB_REPOSITORY.split('/')
 
+let pr
+console.log("EVENT NAMEL: " + process.env.GITHUB_EVENT_NAME)
 if (process.env.GITHUB_EVENT_NAME === "pull_request_target") {
-  const pr = process.env.GITHUB_REF.split("/")[2]
+  pr = process.env.GITHUB_REF.split("/")[2]
 }
 
 // Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
