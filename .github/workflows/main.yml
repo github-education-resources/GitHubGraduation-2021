@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        shell: bash
         working-directory: ./.github/workflows/src
     name: Initiate robot
     steps:
