@@ -26,9 +26,6 @@ jobs:
           node-version: 14
       - run: npm install -g npm
       - run: npm install
-      - run: pwd
-      - run: ls
-      - run: ls ./node_modules
       - name: run entry point
         run: node index.js
         env:
