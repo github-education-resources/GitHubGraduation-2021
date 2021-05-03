@@ -32,7 +32,7 @@ const GRADUATION_TABLE = "appnpTfSaHWAf964L"
 const airtable = Airtable.base(GRADUATION_TABLE);
 const [ owner, repoName ] = process.env.GITHUB_REPOSITORY.split('/')
 
-if (process.env.GITHUB_EVENT_NAME === "pull_request") {
+if (process.env.GITHUB_EVENT_NAME === "pull_request_target") {
   const pr = process.env.GITHUB_REF.split("/")[2]
 }
 
