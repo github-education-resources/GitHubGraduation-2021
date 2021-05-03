@@ -30,4 +30,4 @@ jobs:
         run: node index.js
         env:
           AIRTABLE_SECRET: ${{ secrets.AIRTABLE_SECRET }}
-          GITHUB_SECRET: ${{ secrets.GITHUB_SECRET }}
+          GH_SECRET: ${{ secrets.GH_SECRET }}
