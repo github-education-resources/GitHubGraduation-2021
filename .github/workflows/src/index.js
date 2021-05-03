@@ -32,12 +32,20 @@ const GRADUATION_TABLE = "appnpTfSaHWAf964L"
 const airtable = Airtable.base(GRADUATION_TABLE);
 const [ owner, repoName ] = process.env.GITHUB_REPOSITORY.split('/')
 
-let pr
-console.log("EVENT NAMEL: " + process.env.GITHUB_EVENT_NAME)
-console.log(process.env.GITHUB_REF)
-if (process.env.GITHUB_EVENT_NAME === "pull_request_target") {
-  pr = process.env.GITHUB_REF.split("/")[2]
-}
+const fs = require('fs')
+const ev = JSON.parse(
+  fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8')
+)
+
+console.log(ev)
+const pr = ev.pull_request.number
+
+// let pr
+// console.log("EVENT NAMEL: " + process.env.GITHUB_EVENT_NAME)
+// console.log(process.env.GITHUB_REF)
+// if (process.env.GITHUB_EVENT_NAME === "pull_request_target") {
+//   pr = process.env.GITHUB_REF.split("/")[2]
+// }
 
 // Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
 const octokit = new Octokit({ auth: process.env.GH_SECRET });
