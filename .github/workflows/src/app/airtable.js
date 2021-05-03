@@ -2,7 +2,7 @@ const Airtable = require('airtable')
 
 Airtable.configure({
   endpointUrl: 'https://api.airtable.com',
-  apiKey: "key4mXwIMvKyFZQzB"
+  apiKey: process.env.AIRTABLE_SECRET
 });
 
 const GRADUATION_TABLE = "appnpTfSaHWAf964L"
