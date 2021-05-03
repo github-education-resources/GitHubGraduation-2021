@@ -1,3 +1,18 @@
+const result = require('dotenv').config();
+if (result.error) {
+  throw result.error
+}
+
+const Airtable = require('airtable');
+const { Octokit, App, Action } = require("octokit");
+
+Airtable.configure({
+  endpointUrl: 'https://api.airtable.com',
+  apiKey: process.env.AIRTABLE_SECRET
+});
+
+(async ()=>{
+
 // "GITHUB_EVENT_NAME": "pull_request",
 // "GITHUB_REF": "refs/pull/2/merge",
 // "GITHUB_API_URL": "https://api.github.com",
@@ -7,21 +22,98 @@
 // "GITHUB_JOB": "build",
 // "GITHUB_BASE_REF": "main",
 // "GITHUB_WORKFLOW": "Graduation Helper",
+// "GITHUB_REPOSITORY": "campus-experts/GitHubGraduation-2021",
 
+const GRADUATION_TABLE = "appnpTfSaHWAf964L"
+const airtable = Airtable.base(GRADUATION_TABLE);
+const [ owner, repoName ] = process.env.GITHUB_REPOSITORY.split('/')
 
-console.log("THIS IS NODE")
-console.log(`sha: ${process.env.GITHUB_SHA}`)
-console.log(`ref: ${process.env.GITHUB_REF}`)
+if (process.env.GITHUB_EVENT_NAME === "pull_request") {
+  const pr = process.env.GITHUB_REF.split("/")[2]
+}
 
-// # Node:
-const base = require('airtable').base('appnpTfSaHWAf964L');
-// EXAMPLE USING CUSTOM CONFIGURATION
-var Airtable = require('airtable');
-Airtable.configure({
-    endpointUrl: 'https://api.airtable.com',
-    apiKey: process.env.AIRTABLE_SECRET
+// Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
+const octokit = new Octokit({ auth: process.env.GITHUB_SECRET });
+
+// Compare: https://docs.github.com/en/rest/reference/users#get-the-authenticated-user
+// const {
+//   data: { login },
+// } = await octokit.rest.users.getAuthenticated();
+// console.log("Hello, %s", login);
+
+console.log("Actor: " + process.env.GITHUB_ACTOR)
+airtable('Graduates Data').select({
+  // Selecting the first 3 records in Pending Reviews:
+  maxRecords: 3,
+  view: "Pending Reviews",
+  filterByFormula: `{GitHub Username} = '${}'`
+}).eachPage(function page(records, fetchNextPage) {
+  // This function (`page`) will get called for each page of records.
+  records.forEach(function(record) {
+      console.log('Retrieved', record.get('GitHub Username'));
+  });
+
+  // To fetch the next page of records, call `fetchNextPage`.
+  // If there are more records, `page` will get called again.
+  // If there are no more records, `done` will get called.
+  // fetchNextPage();
+
+}, function done(err) {
+  if (err) { console.error(err); return; }
 });
-var base = Airtable.base('appnpTfSaHWAf964L');
+
+const { repository: { pullRequest } } = await octokit.graphql(
+  `
+    query myQuery($name: String!, $owner: String!, $pr: Int!){
+      repository(name: $name, owner: $owner) {
+          pullRequest(number: $pr) {
+            author {
+              login
+            }
+            bodyText
+            closed
+            comments(first: 100) {
+              edges {
+                node {
+                  author {
+                    login
+                  }
+                  body
+                  url
+                }
+              }
+            }
+
+            files(first: 100) {
+              edges {
+                node {
+                  path
+                  additions
+                  deletions
+                }
+              }
+            }
+          }
+        }
+    }
+
+  `,
+  {
+    name: "GitHubGraduation-2021",
+    owner: "campus-experts",
+    pr: 2
+  }
+);
+
+console.log(pullRequest)
+
+
+// const {
+//   data: { login },
+// } = await octokit.rest.repos.pulls()
+// console.log("Hello, %s", login);
+
+
 
 // stepper
 
@@ -44,3 +136,5 @@ var base = Airtable.base('appnpTfSaHWAf964L');
 
 
 
+
+})()
