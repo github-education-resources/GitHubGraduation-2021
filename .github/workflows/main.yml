@@ -27,6 +27,7 @@ jobs:
           node-version: 14
       - name: Setup npm
         run: npm install -g npm
+      - name: Install dependencies
         run: npm install
       - name: run entry point
         run: node index.js
