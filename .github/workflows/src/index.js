@@ -25,10 +25,10 @@ if(!process.env.GITHUB_ACTIONS) {
   if (result.error) {
     throw result.error
   }
-} else {
-  process.env.REPO_NAME = "GitHubGraduation-2021",
-  owner: "campus-experts",
 }
+
+process.env.REPO_NAME = "GitHubGraduation-2021"
+process.env.REPO_OWNER = "campus-experts",
 
 const airtable = require('./app/airtable.js');
 const octokit = require('./app/octokit.js');
