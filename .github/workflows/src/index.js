@@ -18,25 +18,61 @@
 // * congrats!
 // * merge PR
 
-const fs = require('fs')
-const airtable = require('./app/airtable.js');
-const octokit = require('./app/octokit.js');
-
 if(!process.env.GITHUB_ACTIONS) {
+  console.log("load env")
   const result = require('dotenv').config()
 
   if (result.error) {
     throw result.error
   }
 } else {
-  // const [ owner, repoName ] = process.env.GITHUB_REPOSITORY.split('/')
-  const eventData = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'))
-  const pr = eventData.pull_request.number
+
 }
 
+const airtable = require('./app/airtable.js');
+const octokit = require('./app/octokit.js');
+const actionEvent = require('./app/action-event.js');
+const educationWeb = require('./app/education-web.js');
+
 (async ()=>{
-  const grads = await airtable.fetchGraduates()
-  const pull = await octokit.fetchPr(3)
-  console.log(grads)
-  console.log(pull)
+  const result = await educationWeb.hasPack()
+
+  console.log(result)
+  return
+
+
+  console.log(actionEvent.pullRequest)
+  const pull = await octokit.fetchPr(actionEvent.pullRequest?.number)
+
+  // checks
+  const user2020 = await airtable.userParticipated2020(pull.author.name)
+
+  // const hasSdp = TODO
+
+  const user2021 = await airtable.fetch2021Graduate(pull.author.name)
+  const completedShippingForm = user2021.get("Address Line 1").length > 0
+
+  // pull.files TODO
+  // const pathIsCorrect = TODO
+
+  // pull.body
+  // const markdownValid = TODO
+
+  // const userAgreesCoc = user2021.aggreesToCoc TODO
+
+  if(user2020) {
+    console.log("user already Participated in 2020")
+  } else if(!hasSdp) {
+    console.log("User has not applied for SDP")
+  } else if(!completedShippingForm) {
+    console.log("user has not completed the shipping form")
+  } else if(!pathIsCorrect) {
+    console.log("user file path is incorrect")
+  } else if(!markdownValid) {
+    console.log("markdown is invalid")
+  } else if(!userAgreesCoc) {
+    console.log("User has not agreed to COC")
+  } else {
+    console.log("Congrats you graduated!")
+  }
 })()
