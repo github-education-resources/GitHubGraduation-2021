@@ -35,21 +35,25 @@ const actionEvent = require('./app/action-event.js');
 const educationWeb = require('./app/education-web.js');
 
 (async ()=>{
-  const result = await educationWeb.hasPack()
+  const results = await Promise.all([
+    octokit.fetchPr(actionEvent.pullRequest?.number),
+    airtable.userParticipated2020(pull.author.name),
+    educationWeb.hasPack(),
+    airtable.fetch2021Graduate(pull.author.name)
+  ])
 
-  console.log(result)
-  return
-
-
-  console.log(actionEvent.pullRequest)
-  const pull = await octokit.fetchPr(actionEvent.pullRequest?.number)
+  const pull = results[0]
+  const user2021 = results[3]
 
   // checks
-  const user2020 = await airtable.userParticipated2020(pull.author.name)
 
-  // const hasSdp = TODO
+  // graduated already in 2020?
+  const user2020 = results[1]
 
-  const user2021 = await airtable.fetch2021Graduate(pull.author.name)
+  // approved for the student/teacher development pack
+  const hasSdp = results[2]
+
+  // Has the user completed the shipping form? (address must exist for the form to be submitted)
   const completedShippingForm = user2021.get("Address Line 1").length > 0
 
   // pull.files TODO
@@ -58,7 +62,7 @@ const educationWeb = require('./app/education-web.js');
   // pull.body
   // const markdownValid = TODO
 
-  // const userAgreesCoc = user2021.aggreesToCoc TODO
+  const userAgreesCoc = user2021.get("Code of Conduct").length > 0
 
   if(user2020) {
     console.log("user already Participated in 2020")
