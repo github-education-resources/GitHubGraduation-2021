@@ -34,3 +34,6 @@ jobs:
         env:
           AIRTABLE_SECRET: ${{ secrets.AIRTABLE_SECRET }}
           GH_SECRET: ${{ secrets.GH_SECRET }}
+          EDUCATION_WEB_KEY: ${{ secrets.EDUCATION_WEB_KEY }}
+          EDUCATION_WEB_SECRET: ${{ secrets.EDUCATION_WEB_SECRET }}
+          EDUCATION_WEB_API: ${{ secrets.EDUCATION_WEB_API }}

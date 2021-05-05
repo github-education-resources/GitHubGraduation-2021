@@ -41,8 +41,8 @@ class Octo {
 
       `,
       {
-        name: "GitHubGraduation-2021",
-        owner: "campus-experts",
+        name: process.env.REPO_NAME,
+        owner: process.env.REPO_OWNER,
         pr: pr
       }
     )

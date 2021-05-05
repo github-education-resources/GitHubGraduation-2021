@@ -26,7 +26,8 @@ if(!process.env.GITHUB_ACTIONS) {
     throw result.error
   }
 } else {
-
+  process.env.REPO_NAME = "GitHubGraduation-2021",
+  owner: "campus-experts",
 }
 
 const airtable = require('./app/airtable.js');
