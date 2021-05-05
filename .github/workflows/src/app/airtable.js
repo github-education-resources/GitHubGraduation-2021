@@ -5,35 +5,41 @@ Airtable.configure({
   apiKey: process.env.AIRTABLE_SECRET
 });
 
-const GRADUATION_TABLE = "appnpTfSaHWAf964L"
+const GITHUB_GRADUATION = "bipux0j8oGEJuReSb"
+const GRADUATES_2020 = "Graduates Data"
+const GRADUATES_2021 = "Graduation 2021"
 
 class ATable {
-  fetchGraduates() {
-    const airtable = Airtable.base(GRADUATION_TABLE);
+  constructor() {
+
+  }
+
+  userParticipated2020(githubLogin) {
+    return fetchGraduate(githubLogin, GRADUATES_2020)
+  }
+
+  fetch2021Graduate(githubLogin) {
+    return fetchGraduate(githubLogin, GRADUATES_2021)
+  }
+
+  fetchGraduate(githubLogin, table) {
+    const airtable = Airtable.base(GITHUB_GRADUATION);
     return new Promise((resolve, reject)=>{
       const data = []
-      airtable('Graduates Data').select({
+      airtable(table).select({
         // Selecting the first 3 records in Pending Reviews:
-        maxRecords: 3,
-        view: "Pending Reviews",
+        maxRecords: 1,
+        filterByFormula: `({GitHub Username} = '${githubLogin}')`
+        // view: "Pending Reviews",
         // filterByFormula: `{GitHub Username} = '${}'`
       }).eachPage(function page(records, fetchNextPage) {
         // This function (`page`) will get called for each page of records.
-        records.forEach(function(record) {
-          let login = record.get('GitHub Username')
-          data.push(login)
-        });
-
-        // To fetch the next page of records, call `fetchNextPage`.
-        // If there are more records, `page` will get called again.
-        // If there are no more records, `done` will get called.
-        // fetchNextPage();
-
+        data = records
       }, function done(err) {
         if (err) { console.error(err); return; }
       });
 
-      resolve(data)
+      resolve(data[0])
     })
   }
 }
