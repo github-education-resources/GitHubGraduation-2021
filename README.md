@@ -56,7 +56,9 @@ _Do not use special characters in the template above._
 Go through the checklist on the pull request template to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section. 
 
 # A note on swag 🛍
-The first 5,000 successfully merged PRs will receive a custom holographic developer trading with their GitHub status in the mail. What does this mean? We will use your public GitHub profile information to create a trading card. To ensure your trading card best reflects you, please make sure your GitHub profile picture and bio are up to date.
+The first 5,000 successfully merged PRs will receive a custom holographic developer trading with their GitHub status in the mail. 
+
+What does this mean? We will use your public GitHub profile information to create a trading card. To ensure your trading card best reflects you, please make sure your GitHub profile picture and bio are up to date and reflect what you would like shown on the card.
 
 # Graduation Day 🎓
 Don't forget to watch the livestream! 
