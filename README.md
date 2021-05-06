@@ -66,4 +66,4 @@ Don't forget to watch the livestream!
 - 📆 Saturday, June 5, 2021
 - ⏰ 9:00 PDT | 21:30 IST
 - 📍 [GitHub Education Twitch Channel](twitch.tv/githubeducation). Follow for notifications!
-- 📎 Add the [event](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210605T160000Z%2F20210605T173000Z&text=GitHub%20Graduation%20%F0%9F%8E%93&location=https%3A%2F%2Fwww.twitch.tv%2Fgithubeducation&details=) to your calendar (Google calendar invite).
+- 📎 Add the [event](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210605T160000Z%2F20210605T180000Z&text=GitHub%20Graduation%202021%20%F0%9F%8E%93&location=twitch.tv%2Fgithubeducation&details=Join%20us%20on%20GitHub%20Campus%20TV%20to%20%22walk%20the%20stage%22%20and%20celebrate%20the%20accomplishments%20of%20this%20year%E2%80%99s%20graduating%20class%20with%20your%20fellow%20developers.%20) to your calendar (Google calendar invite).
