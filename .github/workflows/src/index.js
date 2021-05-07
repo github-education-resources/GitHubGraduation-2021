@@ -35,7 +35,9 @@ const octokit = require('./app/octokit.js');
 const actionEvent = require('./app/action-event.js');
 const educationWeb = require('./app/education-web.js');
 
-console.log(actionEvent.pullRequest?.base.user)
+const userData = actionEvent.pullRequest?.base.user;
+
+console.log(userData);
 
 (async ()=>{
   const results = await Promise.all([
