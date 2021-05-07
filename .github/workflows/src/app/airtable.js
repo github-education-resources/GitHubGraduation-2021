@@ -15,11 +15,11 @@ class ATable {
   }
 
   userParticipated2020(githubLogin) {
-    return fetchGraduate(githubLogin, GRADUATES_2020)
+    return this.fetchGraduate(githubLogin, GRADUATES_2020)
   }
 
   fetch2021Graduate(githubLogin) {
-    return fetchGraduate(githubLogin, GRADUATES_2021)
+    return this.fetchGraduate(githubLogin, GRADUATES_2021)
   }
 
   fetchGraduate(githubLogin, table) {
@@ -36,10 +36,19 @@ class ATable {
         // This function (`page`) will get called for each page of records.
         data = records
       }, function done(err) {
-        if (err) { console.error(err); return; }
+        if (err) {
+          if(err.error === "NOT_FOUND") {
+            resolve(false)
+          }
+
+          reject(err)
+          return;
+        }
       });
 
       resolve(data[0])
+    }).catch((err)=>{
+      reject(err)
     })
   }
 }
