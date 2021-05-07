@@ -28,7 +28,7 @@ if(!process.env.GITHUB_ACTIONS) {
 }
 
 process.env.REPO_NAME = "GitHubGraduation-2021"
-process.env.REPO_OWNER = "campus-experts",
+process.env.REPO_OWNER = "campus-experts"
 
 const airtable = require('./app/airtable.js');
 const octokit = require('./app/octokit.js');
