@@ -35,6 +35,8 @@ const octokit = require('./app/octokit.js');
 const actionEvent = require('./app/action-event.js');
 const educationWeb = require('./app/education-web.js');
 
+console.log(actionEvent.pullRequest?.base.user)
+
 (async ()=>{
   const results = await Promise.all([
     octokit.fetchPr(actionEvent.pullRequest?.number),
@@ -62,6 +64,11 @@ const educationWeb = require('./app/education-web.js');
 
   // pull.body
   // const markdownValid = TODO
+
+  // #################### TODO CACHE AIR TABLE SOMEHOW ########################
+  // * cache the entire base in a json file with actions
+  // * if the user checks come back negative, query the api directly to double check
+  // * if it comes back different, then trigger a cache rebuild
 
   const userAgreesCoc = user2021.get("Code of Conduct").length > 0
 
