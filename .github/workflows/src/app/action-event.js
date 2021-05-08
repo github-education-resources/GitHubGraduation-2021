@@ -3,14 +3,26 @@ const fs = require('fs')
 class ActionsEvent {
   constructor() {
     try {
-      const data = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'))
-      this.event = data.eventData
-      this.pullRequest = data.pullRequest || {}
-      this.requestedReviwer = data.requestedReviewer || {}
-      this.name = this.event?.action || ""
+      this.data = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'))
+      this.initAttributes()
     } catch(err) {
-      this.event = {}
+      console.error(err)
+      this.data = null
     }
+  }
+
+  initAttributes() {
+    if(!this.data) {
+      return
+    }
+
+    this.event = this.data.eventData
+    this.pull = this.data.pullRequest
+    this.requestedReviwer = this.data.requestedReviewer
+    this.name = this.event.action
+    this.pullNumber = this.pull.number
+    this.pullRepo = this.pull.base.repo
+    this.pullRepoOwner = this.pullRepo.owner.login
   }
 }
 

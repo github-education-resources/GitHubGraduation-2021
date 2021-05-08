@@ -1,10 +1,27 @@
 const { Octokit, App, Action } = require("octokit")
+const actionEvent = require('./action-event.js');
 
 class Octo {
-  async fetchPr(pr) {
-    const octokit = new Octokit({ auth: process.env.GH_SECRET });
+  constructor() {
+    this.octokit = new Octokit({ auth: process.env.GH_SECRET });
+  }
 
-    const { repository: { pullRequest } } = await octokit.graphql(
+  async getContent(path) {
+    const { data }  = await this.octokit.rest.repos.getContent({
+      mediaType: {
+        format: "raw",
+      },
+      owner: actionEvent.pullRepoOwner,
+      repo: actionEvent.pullRepo.name,
+      path: path,
+      ref: actionEvent.pull.head.sha
+    });
+
+    return data
+   }
+
+  async fetchPr(pr) {
+    const { repository: { pullRequest } } = await this.octokit.graphql(
       `
         query myQuery($name: String!, $owner: String!, $pr: Int!){
           repository(name: $name, owner: $owner) {
@@ -40,8 +57,8 @@ class Octo {
         }
       `,
       {
-        name: process.env.REPO_NAME,
-        owner: process.env.REPO_OWNER,
+        name: actionEvent.pullRepo.name,
+        owner: actionEvent.pullRepoOwner,
         pr: pr
       }
     )

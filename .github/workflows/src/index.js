@@ -30,23 +30,14 @@ const airtable = require('./app/airtable.js');
 const octokit = require('./app/octokit.js');
 const actionEvent = require('./app/action-event.js');
 const educationWeb = require('./app/education-web.js');
-
-const pr = actionEvent.pullRequest
-const prNumber = pr.number
-const prRepo = pr.base.repo
-const userLogin = pr.user.login
-const repoName = prRepo.name
-const repoOwner = prRepo.owner.login
-
-process.env.REPO_NAME = repoName
-process.env.REPO_OWNER = repoOwner
+const fileValidator = require('./app/file-validator.js');
 
 ;(async ()=>{
   const results = await Promise.all([
-    octokit.fetchPr(prNumber),
-    airtable.userParticipated2020(userLogin),
-    educationWeb.hasPack(userLogin),
-    airtable.fetch2021Graduate(userLogin)
+    octokit.fetchPr(actionEvent.pullNumber),
+    airtable.userParticipated2020(actionEvent.pullRepoAuthor),
+    educationWeb.hasPack(actionEvent.pull.user.login),
+    airtable.fetch2021Graduate(actionEvent.pullRepoAuthor)
   ])
 
   const pull = results[0]
@@ -63,10 +54,17 @@ process.env.REPO_OWNER = repoOwner
   // Has the user completed the shipping form? (address must exist for the form to be submitted)
   const completedShippingForm = user2021?.get("Address Line 1").length > 0
 
-  // pull.files TODO
-  // const pathIsCorrect = TODO
+  const fileNames = pull.files.edges.map((file)=>{
+    return file.node.path
+  })
+
+  console.log(fileNames)
+
+  const pathIsCorrect = fileValidator.isValidPaths(fileNames, actionEvent.pull.user.login)
 
   // pull.body
+
+  const content = await octokit.getContent("_data/juanpflores/juanpflores.md")
   // const markdownValid = TODO
 
   // #################### TODO CACHE AIR TABLE SOMEHOW ########################
@@ -89,6 +87,8 @@ process.env.REPO_OWNER = repoOwner
   } else if(!userAgreesCoc) {
     console.log("User has not agreed to COC")
   } else {
+    // check for merge conflicts
+    //
     console.log("Congrats you graduated!")
   }
 })()
