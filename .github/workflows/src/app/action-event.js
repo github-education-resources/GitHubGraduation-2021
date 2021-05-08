@@ -23,6 +23,7 @@ class ActionsEvent {
     this.pullNumber = this.pull.number
     this.pullRepo = this.pull.base.repo
     this.pullRepoOwner = this.pullRepo.owner.login
+    this.pullAuthor = this.pull.user.login
   }
 }
 
