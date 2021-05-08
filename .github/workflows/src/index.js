@@ -35,9 +35,9 @@ const fileValidator = require('./app/file-validator.js');
 ;(async ()=>{
   const results = await Promise.all([
     octokit.fetchPr(actionEvent.pullNumber),
-    airtable.userParticipated2020(actionEvent.pullRepoAuthor),
-    educationWeb.hasPack(actionEvent.pull.user.login),
-    airtable.fetch2021Graduate(actionEvent.pullRepoAuthor)
+    airtable.userParticipated2020(actionEvent.pullAuthor),
+    educationWeb.hasPack(actionEvent.pullAuthor),
+    airtable.fetch2021Graduate(actionEvent.pullAuthor)
   ])
 
   const pull = results[0]
@@ -58,14 +58,23 @@ const fileValidator = require('./app/file-validator.js');
     return file.node.path
   })
 
-  console.log(fileNames)
+  let isMarkdownValid
+  const isFilePathValid = fileValidator.isValidPaths(fileNames)
+  const content = isFilePathValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
 
-  const pathIsCorrect = fileValidator.isValidPaths(fileNames, actionEvent.pull.user.login)
+  if(content) {
+    isMarkdownValid = fileValidator.isMarkdownValid(content)
+  }
 
-  // pull.body
+  console.log(content)
 
-  const content = await octokit.getContent("_data/juanpflores/juanpflores.md")
-  // const markdownValid = TODO
+ // I have read the instructions on the README file before submitting my application.
+ // I made my submission by creating a folder on the _data folder and followed the naming convention mentioned in the instructions (<username>) and markdown file.
+ // I have submitted a swag shipping form.
+ // I have used the Markdown file template to add my information to the Year Book.
+ // I understand that a reviewer will merge my pull request after examining it or ask for changes in case needed.
+ // I understand I should not tag or add a reviewer to this Pull Request.
+ // I have added the event to my Calendar.
 
   // #################### TODO CACHE AIR TABLE SOMEHOW ########################
   // * cache the entire base in a json file with actions
@@ -80,9 +89,9 @@ const fileValidator = require('./app/file-validator.js');
     console.log("User has not applied for SDP")
   } else if(!completedShippingForm) {
     console.log("user has not completed the shipping form")
-  } else if(!pathIsCorrect) {
-    console.log("user file path is incorrect")
-  } else if(!markdownValid) {
+  } else if(!isFilePathValid.isValid) {
+    console.log('Files have errors: \n' + isFilePathValid.errors.join('\n'))
+  } else if(!isMarkdownValid.isValid) {
     console.log("markdown is invalid")
   } else if(!userAgreesCoc) {
     console.log("User has not agreed to COC")
