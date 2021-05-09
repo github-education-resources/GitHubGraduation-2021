@@ -1,8 +1,9 @@
-![Graduation Mona](assets/card-min.png)
+![2021-github-graduation-social-card-1](https://user-images.githubusercontent.com/6633808/117580730-3ed6e180-b0ae-11eb-86c9-2bd01c7aa8b6.png)
+
 
 This repository contains the [yearbook](https://education.github.com/graduation/yearbook) for **GitHub Graduation 2021**. By issuing a pull request to this repository, you can request to be added to the Class of 2021. 
 
-The first 5,000 Pull Request successfully merged into the repository will be sent custom swag in the mail. 
+The first 5,000 pull request successfully merged into the repository by May 27 will receive custom swag in the mail. 
 
 
 ## Privacy Notice 👀
