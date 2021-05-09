@@ -19,21 +19,25 @@ The eligibility criteria are -
 
 # How to join the Class of 2021
 
-There are two steps in order to join graduation and receive swag in the mail. 
+There are two steps (and a third option!) to join graduation and receive swag in the mail. 
 1. [Fill out the swag shipment form](https://airtable.com/shrM5IigBuRFaj33H). Note: the form needs to be done before creating your Pull Request and does not guarantee participation in the event. Your PR must be successfully merged to be included and only the first 5,000 merged PRs will receive swag.
 2. Submit a pull request with your profile information to join the Yearbook and be highlighted in the graduation event.
+3. (optional) Level up your swag and make an additional appearance at graduation by sharing a story of a teacher who has made an impact in your education. More info below!
 
-## Adding yourself to Yearbook
+## 1. Fill out the swag shipment form.
+Information submitted to [the swag shipment form]((https://airtable.com/shrM5IigBuRFaj33H)) will only be used to ship swag for graduation. Submiting the form does not guarantee you will receive swag in the mail. Only the first 5,000 graduates to successfully merge their pull request to the Yearbook will receive a shipment.
+
+## 2. Add yourself to Yearbook 🏫
 
 Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
-### 1. Create the folder _data/YOUR-USERNAME/ 
+### First, create the folder _data/YOUR-USERNAME/ 
 Fork this repository, create a new folder inside the `_data` folder, and name it with your username. It should look something like this `_data/<YOUR-USERNAME>/`. Ex.
 
 ```
 _data/MonaTheOctocat/
 ```
-### 2. Add your profile information
+### Second, add your profile information
 Create a markdown file in your folder following the convention `<YOUR-USERNAME>.md`. Ex.
 
 ```
@@ -51,9 +55,19 @@ github_user: YOUR-GITHUB-USERNAME
 
 _Do not use special characters in the template above._
 
-## 3. Submit your Pull Request
+### Third, submit your Pull Request
 
 Go through the checklist on the pull request template to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section. 
+
+# 3. Share your story of a teacher who made an impact 👩‍🏫👨‍🏫
+This year, we want to hear your stories of teachers who made a different. Simlar to last year's "Message to the Graduates" video, we're putting together a compilation of your stories. Every participant will level up their GitHub trading card with an extra special design. To take part,
+
+1. [Fill out the video release form.](https://www.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=d460686d-c036-48b4-a69b-2095735affe8&env=na1&acct=8536c841-0a45-4d7f-836a-1d9cd83fec06&v=2)
+2. [Record and submit your video message.]()
+
+Not sure what to say? Even a "thank-you teachers!" in your local language? is appreciated to help us in honoring educators around the world.
+
+[Share your message to teachers.]()
 
 # A note on swag 🛍
 The first 5,000 successfully merged PRs will receive a custom holographic developer trading with their GitHub status in the mail. 
