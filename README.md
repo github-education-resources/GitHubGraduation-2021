@@ -21,9 +21,10 @@ The eligibility criteria are -
 # How to join the Class of 2021
 
 There are two steps (and a third option!) to join graduation and receive swag in the mail. 
-1. [Fill out the swag shipment form](https://airtable.com/shrM5IigBuRFaj33H). Note: the form needs to be done before creating your Pull Request and does not guarantee participation in the event. Your PR must be successfully merged to be included and only the first 5,000 merged PRs will receive swag.
-2. Submit a pull request with your profile information to join the Yearbook and be highlighted in the graduation event.
-3. (optional) Level up your swag and make an additional appearance at graduation by sharing a story of a teacher who has made an impact in your education. More info below!
+1. [Fill out the **swag shipment form**](https://airtable.com/shrM5IigBuRFaj33H). Note: the form needs to be done before creating your Pull Request and does not guarantee participation in the event. Your PR must be successfully merged to be included and only the first 5,000 merged PRs will receive swag.
+2. **Submit a pull request** with your profile information to join the Yearbook and be highlighted in the graduation event.
+3. (optional) Level up your swag and make an additional appearance at graduation by **sharing a story** of a teacher who has made an impact in your education. More info below!
+4. **Save the date** and attend graduation 🥳
 
 ## 1. Fill out the swag shipment form.
 Information submitted to [the swag shipment form]((https://airtable.com/shrM5IigBuRFaj33H)) will only be used to ship swag for graduation. Submiting the form does not guarantee you will receive swag in the mail. Only the first 5,000 graduates to successfully merge their pull request to the Yearbook will receive a shipment.
