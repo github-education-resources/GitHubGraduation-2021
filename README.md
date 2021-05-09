@@ -12,7 +12,7 @@ Consider that all the information that you add to this repository will be public
 - If you don't feel comfortable with displaying your full name, you can include a short name or nickname instead.
 
 # Who can apply 📝
-We invite any higher education student that has graduated, or plans to graduate, in 2021 can apply to the yearbook. This includes bootcamps, code camps, high school graduates, Master's graduates, Ph. D. Graduates, etc.
+We invite any student that has graduated, or plans to graduate, in 2021 can apply to the yearbook. This includes bootcamps, code camps, high school graduates, Master's graduates, Ph. D. Graduates, etc.
 
 The eligibility criteria are -
 1. You have been verified as a student with the GitHub Student Developer Pack. Not yet a part of the Pack? [Apply here]().
