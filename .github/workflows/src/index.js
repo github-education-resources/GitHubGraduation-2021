@@ -35,6 +35,8 @@ const fileValidator = require('./app/file-validator.js');
 
 const BOT_ACCOUNT_LOGIN = "GitHub-Education-bot"
 
+
+try {
 ;(async ()=>{
 
   if(actionEvent.name === "review_requested" && actionEvent.requestedReviewer.login !== BOT_ACCOUNT_LOGIN) {
@@ -178,3 +180,6 @@ ${ feedBackMessage }
     }
   }
 })()
+} catch(err) {
+  throw err
+}
