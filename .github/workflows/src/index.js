@@ -155,8 +155,8 @@ ${feedback.join('\n')}
     console.log(feedBackMessage)
     try {
     await octokit.createReview(`
-** Hi ${ actionEvent.pullAuthor }, **
-** Welcome to graduation! **
+**Hi ${ actionEvent.pullAuthor },**
+**Welcome to graduation!**
 
 ${ feedBackMessage }
     `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
