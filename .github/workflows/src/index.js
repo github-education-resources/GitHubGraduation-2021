@@ -161,6 +161,7 @@ ${feedback.join('\n')}
     }
 
     console.log(feedBackMessage)
+
     try {
     await octokit.createReview(`
 **Hi ${ actionEvent.pullAuthor },**
@@ -170,6 +171,10 @@ ${ feedBackMessage }
     `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
     } catch(err) {
       console.log(err)
+    }
+
+    if(feedback.length) {
+      throw new Error(feedback.join('\n'))
     }
   }
 })()
