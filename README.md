@@ -27,7 +27,7 @@ There are two steps (and a third option!) to join graduation and receive swag in
 4. [**Save the date**](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210605T160000Z%2F20210605T180000Z&text=GitHub%20Graduation%202021%20%F0%9F%8E%93&location=twitch.tv%2Fgithubeducation&details=Join%20us%20on%20GitHub%20Campus%20TV%20to%20%22walk%20the%20stage%22%20and%20celebrate%20the%20accomplishments%20of%20this%20year%E2%80%99s%20graduating%20class%20with%20your%20fellow%20developers.%20) (Google calendar invite) and attend graduation 🥳
 
 ## 1. Fill out the swag shipment form.
-Information submitted to [the swag shipment form](https://airtable.com/shrM5IigBuRFaj33H) will only be used to ship swag for graduation. Submiting the form does not guarantee you will receive swag in the mail. Only the first 5,000 graduates to successfully merge their pull request to the Yearbook will receive a shipment.
+Information submitted to [the swag shipment form](https://airtable.com/shrM5IigBuRFaj33H) will only be used to ship swag for graduation. Submitting the form does not guarantee you will receive swag in the mail. Only the first 5,000 graduates to successfully merge their pull request to the Yearbook will receive a shipment.
 
 ## 2. Add yourself to Yearbook 🏫
 
