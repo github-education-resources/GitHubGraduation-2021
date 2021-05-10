@@ -62,7 +62,7 @@ const fileValidator = require('./app/file-validator.js');
     return file.node.path
   })
 
-  let isMarkdownValid
+  let isMarkdownValid = {}
   let content
   const isFilePathValid = fileValidator.isValidPaths(fileNames)
 
@@ -124,12 +124,12 @@ const fileValidator = require('./app/file-validator.js');
       feedback.push("* *It looks like you still need to fill out the [shipping form](https://airtable.com/shrM5IigBuRFaj33H) to continue*")
     }
 
-    if(!isFilePathValid?.isValid) {
+    if(!isFilePathValid.isValid) {
       console.log('Files have errors: \n' + isFilePathValid.errors.join('\n'))
       feedback.push(`* *Uh Oh! I've found some issues with where you have created your files!* \n\t${isFilePathValid.errors.join('\n')}`)
     }
 
-    if(!isMarkdownValid?.isValid) {
+    if(!isMarkdownValid.isValid) {
       console.log("markdown is invalid")
       feedback.push(`* *Please take another look at your markdown file, there are errors:* \n\t${isMarkdownValid.errors.join('\n')}`)
     }
