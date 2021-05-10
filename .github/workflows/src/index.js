@@ -64,7 +64,12 @@ const fileValidator = require('./app/file-validator.js');
 
   let isMarkdownValid
   const isFilePathValid = fileValidator.isValidPaths(fileNames)
-  const content = isFilePathValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
+
+  try {
+    const content = isFilePathValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
+  } catch(err) {
+    console.log(err)
+  }
 
   if(content) {
     isMarkdownValid = await fileValidator.isMarkdownValid(content)
@@ -147,12 +152,15 @@ ${feedback.join('\n')}
     }
 
     console.log(feedBackMessage)
-
+    try {
     await octokit.createReview(`
 ** Hi ${ actionEvent.pullAuthor }, **
 ** Welcome to graduation! **
 
 ${ feedBackMessage }
     `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
+    } catch(err) {
+      console.log(err)
+    }
   }
 })()
