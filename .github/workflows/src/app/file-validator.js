@@ -16,7 +16,7 @@ class FileVaidator {
     const metadataBlock = (await import("markdown-it-metadata-block")).default;
     const meta = {}
     const errors = []
-    let metadata
+    let mdContent = false
 
     const mdParser = md({
       html: true,
@@ -28,18 +28,19 @@ class FileVaidator {
     });
 
     try {
-     metadata = mdParser.render(markdown)
+     mdContent = mdParser.render(markdown)
     } catch(err) {
+      console.log("markdown error: " + err)
       errors.push(`The markdown content in \`${expectedPath}/${pullAuthor}.md\` has syntax errors`)
     }
 
-    if(metadata) {
-      if(metadata.github_user !== pullAuthor) {
+    if(mdContent !== false) {
+      if(meta.github_user !== pullAuthor) {
         errors.push(`The yaml content in \`${expectedPath}/${pullAuthor}.md\` must contain your github username`)
       }
 
       for(const key of [ "name", "institution", "quote" ]) {
-        if(!metadata[key]) {
+        if(!meta[key]) {
           errors.push(`The attribute \`${key}\` is required in \`${expectedPath}/${pullAuthor}.md\``)
         }
       }
@@ -52,6 +53,7 @@ class FileVaidator {
 
   isValidPaths(filePaths=[]) {
     const errors = []
+    const invalidPaths = []
     let invalidDirectory = false
     let InvalidMarkdownFile = true
     let isValid = true
@@ -61,6 +63,7 @@ class FileVaidator {
       pathData = path.parse(filePath)
 
       if(pathData.dir !== expectedPath) {
+        invalidPaths.push(filePath)
         invalidDirectory = true
       }
 
@@ -74,7 +77,7 @@ class FileVaidator {
     }
 
     if(invalidDirectory) {
-      errors.push(`Invalid file path. Please ensure all changes are contained within the \`${expectedPath}/\` directory`)
+      errors.push(`Please ensure all changes are contained within the \`${expectedPath}/\` directory. Invalid file paths: \n\n\t* ${invalidPaths.join('\n\t* ')}\n`)
     }
 
     return { isValid: !errors.length, errors }
