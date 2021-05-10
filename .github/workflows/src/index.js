@@ -67,7 +67,7 @@ const fileValidator = require('./app/file-validator.js');
   const isFilePathValid = fileValidator.isValidPaths(fileNames)
 
   try {
-    content = isFilePathValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
+    content = isFilePathValid.isValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
   } catch(err) {
     console.log(err)
   }
