@@ -63,7 +63,7 @@ const fileValidator = require('./app/file-validator.js');
   const content = isFilePathValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
 
   if(content) {
-    isMarkdownValid = fileValidator.isMarkdownValid(content)
+    isMarkdownValid = await fileValidator.isMarkdownValid(content)
   }
 
   console.log(content)
@@ -81,23 +81,72 @@ const fileValidator = require('./app/file-validator.js');
   // * if the user checks come back negative, query the api directly to double check
   // * if it comes back different, then trigger a cache rebuild
 
+
+  // ############################ bot posting flow ############################
+  // - show initial message with spinner when checks are running
+  // - General message with a list of errors
+  //   - Already Participated
+  //   - Not applied for SDP
+  //   - Not completed the shipping form
+  //   - invalid files
+  //     - comment on files review request changes
+  //   - invalid markdown
+  //     - comment on files review request changes
+  // - collapse requested changes comment
+  // - welcome and congrats
+  // - merge PR
+
   const userAgreesCoc = user2021?.get("Code of Conduct").length > 0
+  const feedback = []
 
   if(user2020) {
     console.log("user already Participated in 2020")
-  } else if(!hasSdp) {
-    console.log("User has not applied for SDP")
-  } else if(!completedShippingForm) {
-    console.log("user has not completed the shipping form")
-  } else if(!isFilePathValid.isValid) {
-    console.log('Files have errors: \n' + isFilePathValid.errors.join('\n'))
-  } else if(!isMarkdownValid.isValid) {
-    console.log("markdown is invalid")
-  } else if(!userAgreesCoc) {
-    console.log("User has not agreed to COC")
+    feedback.push("I'm really sorry! It looks like you've already graduated in a previous year.")
+    // TODO close PR
   } else {
-    // check for merge conflicts
-    //
-    console.log("Congrats you graduated!")
+    if(!hasSdp) {
+      console.log("User has not applied for SDP")
+      feedback.push("* I'm not seeing a valid student developer pack approval, please submit an [application](https://education.github.com/discount_requests/student_application) to get started")
+    }
+
+    if(!completedShippingForm) {
+      console.log("user has not completed the shipping form")
+      feedback.push("* It looks like you still need to fill out the [shipping form](https://airtable.com/shrM5IigBuRFaj33H) to continue")
+    }
+
+    if(!isFilePathValid.isValid) {
+      console.log('Files have errors: \n' + isFilePathValid.errors.join('\n'))
+      feedback.push(`* Uh Oh! I've found some issues with where you have created your files! \n\n\t${isFilePathValid.errors.join('\n')}`)
+    }
+
+    if(!isMarkdownValid.isValid) {
+      console.log("markdown is invalid")
+      feedback.push("* Please take another look at your markdown file, there are errors: \n\n" + isMarkdownValid.errors.join('\n'))
+    }
+
+    if(!userAgreesCoc) {
+      console.log("User has not agreed to COC")
+      feedback.push("* You need to agree to our COC pretty please!")
+    }
+
+    let feedBackMessage = ""
+
+    if(feedback.length) {
+      feedBackMessage = `
+I have a few items I need you to take care of before I can merge this PR:
+${feedback.join('\n')}
+      `
+    } else {
+      feedBackMessage = "It looks like you're all set! Thanks for the graduation submission."
+    }
+
+    console.log(feedBackMessage)
+
+    await octokit.createReview(`
+Hi ${ actionEvent.pullAuthor },
+Welcome to graduation!
+
+${ feedBackMessage }
+    `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
   }
 })()
