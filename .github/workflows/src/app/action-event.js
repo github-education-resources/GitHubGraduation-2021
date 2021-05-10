@@ -18,7 +18,7 @@ class ActionsEvent {
     console.log(this.data)
     // I guess some event files don't have EventData
     this.event = this.data.eventData || this.data
-    this.pull = this.data.pull_pequest
+    this.pull = this.data.pull_request
     this.requestedReviwer = this.data.requestedReviewer
     this.name = this.event.action
     this.pullNumber = this.pull.number
