@@ -62,7 +62,7 @@ _Do not use special characters in the template above._
 Go through the checklist on the pull request template to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section. 
 
 # 3. Share your story of a teacher who made an impact 👩‍🏫👨‍🏫
-This year, we want to hear stories of teachers who made a difference. Simlar to last year's ["Message to the Graduates"](https://www.youtube.com/watch?v=K3mijMiOe64) video, we're putting together a compilation of your stories. Every participant will level up their GitHub trading card with an extra special design. To take part,
+This year, we want to hear stories of teachers who made a difference. Simlar to last year's ["A Message to the Octograds"](https://www.youtube.com/watch?v=w5HykygC43Y&t=7s) video, we're putting together a compilation of your stories. Every participant will level up their GitHub trading card with an extra special design. To take part,
 
 1. [Fill out the video release form.](https://www.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=d460686d-c036-48b4-a69b-2095735affe8&env=na1&acct=8536c841-0a45-4d7f-836a-1d9cd83fec06&v=2)
 2. [Record and submit your video message.](https://github.com/education/GitHubGraduation-2021/files/6448974/GitHub.Graduation.Teacher.Video.Project.pdf) (full instructions for recording)
