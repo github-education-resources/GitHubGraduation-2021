@@ -15,9 +15,9 @@ class ActionsEvent {
     if(!this.data) {
       return
     }
-
+    console.log(this.data)
     this.event = this.data.eventData
-    this.pull = this.data.pullRequest
+    this.pull = this.data.pull_pequest
     this.requestedReviwer = this.data.requestedReviewer
     this.name = this.event.action
     this.pullNumber = this.pull.number
