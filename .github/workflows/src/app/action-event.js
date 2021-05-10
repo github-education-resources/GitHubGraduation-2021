@@ -15,11 +15,11 @@ class ActionsEvent {
     if(!this.data) {
       return
     }
-    console.log(JSON.stringify(this.data))
+
     // I guess some event files don't have EventData
-    this.event = this.data.eventData || this.data
+    this.event = this.data
     this.pull = this.data.pull_request
-    this.requestedReviewer = this.data.requestedReviewer
+    this.requestedReviewer = this.data.requested_reviewer
     this.name = this.event.action
     this.pullNumber = this.pull.number
     this.pullRepo = this.pull.base.repo
