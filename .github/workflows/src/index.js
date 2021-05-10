@@ -63,10 +63,11 @@ const fileValidator = require('./app/file-validator.js');
   })
 
   let isMarkdownValid
+  let content
   const isFilePathValid = fileValidator.isValidPaths(fileNames)
 
   try {
-    const content = isFilePathValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
+    content = isFilePathValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
   } catch(err) {
     console.log(err)
   }
