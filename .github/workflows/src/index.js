@@ -37,7 +37,7 @@ const BOT_ACCOUNT_LOGIN = "GitHub-Education-bot"
 
 ;(async ()=>{
 
-  if(actionEvent.requestedReviewer.login === BOT_ACCOUNT_LOGIN) {
+  if(actionEvent.requestedReviewer.login !== BOT_ACCOUNT_LOGIN && actionEvent.name === "review_requested") {
     return true
   }
 
