@@ -15,7 +15,7 @@ class ActionsEvent {
     if(!this.data) {
       return
     }
-    console.log(this.data)
+
     // I guess some event files don't have EventData
     this.event = this.data.eventData || this.data
     this.pull = this.data.pull_request
