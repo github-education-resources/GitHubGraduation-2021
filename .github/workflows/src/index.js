@@ -18,6 +18,7 @@
 // * congrats!
 // * merge PR
 
+// Load .env in dev
 if(!process.env.GITHUB_ACTIONS) {
   const result = require('dotenv').config()
 
@@ -32,7 +33,14 @@ const actionEvent = require('./app/action-event.js');
 const educationWeb = require('./app/education-web.js');
 const fileValidator = require('./app/file-validator.js');
 
+const BOT_ACCOUNT_LOGIN = "GitHub-Education-bot"
+
 ;(async ()=>{
+
+  if(actionEvent.requestedReviewer.login === BOT_ACCOUNT_LOGIN) {
+    return true
+  }
+
   const results = await Promise.all([
     octokit.fetchPr(actionEvent.pullNumber),
     airtable.userParticipated2020(actionEvent.pullAuthor),
@@ -126,12 +134,12 @@ const fileValidator = require('./app/file-validator.js');
 
     if(!isFilePathValid.isValid) {
       console.log('Files have errors: \n' + isFilePathValid.errors.join('\n'))
-      feedback.push(`* *Uh Oh! I've found some issues with where you have created your files!* \n\t${isFilePathValid.errors.join('\n')}`)
+      feedback.push(`* *Uh Oh! I've found some issues with where you have created your files!* \n\t${isFilePathValid.errors?.join('\n')}`)
     }
 
     if(!isMarkdownValid.isValid) {
       console.log("markdown is invalid")
-      feedback.push(`* *Please take another look at your markdown file, there are errors:* \n\t${isMarkdownValid.errors.join('\n')}`)
+      feedback.push(`* *Please take another look at your markdown file, there are errors:* \n\t${isMarkdownValid.errors?.join('\n')}`)
     }
 
     if(!userAgreesCoc) {
