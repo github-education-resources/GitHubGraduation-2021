@@ -31,21 +31,21 @@ class FileVaidator {
      mdContent = mdParser.render(markdown)
     } catch(err) {
       console.log("markdown error: " + err)
-      errors.push(`The markdown content in \`${expectedPath}/${pullAuthor}.md\` has syntax errors`)
+      errors.push(`*The markdown content in \`${expectedPath}/${pullAuthor}.md\` has syntax errors*`)
     }
 
     if(mdContent !== false) {
       if(meta.github_user !== pullAuthor) {
-        errors.push(`The yaml content in \`${expectedPath}/${pullAuthor}.md\` must contain your github username`)
+        errors.push(`*The yaml content in \`${expectedPath}/${pullAuthor}.md\` must contain your github username*`)
       }
 
       for(const key of [ "name", "institution", "quote" ]) {
         if(!meta[key]) {
-          errors.push(`The attribute \`${key}\` is required in \`${expectedPath}/${pullAuthor}.md\``)
+          errors.push(`*The attribute \`${key}\` is required in \`${expectedPath}/${pullAuthor}.md\`*`)
         }
       }
     } else {
-      errors.push(`\`${expectedPath}/${pullAuthor}.md\` does not contain any yaml metadata`)
+      errors.push(`*\`${expectedPath}/${pullAuthor}.md\` does not contain any yaml metadata*`)
     }
 
     return { isValid: !errors.length, errors }
@@ -63,7 +63,7 @@ class FileVaidator {
       pathData = path.parse(filePath)
 
       if(pathData.dir !== expectedPath) {
-        invalidPaths.push(filePath)
+        invalidPaths.push("`" + filePath + "`")
         invalidDirectory = true
       }
 
@@ -73,11 +73,11 @@ class FileVaidator {
     }
 
     if(InvalidMarkdownFile) {
-      errors.push(`The required markdown file does not exist, please ensure the file \`${expectedPath}/${pullAuthor}.md\` exists`)
+      errors.push(`* The required markdown file does not exist, please ensure the file \`${expectedPath}/${pullAuthor}.md\` exists*`)
     }
 
     if(invalidDirectory) {
-      errors.push(`Please ensure all changes are contained within the \`${expectedPath}/\` directory. Invalid file paths: \n\n\t* ${invalidPaths.join('\n\t* ')}\n`)
+      errors.push(`*Please ensure all changes are contained within the \`${expectedPath}/\` directory. Invalid file paths:* \n\n\t* ${invalidPaths.join('\n\t* ')}\n`)
     }
 
     return { isValid: !errors.length, errors }

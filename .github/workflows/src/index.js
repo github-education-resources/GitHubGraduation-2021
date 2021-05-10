@@ -85,7 +85,7 @@ const fileValidator = require('./app/file-validator.js');
   // ############################ bot posting flow ############################
   // - show initial message with spinner when checks are running
   // - General message with a list of errors
-  //   - Already Participated
+  //   - Already Participated - close PR
   //   - Not applied for SDP
   //   - Not completed the shipping form
   //   - invalid files
@@ -101,50 +101,52 @@ const fileValidator = require('./app/file-validator.js');
 
   if(user2020) {
     console.log("user already Participated in 2020")
-    feedback.push("I'm really sorry! It looks like you've already graduated in a previous year.")
+    feedback.push("**I'm really sorry! It looks like you've already graduated in a previous year.**")
     // TODO close PR
   } else {
     if(!hasSdp) {
       console.log("User has not applied for SDP")
-      feedback.push("* I'm not seeing a valid student developer pack approval, please submit an [application](https://education.github.com/discount_requests/student_application) to get started")
+      feedback.push("* *I'm not seeing a valid student developer pack approval, please submit an [application](https://education.github.com/discount_requests/student_application) to get started*")
     }
 
     if(!completedShippingForm) {
       console.log("user has not completed the shipping form")
-      feedback.push("* It looks like you still need to fill out the [shipping form](https://airtable.com/shrM5IigBuRFaj33H) to continue")
+      feedback.push("* *It looks like you still need to fill out the [shipping form](https://airtable.com/shrM5IigBuRFaj33H) to continue*")
     }
 
     if(!isFilePathValid.isValid) {
       console.log('Files have errors: \n' + isFilePathValid.errors.join('\n'))
-      feedback.push(`* Uh Oh! I've found some issues with where you have created your files! \n\n\t${isFilePathValid.errors.join('\n')}`)
+      feedback.push(`* *Uh Oh! I've found some issues with where you have created your files!* \n\t${isFilePathValid.errors.join('\n')}`)
     }
 
     if(!isMarkdownValid.isValid) {
       console.log("markdown is invalid")
-      feedback.push("* Please take another look at your markdown file, there are errors: \n\n" + isMarkdownValid.errors.join('\n'))
+      feedback.push(`* *Please take another look at your markdown file, there are errors:* \n\t${isMarkdownValid.errors.join('\n')}`)
     }
 
     if(!userAgreesCoc) {
       console.log("User has not agreed to COC")
-      feedback.push("* You need to agree to our COC pretty please!")
+      feedback.push("* *You need to agree to our COC pretty please!*")
     }
 
     let feedBackMessage = ""
 
     if(feedback.length) {
       feedBackMessage = `
-I have a few items I need you to take care of before I can merge this PR:
+### I have a few items I need you to take care of before I can merge this PR:\n
 ${feedback.join('\n')}
       `
     } else {
+      // All checks pass
       feedBackMessage = "It looks like you're all set! Thanks for the graduation submission."
+      // TODO merge PR
     }
 
     console.log(feedBackMessage)
 
     await octokit.createReview(`
-Hi ${ actionEvent.pullAuthor },
-Welcome to graduation!
+** Hi ${ actionEvent.pullAuthor }, **
+** Welcome to graduation! **
 
 ${ feedBackMessage }
     `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
