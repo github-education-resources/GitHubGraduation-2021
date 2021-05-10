@@ -19,7 +19,7 @@ class ActionsEvent {
     // I guess some event files don't have EventData
     this.event = this.data.eventData || this.data
     this.pull = this.data.pull_request
-    this.requestedReviewer = this.data.requestedReviwer
+    this.requestedReviewer = this.data.requestedReviewer
     this.name = this.event.action
     this.pullNumber = this.pull.number
     this.pullRepo = this.pull.base.repo
