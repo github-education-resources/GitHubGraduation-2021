@@ -62,7 +62,7 @@ _Do not use special characters in the template above._
 Go through the checklist on the pull request template to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section. 
 
 # 3. Share your story of a teacher who made an impact 👩‍🏫👨‍🏫
-This year, we want to hear your stories of teachers who made a different. Simlar to last year's ["Message to the Graduates"](https://www.youtube.com/watch?v=K3mijMiOe64) video, we're putting together a compilation of your stories. Every participant will level up their GitHub trading card with an extra special design. To take part,
+This year, we want to hear stories of teachers who made a difference. Simlar to last year's ["Message to the Graduates"](https://www.youtube.com/watch?v=K3mijMiOe64) video, we're putting together a compilation of your stories. Every participant will level up their GitHub trading card with an extra special design. To take part,
 
 1. [Fill out the video release form.](https://www.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=d460686d-c036-48b4-a69b-2095735affe8&env=na1&acct=8536c841-0a45-4d7f-836a-1d9cd83fec06&v=2)
 2. [Record and submit your video message.](https://github.com/education/GitHubGraduation-2021/files/6448974/GitHub.Graduation.Teacher.Video.Project.pdf) (full instructions for recording)
@@ -80,6 +80,6 @@ What does this mean? We will use your public GitHub profile information to creat
 Don't forget to watch the livestream! 
 
 - 📆 Saturday, June 5, 2021
-- ⏰ 9:00 PDT | 21:30 IST
-- 📍 [GitHub Education Twitch Channel](twitch.tv/githubeducation). Follow for notifications!
-- 📎 Add the [event](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210605T160000Z%2F20210605T180000Z&text=GitHub%20Graduation%202021%20%F0%9F%8E%93&location=twitch.tv%2Fgithubeducation&details=Join%20us%20on%20GitHub%20Campus%20TV%20to%20%22walk%20the%20stage%22%20and%20celebrate%20the%20accomplishments%20of%20this%20year%E2%80%99s%20graduating%20class%20with%20your%20fellow%20developers.%20) to your calendar (Google calendar invite).
+- ⏰ 9:00am PT | 21:30 IST
+- 📍 Follow the[GitHub Education Twitch Channel](twitch.tv/githubeducation) for notifications.
+- 📎 [Add the event](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210605T160000Z%2F20210605T180000Z&text=GitHub%20Graduation%202021%20%F0%9F%8E%93&location=twitch.tv%2Fgithubeducation&details=Join%20us%20on%20GitHub%20Campus%20TV%20to%20%22walk%20the%20stage%22%20and%20celebrate%20the%20accomplishments%20of%20this%20year%E2%80%99s%20graduating%20class%20with%20your%20fellow%20developers.%20) to your calendar (Google calendar invite).
