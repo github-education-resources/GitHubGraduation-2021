@@ -164,6 +164,7 @@ Feel free to re-request a review from me and I'll come back and take a look!
         await octokit.mergePR()
       } catch(err) {
         feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
+        feedback.push("merge failed")
       }
     }
 
