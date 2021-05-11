@@ -34,8 +34,6 @@ jobs:
       - name: Cache Airtable
         if: steps.cache-data.outputs.cache-hit != 'true'
         run: node fetch-data.js
-    name: Checking Qualifications
-    steps:
       - uses: actions/checkout@v2
       - name: Setup node
         uses: actions/setup-node@v2
