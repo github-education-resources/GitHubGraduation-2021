@@ -1,12 +1,12 @@
 const airtable = require('./airtable.js');
-const actionEvent = require('./action-event.js');
 const fs = require('fs')
 
 (async ()=>{
-  const grad2020 = airtable.fetchAll2020(actionEvent.pullAuthor)
-  const grad2021 = airtable.fetchAll2021(actionEvent.pullAuthor)
+  const grad2020 = airtable.fetchAll2020()
+  const grad2021 = airtable.fetchAll2021()
   const content = JSON.stringify({grad2020, grad2021})
 
+  console.log(fs.dir.path)
   fs.writeFile('./data/airtable.json', content, err => {
     if (err) {
       console.error(err)
