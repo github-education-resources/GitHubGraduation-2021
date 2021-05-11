@@ -1,6 +1,6 @@
 ---
 name: Adam
 institution: Mona University
-quote: "The home for all developers"
+quote: "I am me"
 github_user: renz45
 ---
