@@ -5,6 +5,6 @@ const fs = require('fs')
   const grad2020 = await airtable.fetchAll2020()
   const grad2021 = await airtable.fetchAll2021()
   const content = JSON.stringify({grad2020, grad2021})
-  console.log(fs.dir)
+
   fs.writeFileSync('./app/data/airtable.json', content)
 })()
