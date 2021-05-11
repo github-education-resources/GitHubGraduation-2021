@@ -10,15 +10,15 @@ const GITHUB_GRADUATION = "appnpTfSaHWAf964L"
 const GRADUATES_2020 = "Graduation 2020"
 const GRADUATES_2021 = "Graduation 2021"
 
-// let cachedJson
-// let cachedData = {}
+let cachedJson
+let cachedData = {}
 
-// try {
-//   cachedJson = fs.readFileSync('./data/airtable.json"', 'utf8')
-//   cachedData = JSON.parse(json)
-// } catch(err) {
-//   console.log("Failed to parse cache", err)
-// }
+try {
+  cachedJson = fs.readFileSync('./data/airtable.json"', 'utf8')
+  cachedData = JSON.parse(cachedJson)
+} catch(err) {
+  console.log("Failed to parse cache", err)
+}
 
 
 class ATable {
@@ -27,45 +27,51 @@ class ATable {
   }
 
   userParticipated2020(githubLogin) {
-    // const data = this.fetchFromCache(githubLogin, GRADUATES_2020)
+    const data = this.fetchFromCache(githubLogin, GRADUATES_2020)
 
-    // if(data) {
-    //   console.log("found cached 2020 data")
-    //   return new Promise(data)
-    // }
+    if(data) {
+      console.log("found cached 2020 data")
+      return new Promise(data)
+    }
 
     return this.fetchGraduate(githubLogin, GRADUATES_2020)
   }
 
   fetch2021Graduate(githubLogin) {
-    // const data = this.fetchFromCache(githubLogin, GRADUATES_2021)
-    // if(data) {
-    //   console.log("found cached 2021 data")
-    //   return new Promise(data)
-    // }
+    const data = this.fetchFromCache(githubLogin, GRADUATES_2021)
+    if(data) {
+      console.log("found cached 2021 data")
+      return new Promise(data)
+    }
 
     return this.fetchGraduate(githubLogin, GRADUATES_2021)
   }
 
   async fetchAll(table) {
     const airtable = Airtable.base(GITHUB_GRADUATION);
-    const users = []
+    const users = {}
 
-    return airtable(table).select().eachPage(function page(records, fetchNextPage) {
-      // This function (`page`) will get called for each page of records.
+    return new Promise((resolve, reject)=>{
+      airtable(table).select().eachPage(function page(records, fetchNextPage) {
+        // This function (`page`) will get called for each page of records.
 
-      records.forEach(function(record) {
-        users.push(record.fields)
+        records.forEach(function(record) {
+          users[record.fields["GitHub Username"]] = record.fields
+        });
+
+        // To fetch the next page of records, call `fetchNextPage`.
+        // If there are more records, `page` will get called again.
+        // If there are no more records, `done` will get called.
+        fetchNextPage();
+
+      }, function done(err) {
+          if (err) {
+            console.error(err);
+            reject(err)
+          }
+          resolve(users)
       });
-
-      // To fetch the next page of records, call `fetchNextPage`.
-      // If there are more records, `page` will get called again.
-      // If there are no more records, `done` will get called.
-      fetchNextPage();
-
-    }, function done(err) {
-        if (err) { console.error(err); return; }
-    });
+    })
   }
 
   async fetchAll2021() {
@@ -77,7 +83,7 @@ class ATable {
   }
 
   fetchFromCache(githubLogin, table) {
-    let data, userData
+    let data
 
     if(table === GRADUATES_2020) {
       data = cachedData["grad2020"]
@@ -86,12 +92,8 @@ class ATable {
     }
 
     if(data) {
-      userData = data.find((user)=>{
-        return user["GitHub Username"] === githubLogin
-      })
+      return data[githubLogin]
     }
-
-    return userData
   }
 
   fetchGraduate(githubLogin, table) {

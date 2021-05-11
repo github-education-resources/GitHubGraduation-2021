@@ -1,3 +1,11 @@
+if(!process.env.GITHUB_ACTIONS) {
+  const result = require('dotenv').config()
+
+  if (result.error) {
+    throw result.error
+  }
+}
+
 const airtable = require('./airtable.js');
 const fs = require('fs')
 
