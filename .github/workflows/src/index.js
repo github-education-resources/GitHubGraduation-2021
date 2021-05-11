@@ -18,6 +18,7 @@
 // * congrats!
 // * merge PR
 
+// Load .env in dev
 if(!process.env.GITHUB_ACTIONS) {
   const result = require('dotenv').config()
 
@@ -32,7 +33,16 @@ const actionEvent = require('./app/action-event.js');
 const educationWeb = require('./app/education-web.js');
 const fileValidator = require('./app/file-validator.js');
 
+const BOT_ACCOUNT_LOGIN = "GitHub-Education-bot"
+
+
+try {
 ;(async ()=>{
+
+  if(actionEvent.name === "review_requested" && actionEvent.requestedReviewer.login !== BOT_ACCOUNT_LOGIN) {
+    return true
+  }
+
   const results = await Promise.all([
     octokit.fetchPr(actionEvent.pullNumber),
     airtable.userParticipated2020(actionEvent.pullAuthor),
@@ -56,18 +66,17 @@ const fileValidator = require('./app/file-validator.js');
   const hasSdp = results[2]
 
   // Has the user completed the shipping form? (address must exist for the form to be submitted)
-  const completedShippingForm = user2021?.get("Address Line 1").length > 0
-
+  const completedShippingForm = user2021 && user2021["Address Line 1"].length > 0
   const fileNames = pull.files.edges.map((file)=>{
     return file.node.path
   })
 
-  let isMarkdownValid
+  let isMarkdownValid = {}
   let content
   const isFilePathValid = fileValidator.isValidPaths(fileNames)
 
   try {
-    content = isFilePathValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
+    content = isFilePathValid.isValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
   } catch(err) {
     console.log(err)
   }
@@ -106,13 +115,13 @@ const fileValidator = require('./app/file-validator.js');
   // - welcome and congrats
   // - merge PR
 
-  const userAgreesCoc = user2021?.get("Code of Conduct").length > 0
+  const userAgreesCoc = user2021 && user2021["Code of Conduct"]
   const feedback = []
 
   if(user2020) {
     console.log("user already Participated in 2020")
     feedback.push("**I'm really sorry! It looks like you've already graduated in a previous year.**")
-    // TODO close PR
+    octokit.closePR()
   } else {
     if(!hasSdp) {
       console.log("User has not applied for SDP")
@@ -126,12 +135,12 @@ const fileValidator = require('./app/file-validator.js');
 
     if(!isFilePathValid.isValid) {
       console.log('Files have errors: \n' + isFilePathValid.errors.join('\n'))
-      feedback.push(`* *Uh Oh! I've found some issues with where you have created your files!* \n\t${isFilePathValid.errors.join('\n')}`)
+      feedback.push(`* *Uh Oh! I've found some issues with where you have created your files!* \n\t${isFilePathValid.errors?.join('\n')}`)
     }
 
     if(!isMarkdownValid.isValid) {
       console.log("markdown is invalid")
-      feedback.push(`* *Please take another look at your markdown file, there are errors:* \n\t${isMarkdownValid.errors.join('\n')}`)
+      feedback.push(`* *Please take another look at your markdown file, there are errors:* \n\t${isMarkdownValid.errors?.join('\n')}`)
     }
 
     if(!userAgreesCoc) {
@@ -145,23 +154,41 @@ const fileValidator = require('./app/file-validator.js');
       feedBackMessage = `
 ### I have a few items I need you to take care of before I can merge this PR:\n
 ${feedback.join('\n')}
+
+Feel free to re-request a review from me and I'll come back and take a look!
       `
     } else {
       // All checks pass
-      feedBackMessage = "It looks like you're all set! Thanks for the graduation submission."
-      // TODO merge PR
+      feedBackMessage = "It looks like you're all set! Thanks for the graduation submission. I'll go ahead and merge this."
+      try {
+        await octokit.mergePR()
+      } catch(err) {
+        console.error(err)
+        feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
+        feedback.push("merge failed")
+      }
     }
 
     console.log(feedBackMessage)
+
     try {
     await octokit.createReview(`
 **Hi ${ actionEvent.pullAuthor },**
 **Welcome to graduation!**
 
 ${ feedBackMessage }
-    `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
+`, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
     } catch(err) {
       console.log(err)
     }
+
+    if(feedback.length) {
+      console.log(feedback.join('\n'))
+      process.exit(1)
+    }
   }
 })()
+} catch(err) {
+  console.error(err)
+  process.exit(1);
+}

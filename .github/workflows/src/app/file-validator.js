@@ -48,7 +48,7 @@ class FileVaidator {
       errors.push(`*\`${expectedPath}/${pullAuthor}.md\` does not contain any yaml metadata*`)
     }
 
-    return { isValid: !errors.length, errors }
+    return { isValid: !errors.length, errors: errors }
   }
 
   isValidPaths(filePaths=[]) {

@@ -16,10 +16,10 @@ class ActionsEvent {
       return
     }
 
-    // I guess some event files don't have EventData
-    this.event = this.data.eventData || this.data
+    // These could change.... I was noticing different data structures after moving repos
+    this.event = this.data
     this.pull = this.data.pull_request
-    this.requestedReviwer = this.data.requestedReviewer
+    this.requestedReviewer = this.data.requested_reviewer
     this.name = this.event.action
     this.pullNumber = this.pull.number
     this.pullRepo = this.pull.base.repo
