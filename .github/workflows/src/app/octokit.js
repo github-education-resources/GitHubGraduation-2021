@@ -113,11 +113,12 @@ class Octo {
   }
 
   async closePR() {
-    return await this.octokit.rest.pulls.update({
+    await this.octokit.request('PATCH /repos/{owner}/{repo}/pulls/{pull_number}', {
       owner: actionEvent.pullRepoOwner,
       repo: actionEvent.pullRepo.name,
-      pull_number: actionEvent.pullNumber
-    });
+      pull_number: actionEvent.pullNumber,
+      state: "closed"
+    })
   }
 }
 
