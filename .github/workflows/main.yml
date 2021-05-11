@@ -34,7 +34,7 @@ jobs:
       - name: Setup npm
         run: npm install -g npm
       - name: Install dependencies
-        if: steps.cache-modules.outputs.cache-hit != 'true'
+        # if: steps.cache-modules.outputs.cache-hit != 'true'
         run: npm install
       - name: Get Minute
         id: get-minute
