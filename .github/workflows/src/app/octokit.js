@@ -105,7 +105,7 @@ class Octo {
   }
 
   async mergePR() {
-    return await this.octokit.rest.pulls.merge({
+    return await this.octokit.request('PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge', {
       owner: actionEvent.pullRepoOwner,
       repo: actionEvent.pullRepo.name,
       pull_number: actionEvent.pullNumber
