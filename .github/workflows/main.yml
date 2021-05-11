@@ -18,14 +18,37 @@ jobs:
       run:
         shell: bash
         working-directory: ./.github/workflows/src
-    name: Initiate robot
+    name: Getting grades
+    steps:
+      - name: Get Minute
+        id: get-minute
+        run: |
+          echo "::set-output name=minute::$(/bin/date -u "+%M")"
+        shell: bash # For Windows, Linux and macOS default to bash alrea
+      - name: Cache data
+          id: cache_data
+          uses: actions/cache@v2
+          with:
+            path: .github/workflows/src/data
+            key: ${{ runner.OS }}-${{ steps.get-date.outputs.minute }} # cache for 1 minute
+      - name: Cache Airtable
+        if: steps.cache_data.outputs.cache-hit != 'true'
+        run: node fetch-data.js
+    name: Checking Qualifications
     steps:
       - uses: actions/checkout@v2
       - name: Setup node
         uses: actions/setup-node@v2
         with:
           node-version: 14
+      - name: Cache modules
+        id: cache_modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('package.json') }}
       - name: Setup npm
+        if: steps.cache_modules.outputs.cache-hit != 'true'
         run: npm install -g npm
       - name: Install dependencies
         run: npm install
