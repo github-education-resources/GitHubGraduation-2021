@@ -67,7 +67,7 @@ try {
 
   // Has the user completed the shipping form? (address must exist for the form to be submitted)
   const completedShippingForm = user2021?.get("Address Line 1").length > 0
-
+  console.log("2021: \n\n" + user2021)
   const fileNames = pull.files.edges.map((file)=>{
     return file.node.path
   })
