@@ -150,32 +150,33 @@ try {
       console.log("User has not agreed to COC")
       feedback.push("* *You need to agree to our COC pretty please!*")
     }
+  }
 
-    let feedBackMessage = ""
+  let feedBackMessage = ""
 
-    if(feedback.length) {
-      feedBackMessage = `
+  if(feedback.length) {
+    feedBackMessage = `
 ### I have a few items I need you to take care of before I can merge this PR:\n
 ${feedback.join('\n')}
 
 Feel free to re-request a review from me and I'll come back and take a look!
-      `
-    } else {
-      // All checks pass
-      feedBackMessage = "It looks like you're all set! Thanks for the graduation submission."
-      try {
-        // await octokit.mergePR()
-        await octokit.addReviewLabel()
-      } catch(err) {
-        console.error(err)
-        feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
-        feedback.push("merge failed")
-      }
-    }
-
-    console.log(feedBackMessage)
-
+    `
+  } else {
+    // All checks pass
+    feedBackMessage = "It looks like you're all set! Thanks for the graduation submission."
     try {
+      // await octokit.mergePR()
+      await octokit.addReviewLabel()
+    } catch(err) {
+      console.error(err)
+      feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
+      feedback.push("merge failed")
+    }
+  }
+
+  console.log(feedBackMessage)
+
+  try {
     await octokit.createReview(`
 **Hi ${ actionEvent.pullAuthor },**
 **Welcome to graduation!**
@@ -186,20 +187,19 @@ ${ feedBackMessage }
       console.log(err)
     }
 
-    if(closePR) {
-      try {
-        await octokit.addClosedLabel()
-        await octokit.closePR()
-      } catch(err) {
-        console.log("failed to close PR")
-        console.log(err)
-      }
+  if(closePR) {
+    try {
+      await octokit.addClosedLabel()
+      await octokit.closePR()
+    } catch(err) {
+      console.log("failed to close PR")
+      console.log(err)
     }
+  }
 
-    if(feedback.length) {
-      console.log(feedback.join('\n'))
-      process.exit(1)
-    }
+  if(feedback.length) {
+    console.log(feedback.join('\n'))
+    process.exit(1)
   }
 })()
 } catch(err) {
