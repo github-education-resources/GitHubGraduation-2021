@@ -48,7 +48,7 @@ jobs:
           key: ${{ runner.OS }}-${{ steps.getminute.outputs.minute }} # cache for 1 minute
       - name: Cache Airtable
         if: steps.cache-data.outputs.cache-hit != 'true'
-        run: node app/fetch-data.js
+        run: node fetch-data.js
         env:
           AIRTABLE_SECRET: ${{ secrets.AIRTABLE_SECRET }}
           GH_SECRET: ${{ secrets.GH_SECRET }}
