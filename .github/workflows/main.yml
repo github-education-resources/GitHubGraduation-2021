@@ -33,7 +33,7 @@ jobs:
           key: ${{ runner.OS }}-${{ steps.get-date.outputs.minute }} # cache for 1 minute
       - name: Cache Airtable
         if: steps.cache-data.outputs.cache-hit != 'true'
-        run: node fetch-data.js
+        run: node app/fetch-data.js
       - uses: actions/checkout@v2
       - name: Setup node
         uses: actions/setup-node@v2
