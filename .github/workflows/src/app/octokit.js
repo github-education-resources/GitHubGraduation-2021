@@ -1,6 +1,9 @@
 const { Octokit, App, Action } = require("octokit")
 const actionEvent = require('./action-event.js');
 
+const MERGE_LABEL = "✅  Ready for merge"
+const CLOSED_LABEL = "🎉 Previously Graduated"
+
 class Octo {
   constructor() {
     this.octokit = new Octokit({ auth: process.env.GH_SECRET });
@@ -113,11 +116,29 @@ class Octo {
   }
 
   async closePR() {
-    return await this.octokit.rest.pulls.update({
+    return await this.octokit.request('PATCH /repos/{owner}/{repo}/pulls/{pull_number}', {
       owner: actionEvent.pullRepoOwner,
       repo: actionEvent.pullRepo.name,
-      pull_number: actionEvent.pullNumber
-    });
+      pull_number: actionEvent.pullNumber,
+      state: "closed"
+    })
+  }
+
+  async addReviewLabel() {
+    return await this.addLabel(MERGE_LABEL)
+  }
+
+  async addClosedLabel() {
+    return await this.addLabel(CLOSED_LABEL)
+  }
+
+  async addLabel(label) {
+    return await octokit.request('POST /repos/{owner}/{repo}/issues/{issue_number}/labels', {
+      owner: actionEvent.pullRepoOwner,
+      repo: actionEvent.pullRepo.name,
+      issue_number: actionEvent.pullNumber,
+      labels: label
+    })
   }
 }
 

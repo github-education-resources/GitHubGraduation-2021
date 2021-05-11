@@ -39,6 +39,8 @@ const BOT_ACCOUNT_LOGIN = "GitHub-Education-bot"
 try {
 ;(async ()=>{
 
+  const feedback = []
+
   if(actionEvent.name === "review_requested" && actionEvent.requestedReviewer.login !== BOT_ACCOUNT_LOGIN) {
     return true
   }
@@ -78,6 +80,7 @@ try {
   try {
     content = isFilePathValid.isValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
   } catch(err) {
+    feedpack.push("I was unable to view the content of the markdown file, please try again in a few minutes")
     console.log(err)
   }
 
@@ -116,12 +119,12 @@ try {
   // - merge PR
 
   const userAgreesCoc = user2021 && user2021["Code of Conduct"]
-  const feedback = []
+  let closePR = false
 
   if(user2020) {
     console.log("user already Participated in 2020")
     feedback.push("**I'm really sorry! It looks like you've already graduated in a previous year.**")
-    octokit.closePR()
+    closePR = true
   } else {
     if(!hasSdp) {
       console.log("User has not applied for SDP")
@@ -159,9 +162,10 @@ Feel free to re-request a review from me and I'll come back and take a look!
       `
     } else {
       // All checks pass
-      feedBackMessage = "It looks like you're all set! Thanks for the graduation submission. I'll go ahead and merge this."
+      feedBackMessage = "It looks like you're all set! Thanks for the graduation submission."
       try {
-        await octokit.mergePR()
+        // await octokit.mergePR()
+        await octokit.addReviewLabel()
       } catch(err) {
         console.error(err)
         feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
@@ -180,6 +184,16 @@ ${ feedBackMessage }
 `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
     } catch(err) {
       console.log(err)
+    }
+
+    if(closePR) {
+      try {
+        await octokit.addClosedLabel()
+        await octokit.closePR()
+      } catch(err) {
+        console.log("failed to close PR")
+        console.log(err)
+      }
     }
 
     if(feedback.length) {
