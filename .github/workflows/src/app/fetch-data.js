@@ -1,7 +1,7 @@
 const airtable = require('./airtable.js');
 const fs = require('fs')
 
-(async ()=>{
+;(async ()=>{
   const grad2020 = airtable.fetchAll2020()
   const grad2021 = airtable.fetchAll2021()
   const content = JSON.stringify({grad2020, grad2021})
