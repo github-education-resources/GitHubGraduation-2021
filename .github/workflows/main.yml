@@ -30,7 +30,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: .github/workflows/src/data
-          key: ${{ runner.OS }}-${{ steps.get-date.outputs.minute }} # cache for 1 minute
+          key: ${{ runner.OS }}-${{ steps.get-minute.outputs.minute }} # cache for 1 minute
       - name: Cache Airtable
         if: steps.cache-data.outputs.cache-hit != 'true'
         run: node app/fetch-data.js
