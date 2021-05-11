@@ -65,11 +65,11 @@ class ATable {
     });
   }
 
-  fetchAll2021() {
+  async fetchAll2021() {
     return await this.fetchAll(GRADUATES_2021)
   }
 
-  fetchAll2020() {
+  async fetchAll2020() {
     return await this.fetchAll(GRADUATES_2020)
   }
 
