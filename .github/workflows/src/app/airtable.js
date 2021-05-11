@@ -17,6 +17,7 @@ try {
   cachedJson = fs.readFileSync('./app/data/airtable.json"', 'utf8')
   cachedData = JSON.parse(json)
 } catch(err) {
+  console.log("Failed to parse cache")
   // noop
 }
 
@@ -28,6 +29,7 @@ class ATable {
 
   userParticipated2020(githubLogin) {
     const cachedData = this.fetchFromCache(githubLogin, GRADUATES_2020)
+
     if(cachedData) {
       console.log("found cached 2020 data")
       return new Promise(cachedData)
