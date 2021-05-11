@@ -182,7 +182,8 @@ ${ feedBackMessage }
     }
 
     if(feedback.length) {
-      throw new Error(feedback.join('\n'))
+      console.log(feedback.join('\n'))
+      process.exit
     }
   }
 })()
