@@ -29,6 +29,7 @@ class ATable {
   userParticipated2020(githubLogin) {
     const cachedData = fetchFromCache(githubLogin, GRADUATES_2020)
     if(cachedData) {
+      console.log("found cached 2020 data")
       return new Promise(cachedData)
     }
 
@@ -38,6 +39,7 @@ class ATable {
   fetch2021Graduate(githubLogin) {
     const cachedData = fetchFromCache(githubLogin, GRADUATES_2021)
     if(cachedData) {
+      console.log("found cached 2021 data")
       return new Promise(cachedData)
     }
 
