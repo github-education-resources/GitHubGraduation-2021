@@ -20,20 +20,6 @@ jobs:
         working-directory: ./.github/workflows/src
     name: Getting grades
     steps:
-      - name: Get Minute
-        id: get-minute
-        run: |
-          echo "::set-output name=minute::$(date -u '+%M')"
-        shell: bash # For Windows, Linux and macOS default to bash alrea
-      - name: Cache data
-        id: cache-data
-        uses: actions/cache@v2
-        with:
-          path: .github/workflows/src/app/data
-          key: ${{ runner.OS }}-${{ steps.get-minute.outputs.minute }} # cache for 1 minute
-      - name: Cache Airtable
-        if: steps.cache-data.outputs.cache-hit != 'true'
-        run: node app/fetch-data.js
       - uses: actions/checkout@v2
       - name: Setup node
         uses: actions/setup-node@v2
@@ -46,10 +32,23 @@ jobs:
           path: node_modules
           key: ${{ runner.os }}-${{ hashFiles('package.json') }}
       - name: Setup npm
-        if: steps.cache-modules.outputs.cache-hit != 'true'
         run: npm install -g npm
       - name: Install dependencies
+        if: steps.cache-modules.outputs.cache-hit != 'true'
         run: npm install
+      - name: Get Minute
+        id: get-minute
+        run: echo "::set-output name=minute::$(date -u '+%M')"
+        shell: bash # For Windows, Linux and macOS default to bash alrea
+      - name: Cache data
+        id: cache-data
+        uses: actions/cache@v2
+        with:
+          path: .github/workflows/src/app/data
+          key: ${{ runner.OS }}-${{ steps.get-minute.outputs.minute }} # cache for 1 minute
+      - name: Cache Airtable
+        if: steps.cache-data.outputs.cache-hit != 'true'
+        run: node app/fetch-data.js
       - name: run entry point
         run: node index.js
         env:
