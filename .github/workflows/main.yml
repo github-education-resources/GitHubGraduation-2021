@@ -44,7 +44,7 @@ jobs:
         id: cache-data
         uses: actions/cache@v2
         with:
-          path: app/data
+          path: .github/workflows/src/app/data
           key: ${{ runner.OS }}-${{ steps.getminute.outputs.minute }} # cache for 1 minute
       - name: Cache Airtable
         if: steps.cache-data.outputs.cache-hit != 'true'
