@@ -96,8 +96,8 @@ class ATable {
 
   fetchGraduate(githubLogin, table) {
     const airtable = Airtable.base(GITHUB_GRADUATION);
+    const data = []
     return new Promise((resolve, reject)=>{
-      const data = []
       airtable(table).select({
         // Selecting the first 3 records in Pending Reviews:
         maxRecords: 1,
@@ -109,6 +109,8 @@ class ATable {
         records.forEach(function(record) {
           data.push(record.fields)
         });
+
+        fetchNextPage()
       }, function done(err) {
         if (err) {
           if(err.error === "NOT_FOUND") {
@@ -118,9 +120,10 @@ class ATable {
           reject(err)
           return;
         }
+
+        resolve(data[0])
       });
-      console.log("ADATA: \n\n" + JSON.stringify(data))
-      resolve(data[0])
+
     }).catch((err)=>{
       reject(err)
     })

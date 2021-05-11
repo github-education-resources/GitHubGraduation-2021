@@ -66,8 +66,7 @@ try {
   const hasSdp = results[2]
 
   // Has the user completed the shipping form? (address must exist for the form to be submitted)
-  const completedShippingForm = user2021?.get("Address Line 1").length > 0
-  console.log("2021: \n\n" + user2021)
+  const completedShippingForm = user2021 && user2021["Address Line 1"].length > 0
   const fileNames = pull.files.edges.map((file)=>{
     return file.node.path
   })
@@ -169,7 +168,7 @@ Feel free to re-request a review from me and I'll come back and take a look!
     }
 
     console.log(feedBackMessage)
-
+    return
     try {
     await octokit.createReview(`
 **Hi ${ actionEvent.pullAuthor },**
