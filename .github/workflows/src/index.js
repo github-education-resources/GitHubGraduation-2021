@@ -115,7 +115,7 @@ try {
   // - welcome and congrats
   // - merge PR
 
-  const userAgreesCoc = user2021?.get("Code of Conduct").length > 0
+  const userAgreesCoc = user2021 && user2021["Code of Conduct"].length > 0
   const feedback = []
 
   if(user2020) {
