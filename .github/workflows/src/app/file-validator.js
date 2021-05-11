@@ -44,7 +44,7 @@ class FileVaidator {
         if(!meta[key]) {
           errors.push(`*The attribute \`${key}\` is required in \`${expectedPath}/${pullAuthor}.md\`*`)
         } else if(meta[key].length > characterLimits[key]) {
-          errors.push(`*The value for \`${key}\` can only have ${characterLimits[key]} characters max (I see ${meta[key].length })*`)
+          errors.push(`*The value for \`${key}\` can only have **${characterLimits[key]}** characters max (I see **${meta[key].length }**)*`)
         }
       }
     } else {
