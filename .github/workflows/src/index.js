@@ -183,7 +183,7 @@ ${ feedBackMessage }
 
     if(feedback.length) {
       console.log(feedback.join('\n'))
-      process.exit
+      process.exit(1)
     }
   }
 })()
