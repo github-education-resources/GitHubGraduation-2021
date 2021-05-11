@@ -29,7 +29,7 @@ jobs:
         id: cachemodules
         uses: actions/cache@v2
         with:
-          path: node_modules
+          path: .github/workflows/src/node_modules
           key: ${{ runner.os }}-${{ hashFiles('.github/workflows/src/package.json') }}
       - name: Setup npm
         run: npm install -g npm
