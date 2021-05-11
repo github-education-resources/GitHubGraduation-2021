@@ -117,7 +117,7 @@ class ATable {
           return;
         }
       });
-
+      console.log("ADATA: \n\n" + data)
       resolve(data[0])
     }).catch((err)=>{
       reject(err)
