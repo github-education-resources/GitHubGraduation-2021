@@ -168,7 +168,7 @@ Feel free to re-request a review from me and I'll come back and take a look!
     }
 
     console.log(feedBackMessage)
-    return
+
     try {
     await octokit.createReview(`
 **Hi ${ actionEvent.pullAuthor },**
