@@ -27,21 +27,21 @@ class ATable {
   }
 
   userParticipated2020(githubLogin) {
-    const cachedData = this.fetchFromCache(githubLogin, GRADUATES_2020)
+    const data = this.fetchFromCache(githubLogin, GRADUATES_2020)
 
-    if(cachedData) {
+    if(data) {
       console.log("found cached 2020 data")
-      return new Promise(cachedData)
+      return new Promise(data)
     }
 
     return this.fetchGraduate(githubLogin, GRADUATES_2020)
   }
 
   fetch2021Graduate(githubLogin) {
-    const cachedData = this.fetchFromCache(githubLogin, GRADUATES_2021)
-    if(cachedData) {
+    const data = this.fetchFromCache(githubLogin, GRADUATES_2021)
+    if(data) {
       console.log("found cached 2021 data")
-      return new Promise(cachedData)
+      return new Promise(data)
     }
 
     return this.fetchGraduate(githubLogin, GRADUATES_2021)
