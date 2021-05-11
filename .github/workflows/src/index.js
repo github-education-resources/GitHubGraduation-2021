@@ -162,9 +162,10 @@ Feel free to re-request a review from me and I'll come back and take a look!
       `
     } else {
       // All checks pass
-      feedBackMessage = "It looks like you're all set! Thanks for the graduation submission. I'll go ahead and merge this."
+      feedBackMessage = "It looks like you're all set! Thanks for the graduation submission."
       try {
-        await octokit.mergePR()
+        // await octokit.mergePR()
+        await octokit.addReviewLabel()
       } catch(err) {
         console.error(err)
         feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
@@ -187,7 +188,8 @@ ${ feedBackMessage }
 
     if(closePR) {
       try {
-        octokit.closePR()
+        await octokit.addClosedLabel()
+        await octokit.closePR()
       } catch(err) {
         console.log("failed to close PR")
         console.log(err)
