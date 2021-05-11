@@ -6,7 +6,6 @@ const fs = require('fs')
   const grad2021 = airtable.fetchAll2021()
   const content = JSON.stringify({grad2020, grad2021})
 
-  console.log(fs.dir.path)
   fs.writeFile('./data/airtable.json', content, err => {
     if (err) {
       console.error(err)

@@ -49,6 +49,12 @@ jobs:
       - name: Cache Airtable
         if: steps.cache-data.outputs.cache-hit != 'true'
         run: node app/fetch-data.js
+        env:
+          AIRTABLE_SECRET: ${{ secrets.AIRTABLE_SECRET }}
+          GH_SECRET: ${{ secrets.GH_SECRET }}
+          EDUCATION_WEB_KEY: ${{ secrets.EDUCATION_WEB_KEY }}
+          EDUCATION_WEB_SECRET: ${{ secrets.EDUCATION_WEB_SECRET }}
+          EDUCATION_WEB_API: ${{ secrets.EDUCATION_WEB_API }}
       - name: run entry point
         run: node index.js
         env:
