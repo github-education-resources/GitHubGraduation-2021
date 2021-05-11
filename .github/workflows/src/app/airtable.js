@@ -50,7 +50,7 @@ class ATable {
     const airtable = Airtable.base(GITHUB_GRADUATION);
     const users = []
 
-    return airtable(GRADUATES_2020).select().eachPage(function page(records, fetchNextPage) {
+    return airtable(table).select().eachPage(function page(records, fetchNextPage) {
       // This function (`page`) will get called for each page of records.
 
       records.forEach(function(record) {
