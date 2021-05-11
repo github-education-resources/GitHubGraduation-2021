@@ -105,7 +105,7 @@ class ATable {
         // view: "Pending Reviews",
         // filterByFormula: `{GitHub Username} = '${}'`
       }).eachPage(function page(records, fetchNextPage) {
-        console.log("ADATA: \n\n" + records)
+        console.log("ADATA: \n\n" + JSON.stringify(records))
         // This function (`page`) will get called for each page of records.
         data = records
       }, function done(err) {
