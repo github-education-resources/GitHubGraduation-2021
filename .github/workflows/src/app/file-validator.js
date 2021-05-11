@@ -73,7 +73,7 @@ class FileVaidator {
     }
 
     if(InvalidMarkdownFile) {
-      errors.push(`* The required markdown file does not exist, please ensure the file \`${expectedPath}/${pullAuthor}.md\` exists*`)
+      errors.push(`*The required markdown file does not exist, please ensure the file \`${expectedPath}/${pullAuthor}.md\` exists*`)
     }
 
     if(invalidDirectory) {
