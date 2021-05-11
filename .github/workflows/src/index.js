@@ -123,7 +123,6 @@ try {
 
   if(user2020) {
     console.log("user already Participated in 2020")
-    feedback.push("**I'm really sorry! It looks like you've already graduated in a previous year.**")
     closePR = true
   } else {
     if(!hasSdp) {
@@ -153,8 +152,9 @@ try {
   }
 
   let feedBackMessage = ""
-
-  if(feedback.length) {
+  if(closePR) {
+    feedBackMessage = "I'm really sorry! It looks like you've already graduated in a previous year. This is for first time grads!"
+  } else if(feedback.length) {
     feedBackMessage = `
 ### I have a few items I need you to take care of before I can merge this PR:\n
 ${feedback.join('\n')}
