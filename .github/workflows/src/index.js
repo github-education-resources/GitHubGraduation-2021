@@ -122,7 +122,7 @@ try {
   if(user2020) {
     console.log("user already Participated in 2020")
     feedback.push("**I'm really sorry! It looks like you've already graduated in a previous year.**")
-    // TODO close PR
+    octokit.closePR()
   } else {
     if(!hasSdp) {
       console.log("User has not applied for SDP")
@@ -155,11 +155,17 @@ try {
       feedBackMessage = `
 ### I have a few items I need you to take care of before I can merge this PR:\n
 ${feedback.join('\n')}
+
+Feel free to re-request a review from me and I'll come back and take a look!
       `
     } else {
       // All checks pass
-      feedBackMessage = "It looks like you're all set! Thanks for the graduation submission."
-      // TODO merge PR
+      feedBackMessage = "It looks like you're all set! Thanks for the graduation submission. I'll go ahead and merge this."
+      try {
+        await octokit.mergePR()
+      } catch(err) {
+        feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
+      }
     }
 
     console.log(feedBackMessage)
@@ -170,7 +176,7 @@ ${feedback.join('\n')}
 **Welcome to graduation!**
 
 ${ feedBackMessage }
-    `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
+`, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
     } catch(err) {
       console.log(err)
     }

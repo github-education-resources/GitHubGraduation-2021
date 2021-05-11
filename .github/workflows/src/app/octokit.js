@@ -103,6 +103,22 @@ class Octo {
 
     return data
   }
+
+  async mergePR() {
+    return await this.octokit.rest.pulls.merge({
+      owner: actionEvent.pullRepoOwner,
+      repo: actionEvent.pullRepo.name,
+      pull_number: actionEvent.pullNumber
+    });
+  }
+
+  async closePR() {
+    return await this.octokit.rest.pulls.update({
+      owner: actionEvent.pullRepoOwner,
+      repo: actionEvent.pullRepo.name,
+      pull_number: actionEvent.pullNumber
+    });
+  }
 }
 
 module.exports = new Octo()
