@@ -1,6 +1,6 @@
 ---
-name:M.Y.A.M.Aamir
+name: M.Y.A.M. AAMIR
 institution: SLIATE
-quote: Your future is only as good as the work you put into it.
+quote: Make a Change with your knowledge
 github_user: EvilGns
 ---
