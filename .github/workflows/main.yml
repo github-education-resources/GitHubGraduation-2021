@@ -17,7 +17,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./.github/workflows/src
+        working-directory: .github/workflows/src
     name: Getting grades
     steps:
       - uses: actions/checkout@v2
@@ -44,7 +44,7 @@ jobs:
         id: cache-data
         uses: actions/cache@v2
         with:
-          path: .github/workflows/src/app/data
+          path: app/data
           key: ${{ runner.OS }}-${{ steps.getminute.outputs.minute }} # cache for 1 minute
       - name: Cache Airtable
         if: steps.cache-data.outputs.cache-hit != 'true'

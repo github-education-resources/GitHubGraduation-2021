@@ -6,13 +6,12 @@ if(!process.env.GITHUB_ACTIONS) {
   }
 }
 
-const airtable = require('./airtable.js');
+const airtable = require('./app/airtable.js');
 const fs = require('fs')
 
 ;(async ()=>{
   const grad2020 = await airtable.fetchAll2020()
   const grad2021 = await airtable.fetchAll2021()
   const content = JSON.stringify({grad2020, grad2021})
-
   fs.writeFileSync('./app/data/airtable.json', content)
 })()

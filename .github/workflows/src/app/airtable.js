@@ -14,7 +14,7 @@ let cachedJson
 let cachedData = {}
 
 try {
-  cachedJson = fs.readFileSync('./data/airtable.json"', 'utf8')
+  cachedJson = fs.readFileSync('./app/data/airtable.json', 'utf8')
   cachedData = JSON.parse(cachedJson)
 } catch(err) {
   console.log("Failed to parse cache", err)
