@@ -30,7 +30,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: node_modules
-          key: ${{ runner.os }}-${{ hashFiles('package.json') }}
+          key: ${{ runner.os }}-${{ hashFiles('.github/workflows/src/package.json') }}
       - name: Setup npm
         run: npm install -g npm
       - name: Install dependencies
@@ -38,7 +38,7 @@ jobs:
         run: npm install
       - name: Get Minute
         id: getminute
-        run: echo "::set-output name=minute::$(date -u "+%M")"
+        run: echo "::set-output name=minute::$(date -u '+%M')"
         shell: bash # For Windows, Linux and macOS default to bash alrea
       - name: Cache data
         id: cache-data
