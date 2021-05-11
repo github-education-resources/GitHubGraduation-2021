@@ -137,7 +137,7 @@ class Octo {
       owner: actionEvent.pullRepoOwner,
       repo: actionEvent.pullRepo.name,
       issue_number: actionEvent.pullNumber,
-      labels: label
+      labels: [label]
     })
   }
 }
