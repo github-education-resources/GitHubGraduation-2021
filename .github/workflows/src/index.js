@@ -127,7 +127,7 @@ try {
   } else {
     if(!hasSdp) {
       console.log("User has not applied for SDP")
-      feedback.push("* *I'm not seeing a valid student developer pack approval, please submit an [application](https://education.github.com/discount_requests/student_application) to get started*")
+      feedback.push("* *I'm not seeing a valid student developer pack approval, please submit an [application](https://education.github.com/discount_requests/student_application?utm_source=2021-06-05-GitHubGraduation) to get started*")
     }
 
     if(!completedShippingForm) {

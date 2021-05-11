@@ -15,7 +15,7 @@ Consider that all the information that you add to this repository will be public
 We invite any student that has graduated, or plans to graduate, in 2021 to apply to the yearbook. This includes bootcamps, code camps, high school graduates, Master's graduates, Ph. D. Graduates, etc.
 
 The eligibility criteria are -
-1. You have been verified as a student with the GitHub Student Developer Pack. Not yet a part of the Pack? [Apply here](https://education.github.com/discount_requests/student_application).
+1. You have been verified as a student with the GitHub Student Developer Pack. Not yet a part of the Pack? [Apply here](https://education.github.com/discount_requests/student_application?utm_source=2021-06-05-GitHubGraduation).
 2. You have not participated in a past GitHub Graduation event.
 
 # How to join the Class of 2021
