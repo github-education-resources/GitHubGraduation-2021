@@ -6,7 +6,7 @@ Airtable.configure({
   apiKey: process.env.AIRTABLE_SECRET
 });
 
-const GITHUB_GRADUATION = "bipux0j8oGEJuReSb"
+const GITHUB_GRADUATION = "appnpTfSaHWAf964L"
 const GRADUATES_2020 = "Graduation 2020"
 const GRADUATES_2021 = "Graduation 2021"
 
@@ -101,7 +101,7 @@ class ATable {
       airtable(table).select({
         // Selecting the first 3 records in Pending Reviews:
         maxRecords: 1,
-        filterByFormula: `({GitHub Username} = '${githubLogin}')`
+        filterByFormula: `{GitHub Username} = '${githubLogin}'`
         // view: "Pending Reviews",
         // filterByFormula: `{GitHub Username} = '${}'`
       }).eachPage(function page(records, fetchNextPage) {
