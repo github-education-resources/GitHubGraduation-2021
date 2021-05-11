@@ -133,7 +133,7 @@ class Octo {
   }
 
   async addLabel(label) {
-    return await octokit.request('POST /repos/{owner}/{repo}/issues/{issue_number}/labels', {
+    return await this.octokit.request('POST /repos/{owner}/{repo}/issues/{issue_number}/labels', {
       owner: actionEvent.pullRepoOwner,
       repo: actionEvent.pullRepo.name,
       issue_number: actionEvent.pullNumber,
