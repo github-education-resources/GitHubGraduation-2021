@@ -1,6 +1,6 @@
 ---
 name: Rohan Chopra 
 institution: The University of Texas At Arlington🚩 
-quote: I want to put a ding in the universe
+quote: Sometimes life hits you in the head with a brick. Don't lose faith. Steve Jobs
 github_user: rohanchopra3
 ---
