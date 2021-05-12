@@ -1,6 +1,6 @@
 ---
-name: FULLNAME-OR-NICKNAME JP
-institution: INSTITUTION-NAME 🚩 GNITC
-quote: YOUR-SENIOR-QUOTE All is well
+name: JP
+institution:  Guru Nanak Institutions Techncial Campus
+quote:  All is well
 github_user: JayaPrakash1999
 ---
