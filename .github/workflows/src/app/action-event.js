@@ -16,7 +16,7 @@ class ActionsEvent {
     if(!this.data) {
       return
     }
-
+</done>
     // These could change.... I was noticing different data structures after moving repos
     this.event = this.data
     this.pull = this.data.pull_request
