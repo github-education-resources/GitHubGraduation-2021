@@ -1,6 +1,6 @@
 ---
-name: HARSHITH-IYER
-institution: WESTBOROUGH-HIGH-SCHOOL
-quote: YOU-MUST-LOOK-WITHIN-YOURSELF-TO-SAVE-YOURSELF-FROM-YOUR-OTHER-SELF-,-ONLY-THEN-WILL-YOUR-TRUE-SELF-REVEAL-ITSELF
+name: Harshith Iyer
+institution: Westborough High School
+quote: 'Avatar: The Last Airbender', Book 3 Episode 12, Zuko imitatin 
 github_user: harbar20
 ---
