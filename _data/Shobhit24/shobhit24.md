@@ -1,6 +1,6 @@
 ---
 name: SHOBHIT GOSWAMI
 institution: ABES Engineering College 
-quote: Great Developers never stop forking and learning
+quote: Go hard or go home !
 github_user: shobhit24
 ---
