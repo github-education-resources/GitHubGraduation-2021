@@ -1,6 +1,6 @@
 ---
-name: Avdhut Akash Kamble
-institution: Cusrow Wadia Institute of Technology
-quote: 'What I cannot create, I do not understand. ~Richard Feynman'
-github_user: justafolk
+name: Kunal Rathore
+institution: Lakshmi Narain College of Technology, Bhopal
+quote: 'A Piece of Code is Mighter than a sword By Kunal Rathore'
+github_user: kunalrathorelnct
 ---
