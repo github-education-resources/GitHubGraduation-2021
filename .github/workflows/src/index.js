@@ -3,7 +3,7 @@
 
 // reverse parse markdown from bot comment, determine which step the PR is on:
 
-// * Participated in 2020
+// * Participated in 2021
 //   * no - close PR
 // * SDP?
 //   * no - request changes
