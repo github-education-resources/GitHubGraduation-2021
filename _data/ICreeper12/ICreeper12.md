@@ -1,6 +1,6 @@
 ---
-name: Péter Horváth
-institution: Békéscsabai SZC Trefort Ágoston Szakgimnáziuma, Szakközépiskolája és Kollégiuma
+name: PÃ©ter HorvÃ¡th
+institution: BÃ©kÃ©scsaba Trefort Ãgoston SzakgimnÃ¡zium
 quote: nothing is impossible when you believe in it.
 github_user: ICreeper12
 ---
