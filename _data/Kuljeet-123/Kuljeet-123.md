@@ -1,6 +1,6 @@
 ---
 name: Kuljeet Singh
 institution: Guru Tegh Bahadur Institute of Technology
-quote: Twenty minutes of doing something is more valuable than twenty hours of thinking about doing something.
+quote: In order to be irreplaceable, one must always be different.
 github_user: Kuljeet-123
 ---
