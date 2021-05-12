@@ -50,10 +50,8 @@ try {
     airtable.userParticipated2020(actionEvent.pullAuthor),
     educationWeb.hasPack(actionEvent.pullAuthor),
     airtable.fetch2021Graduate(actionEvent.pullAuthor)
-  ]).catch((errors)=>{
-    for(const error of errors) {
-      console.log(error)
-    }
+  ]).catch((error)=>{
+    console.log(error)
   })
 
   const pull = results[0]
