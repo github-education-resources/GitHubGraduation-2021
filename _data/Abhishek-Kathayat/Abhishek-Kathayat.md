@@ -1,6 +1,6 @@
 ---
 name: ABHISHEK KATHAYAT
 institution: DIT UNIVERSITY 
-quote: Measuring programming progress by lines of code is like measuring aircraft building progress by weight.
-github_user: ABHISHEK-KATHAYAT
+quote: The best thing about a boolean is even if you are wrong, you are only off by a bit.
+github_user: Abhishek-Kathayat
 ---
