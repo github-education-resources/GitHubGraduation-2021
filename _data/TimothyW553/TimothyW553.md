@@ -1,6 +1,6 @@
 ---
 name: Timothy Wang
-insitution: Crescent School
+institution: Crescent School
 quote: To infinite, and beyond!
 github_user: TimothyW553
 ---
