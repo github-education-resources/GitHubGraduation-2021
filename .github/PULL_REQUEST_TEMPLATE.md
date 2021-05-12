@@ -2,7 +2,7 @@
 
 This pull request template helps you complete an application to the **Class of 2021**. Use the checklist below to verify you have followed the instructions correctly. 
 
-## Checklist ✅
+## Checklist  ✅
 
 - [✅] I have read the instructions on the README file before submitting my application. 
 - [✅] I made my submission by creating a folder on the `_data` folder and followed the naming convention mentioned in the instructions (`<username>`) and markdown file.
