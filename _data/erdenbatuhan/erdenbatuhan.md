@@ -1,6 +1,6 @@
 ---
 name: Batuhan Erden
 institution: Technical University of Munich
-quote: The distinction between the past, present and future is only a stubbornly persistent illusion. — Albert Einstein.
+quote: 'What we know is a drop, what we don't know is an ocean.' - Isaac Newton
 github_user: erdenbatuhan
 ---
