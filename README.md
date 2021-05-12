@@ -37,13 +37,13 @@ Replace `nvisagan` with your GitHub username in this guide.
 Fork this repository, create a new folder inside the `_data` folder, and name it with your username. It should look something like this `_data/<YOUR-USERNAME>/`. Ex.
 
 ```
-_data/MonaTheOctocat/
+_data/nvisagan/
 ```
 ### Second, add your profile information
 Create a markdown file in your folder following the convention `<YOUR-USERNAME>.md`. Ex.
 
 ```
-_data/MonaTheOctocat/MonaTheOctocat.md
+_data/nvisagan/nvisagan.md
 ```
 Copy the next template into your file, delete the boilerplate data and fill the information with yours.
 ```
