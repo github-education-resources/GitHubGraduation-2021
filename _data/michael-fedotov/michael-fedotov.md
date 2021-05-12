@@ -1,6 +1,6 @@
 ---
 name: Michael Fedotov
 institution: Bishop Tonnos CSS
-quote: To accomplish great things, we must not only act, but also dream, not only plan, but also believe.
+quote: Everyday aim to be more educated and positive than you were yesterday.
 github_user: michael-fedotov
 ---
