@@ -1,5 +1,5 @@
 ---
-name: Arthur Quintella de Mello olga
+name: Arthur Olga
 institution: Insper
 quote: Vai Brasil!
 github_user: arthurolga
