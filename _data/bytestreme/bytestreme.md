@@ -1,6 +1,6 @@
 ---
 name: bytestreme
 institution: Nazarbayev university
-quote: null
+quote: "null"
 github_user: bytestreme
 ---
