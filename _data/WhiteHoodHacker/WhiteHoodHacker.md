@@ -1,6 +1,6 @@
 ---
 name: Minh
-institution: Rolling Meadows High School
+institution: Township High School District 214
 quote: Does not get paid enough to care
 github_user: WhiteHoodHacker
 ---
