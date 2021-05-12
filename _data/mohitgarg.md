@@ -1,0 +1,3 @@
+- name: Mohit Garg
+- institution: Founders & Coders
+- github_user: mohitgarg
