@@ -1,6 +1,6 @@
 ---
 name: Alistair Smith
-institution: DN Academy
+institution: Marling Grammar
 quote: Candice would have been so proud
 github_user: alii
 ---
