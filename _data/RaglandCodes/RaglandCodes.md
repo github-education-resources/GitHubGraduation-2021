@@ -1,6 +1,6 @@
 ---
 name: Ragland Asir
 institution: NIT Trichy
-quote: Congratulations everyone !
+quote: Congratulations everyone!
 github_user: RaglandCodes
 ---
