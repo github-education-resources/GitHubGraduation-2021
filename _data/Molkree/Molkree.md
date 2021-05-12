@@ -2,5 +2,5 @@
 name: Dmitry Volodin
 institution: Southern Federal University
 quote: Hi, mom
-github_user: molkree
+github_user: Molkree
 ---
