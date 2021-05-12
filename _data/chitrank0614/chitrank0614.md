@@ -1,4 +1,6 @@
-**Name** : Chitrank Mishra  
-**Institution** : Jaypee Institute of Information Technology  
-**Quote**: Help someone and forget about it.  
-**Github_user**: chitrank0614
+---
+name: Chitrank Mishra
+institution: Jaypee Institute Of Information Technology
+quote: Help someone and forget about it.  
+github_user: chitrank0614
+---
