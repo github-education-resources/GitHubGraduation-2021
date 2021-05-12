@@ -1,6 +1,6 @@
 ---
 name: Ankush Bose
-institution: WNS Global Services
+institution: Narula Institute of Technology
 quote: Riding roller coaster of life
 github_user: Bosankus
 ---
