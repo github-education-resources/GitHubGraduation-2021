@@ -51,9 +51,7 @@ try {
     educationWeb.hasPack(actionEvent.pullAuthor),
     airtable.fetch2021Graduate(actionEvent.pullAuthor)
   ]).catch((errors)=>{
-    for(const error of errors) {
-      console.log(error)
-    }
+    for (const [key, value] of Object.entries(errors)) console.error(key, value);
   })
 
   const pull = results[0]
