@@ -1,6 +1,6 @@
 ---
 name: Shivam Hande
-nnstitution:  MSS CET,Jalna
+institution:  MSS CET,Jalna
 quote: "fix the issue, instead of creating""
 github_user: aishivam
 ---
