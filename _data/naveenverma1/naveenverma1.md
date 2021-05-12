@@ -1,6 +1,6 @@
 ---
-name: Naveen Verma 
-institution: Chandigarh University 🚩 
-quote: The more you sweat in peace, the less you bleed in war
+name: NAVEEN-VERMA 
+institution: CHANDIGARH-UNIVERSITY 🚩 
+quote: MAY-THE-FORCE-BE-WITH-YOU 
 github_user: naveenverma1
 ---
