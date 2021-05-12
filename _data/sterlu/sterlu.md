@@ -1,6 +1,6 @@
 ---
 name: Nikola Vuković
 institution: University of Belgrade - Faculty of Mathematics
-quote: I legit do not know how I got here...
+quote: Mora da se jede.
 github_user: sterlu
 ---
