@@ -1,7 +1,8 @@
 
 ---
-name: NITIN DOGRA
-institution: NATIONAL INSTITUTE OF TECHNOLOGY HAMIRPUR
-quote: HARD WORK always beats talent
-github_user: Ankit1598
+name: Nitin Dogra
+institution: National Institute of Technology Hamirpur
+quote: HARD WORK always beats talent 
+github_user: nitindogra 
+
 ---
