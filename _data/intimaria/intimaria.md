@@ -1,6 +1,6 @@
 ---
-name: Intimaria
-institution: Facultad Info, UNLP, Argentina  🚩
-quote: One must allow the images to form with all their associations before one criticises. ‘If one is critical too soon, they will not form at all.’ - Yeats
+name: Intimaria 🐼
+institution: Facultad de Informática, UNLP, Argentina
+quote: 'Education is not the filling of a pail, but the lighting of a fire.' ~ William Butler Yeats
 github_user: Intimaria
 ---
