@@ -1,6 +1,6 @@
 ---
 name: Shane
 institution: Vanderbilt University
-quote: No time like the present.
+quote: It's kind of fun to do the impossible.
 github_user: shanecs
 ---
