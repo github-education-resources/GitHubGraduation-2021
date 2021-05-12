@@ -1,10 +1,10 @@
 ---
-name:Tejas Pramod Gathekar
+name: Tejas Pramod Gathekar
 
-institution:MGMs College of Engineering Nanded
+institution: MGMs College of Engineering Nanded
 
-quote:dont loose hopes until your sure
+quote: dont loose hopes until your sure
 
-github_user:TejasG-007
+github_user: TejasG-007
 ---
 
