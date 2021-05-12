@@ -1,6 +1,6 @@
 ---
 name: Brooke Moss
 institution: Longmeadow High School
-quote: I suggest to everyone: Look in the mirror. Ask yourself: Who are you? What are your talents? Use them, and do what you love.
+quote: If a machine is expected to be infallible, it cannot also be intelligent. -Alan Turing
 github_user: EarlJr53
 ---
