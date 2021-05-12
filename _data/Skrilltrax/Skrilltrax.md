@@ -1,6 +1,6 @@
 ---
 name: Aditya Wasan
 institution: Bhagwan Parshuram Institute of Technology
-quote: Netflix and chill ✖️ Hentai with senpai ✔️
+quote: I wish I could put a meme here 👀
 github_user: Skrilltrax
 ---
