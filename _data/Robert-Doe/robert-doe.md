@@ -1,4 +1,6 @@
-Robert Doe
-Kwame Nkrumah University of Science and Technology
-Class of 2021
-~Cumulus~
+---
+name: ROBERT DOE
+institution:KNUST
+quote: He who wishes to sing will always find a song
+github_user: robert-doe
+---
