@@ -2,5 +2,5 @@
 name: Edje
 institution: Wheaton-College-MA🚩
 quote: NodeJS for the win!
-github_user: Edje123
+github_user: edje123
 ---
