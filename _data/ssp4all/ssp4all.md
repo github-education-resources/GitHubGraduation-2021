@@ -1,6 +1,6 @@
 ---
 name: Suraj Pawar
 institution: NC State Univerisity
-quote: Esse quam videri
+quote: Think and Do
 github_user: ssp4all
 ---
