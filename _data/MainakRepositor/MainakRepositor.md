@@ -1,7 +1,7 @@
   
 ---
-name: Mainak Chaudhuri
-institution: SRM University
+name: MAINAK CHAUHDURI
+institution: HackerRank
 quote: Establish the new code order
 github_user: MainakRepositor
 ---
