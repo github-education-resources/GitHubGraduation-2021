@@ -1,6 +1,6 @@
 ---
 name: Isabel Rubim
-institution: Valencia High School
+institution: Pontifícia Universidade Católica de Goiás
 quote: Knowledge is power.
 github_user: isabelrubim
 ---
