@@ -1,6 +1,6 @@
 ---
 name: Ankit Singh
 institution: Chandigarh University
-quote: Knowledge is Power
+quote: In order to be irreplaceable, one must always be different.
 github_user: ankitzm
 ---
