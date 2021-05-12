@@ -1,4 +1,3 @@
-
 ---
 name: Ana Leticia Ma
 institution: Rio Hondo College 
