@@ -1,4 +1,6 @@
-name: SHALOM T ALEXANDER 
-institution: MAHATMA GANDHI MISSION COLLEGE OF ENGINEERING AND TECHNOLOGY NOIDA-62 🚩
-quote: I'm a musician who pushes audio files to github. Just kiddin!.
+---
+name: Shalom T Alexander  
+institution: Mahatma Gandhi Mission College of Engineering and Technology, Noida-62
+quote: I'm a Musician who pushes audio files to GitHub, Hehe just kiddin!.
 github_user: shalomalexander
+---
