@@ -1,7 +1,7 @@
 ---
 name: Roy Levy
 institution: Bar-Ilan University
-quote: If you want it go get it
+quote: he who says he can and he who says he can't are both usually right
 github_user: RoyzLevy
 ---
 
