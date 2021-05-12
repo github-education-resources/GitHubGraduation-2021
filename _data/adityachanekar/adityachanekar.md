@@ -1,4 +1,6 @@
+---
 name: Vinayak alias Aditya Chanekar
 institution: Goa College of Engineering
-quote: We're all slaves of causality
+quote: Make each day your Masterpiece
 github_user: adityachanekar
+---
