@@ -1,4 +1,6 @@
-name: Krushi Navinbhai Thakkar 
-institution: Ganpat University 
-quote: Life is what happens when you're busy making other plans 
-github_user: krushi-21 
+---
+name: Krushi navinbhai Thakkar
+institution: Ganpat University
+quote: If at first you don't succeed, fail again.
+github_user: krushi-21
+---
