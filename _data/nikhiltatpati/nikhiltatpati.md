@@ -1,6 +1,6 @@
 ---
 name: Nikhil Tatpati
-institution: Fr. C. Rodrigues Institute Of Technology
+institution: Fr. Conceicao Rodrigues Institute of Technology
 quote: With great power comes great responsibility
 github_user: nikhiltatpati
 ---
