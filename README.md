@@ -14,7 +14,7 @@ Consider that all the information that you add to this repository will be public
 # Who can apply 📝
 We invite any student that has graduated, or plans to graduate, in 2021 to apply to the yearbook. This includes bootcamps, code camps, high school graduates, Master's graduates, Ph. D. Graduates, etc.
 
-The eligibility criteria are -
+The eligibility criteria are as follows-
 1. You have been verified as a student with the GitHub Student Developer Pack. Not yet a part of the Pack? [Apply here](https://education.github.com/discount_requests/student_application?utm_source=2021-06-05-GitHubGraduation).
 2. You have not participated in a past GitHub Graduation event.
 
@@ -77,7 +77,7 @@ The first 5,000 successfully merged PRs will receive a custom holographic develo
 What does this mean? We will use your public GitHub profile information to create a trading card. To ensure your trading card best reflects you, please make sure your GitHub profile picture and bio are up to date and what you would like shown on the card.
 
 # Graduation Day 🎓
-Don't forget to watch the livestream! 
+Don't forget to watch the livestream! It will be a huge experience for you this year. Be there! 
 
 - 📆 Saturday, June 5, 2021
 - ⏰ 9:00am PT | 21:30 IST
