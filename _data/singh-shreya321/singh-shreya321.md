@@ -1,6 +1,6 @@
 ---
 name: Shreya Singh
 institution: IIIT Bangalore
-quote: Too lazy to do anything 
+quote: The important thing is to never STOP questioning.
 github_user: singh-shreya321
 ---
