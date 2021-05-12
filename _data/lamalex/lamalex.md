@@ -1,6 +1,6 @@
 ---
 name: Alexander Launi
 institution: Old Dominion University
-quote:  In civilizations without boats, dreams dry up, espionage takes the place of adventure and the police take the place of pirates. - Michel Foucault
+quote: Without boats dreams dry up espionage takes the place of adventure and cops the place of pirates 
 github_user: lamalex
 ---
