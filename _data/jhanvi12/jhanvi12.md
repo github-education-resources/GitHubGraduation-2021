@@ -1,10 +1,6 @@
-<html>
-  <head>
-  </head>
-  <body>
-Name : Jhanvi Uday <br/>
-Institution : Indira Gandhi Delhi Technical University for Women <br/>
-Quote : The art is called debugging , where prerequisite is being as exotic as a developer . <br/>
-Github username : jhanvi12
-  </body>
-  </html>
+---
+name: Jhanvi Uday
+institution: IGDTUW 🚩 # no longer than 58 characters
+quote: Debugging is an art and Developer is an artist .
+github_user: jhanvi12
+---
