@@ -1,0 +1,5 @@
+
+name: Jawahir Mohamed Rifkhan
+institution: Institute of informatics Technology
+quote: Don’t stop thinking about tomorrow. It’ll soon be here
+github_user: RifkhanJm
