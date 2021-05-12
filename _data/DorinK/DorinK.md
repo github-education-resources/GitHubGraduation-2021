@@ -1,7 +1,7 @@
 ---
 name: Dorin Keshales
 institution: Bar-Ilan University
-quote: Go machine learning or go home
+quote: dd
 github_user: DorinK
 ---
 
