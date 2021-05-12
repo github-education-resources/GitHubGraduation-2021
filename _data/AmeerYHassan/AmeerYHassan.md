@@ -1,6 +1,6 @@
 ---
 
-name: AmeerYHassan # No longer than 28 characters
+name: Ameer Hassan # No longer than 28 characters
 
 institution: New Jersey Institute of Technology 🚩 # no longer than 58 characters
 
