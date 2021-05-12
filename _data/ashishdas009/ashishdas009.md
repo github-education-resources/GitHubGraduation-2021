@@ -1,6 +1,6 @@
 ---
 name: Ashish Das
 institution: New York University
-quote: Awesome
+quote: Awesome cool
 github_user: ashishdas009
 ---
