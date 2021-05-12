@@ -1,3 +1,6 @@
-| Name  | Institution | Quote | github_user|
-| ------------- | ------------- | ------------- | ------------- |
-| Ayush Suresh  | St. John's School | "So long, and thanks for all the fish" | ayushboss |
+---
+name: Ayush Suresh
+institution: St. John's School 
+quote: I'm only as good as my last word, my last hook, my last bridge. 
+github_user: ayushboss
+---
