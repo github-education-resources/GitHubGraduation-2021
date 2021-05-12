@@ -1,7 +1,6 @@
 ---
-name: Giovanni Beijl 
-institution: Grafisch Lyceum Utrecht 
-quote: The more you know who you are, and what you want. The less you'll let
-things upset you. 
-github_user: Giotje
+name: Giotje # No longer than 28 characters
+institution: Grafisch Lyceum Utrecht 🚩 # no longer than 58 characters
+quote: code keem at checkout
+github_user: Giotje_
 ---
