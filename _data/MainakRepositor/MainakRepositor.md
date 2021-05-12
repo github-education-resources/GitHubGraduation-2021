@@ -2,6 +2,6 @@
 ---
 name: Mainak Chaudhuri
 institution: SRM University
-quote: Establish the new code order
-github_user: MainakRepositor
+quote: Establish the New Code Order
+github_user: MainakRepositor 
 ---
