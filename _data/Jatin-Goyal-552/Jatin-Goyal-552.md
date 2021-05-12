@@ -1,4 +1,3 @@
-
 ---
 name: Jatin Goyal 
 institution: Indian Institute Of Information Technology Vadodara 
