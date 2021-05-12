@@ -1,6 +1,6 @@
 ---
 name: Dillion Verma
 institution: University of Waterloo
-quote: Think critically.
+quote: Learning never stops
 github_user: dillionverma
 ---
