@@ -1,6 +1,6 @@
 ---
-name: MIKL BARTON
-institution: HACK REACTOR
-quote: YOU GOT THIS
-github_user: MIKLBARTON
+name: Mikl Barton
+institution: Hack Reactor
+quote: You got this.
+github_user: miklbarton
 ---
