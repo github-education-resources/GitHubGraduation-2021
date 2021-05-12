@@ -1,4 +1,6 @@
-name: Fardin
-institution: Pine Ridge
-quote: Effort always pays off
-github_user: 73206587
+---
+name: Fardin Faruk
+institution: Pine Rudge
+quote: Effort Pays Off
+github_user: Fard-Faru
+---
