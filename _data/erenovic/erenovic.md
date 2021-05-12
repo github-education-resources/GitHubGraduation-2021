@@ -1,11 +1,6 @@
-
 ---
-name: Eren Cetin
-
-institution: Koc University
-
-quote:
-> *Graduated young - now they're saying I'm a mogul* <br />
-> *People ask me what my address is I tell them: Global*
+name: Eren Cetin # No longer than 28 characters
+institution: Koc University 🚩 # no longer than 58 characters
+quote: I’m trying real hard to be the shepherd. # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
 github_user: erenovic
 ---
