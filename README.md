@@ -71,6 +71,8 @@ Not sure what to say? Even a "thank-you teachers!" in your local language is app
 
 [Share your message to teachers.](https://github.com/education/GitHubGraduation-2021/files/6448974/GitHub.Graduation.Teacher.Video.Project.pdf)
 
+::) 
+
 # A note on swag 🛍
 The first 5,000 successfully merged PRs will receive a custom holographic developer trading card with their GitHub status in the mail. 
 
