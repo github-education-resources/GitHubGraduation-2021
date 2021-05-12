@@ -1,6 +1,6 @@
 ---
 name: Priyansh Singhal
-institution: Dr. Akhilesh Das Gupta institute of Technology and Management
+institution: Akhilesh Das Gupta institute of Technology & Management
 quote: Errors are what makes the website better.
 github_user: priyansh18
 ---
