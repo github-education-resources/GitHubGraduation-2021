@@ -1,6 +1,6 @@
 ---
-name: PHUONG THI MINH NGUYEN
-institution: MAHARISHI INTERNATIONAL UNIVERSITY
-quote: Stay positive
+name: PHUONG NGUYEN
+institution: Maharishi International University
+quote: Stay positive!
 github_user: phuongnguyen0610
 ---
