@@ -1,4 +1,4 @@
 name: Samer Rustum 
 institution: Sir John A Macdonald Secondary School
 quote: Lessgo
-github_user: 43387528
+github_user: Samer-Rustum
