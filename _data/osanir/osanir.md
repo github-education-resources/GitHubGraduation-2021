@@ -1,6 +1,6 @@
 ---
 name: Onur SANIR
-institution: To Be Determined
+institution: Karadeniz Technical University
 quote: All I see blonde, brunette, redhead. -Cypher
 github_user: osanir
 ---
