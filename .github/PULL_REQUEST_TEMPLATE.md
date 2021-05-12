@@ -4,6 +4,7 @@ This pull request template helps you complete an application to the **Class of 2
 
 ## Checklist ✅
 
+
 - [✅] I have read the instructions on the README file before submitting my application. 
 - [✅] I made my submission by creating a folder on the `_data` folder and followed the naming convention mentioned in the instructions (`<username>`) and markdown file.
 - [✅] I have submitted a [swag shipping form](https://airtable.com/shrM5IigBuRFaj33H).
