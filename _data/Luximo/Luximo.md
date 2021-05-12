@@ -1,6 +1,6 @@
 ---
 name: Moses Otuvedo
 institution: University Of Jos
-quote: Stealthy is a deadly tactic...
+quote: Stealthy is a deadly tactic
 github_user: Luximo
 ---
