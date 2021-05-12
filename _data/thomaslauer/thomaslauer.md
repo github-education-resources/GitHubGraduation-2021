@@ -1,6 +1,6 @@
 ---
 name: Thomas Lauer
 institution: UC San Diego
-quote: Hello world!
+quote: There's never enough time to do all the nothing you want.
 github_user: thomaslauer
 ---
