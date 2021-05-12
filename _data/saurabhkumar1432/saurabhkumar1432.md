@@ -1,4 +1,7 @@
-username - saurabhkumar1432
-name - saurabh kumar
-institution - indian Institute of information technology sricity
-quote - " never give up "
+---
+name: saurabh kumar
+institution: IIITS
+quote: never give up and fight till last
+github_user: saurabhkumar1432
+---
+
