@@ -1,4 +1,3 @@
-
 ---
 name: Miguel Oscar García Tolentino 
 institution: Tec Milenio 
