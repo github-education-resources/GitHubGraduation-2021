@@ -1,4 +1,4 @@
-name: Jacob Cavazos-England
-institution: Lambda School
-quote: Can't make an omelette without breaking a few eggs
-github_user: jeengland
+Jacob Cavazos-England
+Lambda School
+Can't make an omelette without breaking a few eggs
+jeengland
