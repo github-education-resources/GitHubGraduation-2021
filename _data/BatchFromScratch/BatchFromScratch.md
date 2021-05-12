@@ -1,6 +1,6 @@
 ---
 name: Bene # No longer than 28 characters
 institution: Eckener-Gymnasium 🚩
-quote: Even my dog knows the dates of the Punic War - my almost favourite teacher
+quote: Even my dog could have completed that assignment on time
 github_user: BatchFromScratch
 ---
