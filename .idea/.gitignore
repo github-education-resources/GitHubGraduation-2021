@@ -1,0 +1,7 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# CodeStream ignored files
+/codestream.xml
+# Editor-based HTTP Client requests
+/httpRequests/
