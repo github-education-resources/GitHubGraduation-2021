@@ -31,7 +31,7 @@ Information submitted to [the swag shipment form](https://airtable.com/shrM5IigB
 
 ## 2. Add yourself to Yearbook 🏫
 
-Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
+Replace `BonyGeorge` with your GitHub username in this guide.
 
 ### First, create the folder _data/YOUR-USERNAME/ 
 Fork this repository, create a new folder inside the `_data` folder, and name it with your username. It should look something like this `_data/<YOUR-USERNAME>/`. Ex.
@@ -48,10 +48,10 @@ _data/MonaTheOctocat/MonaTheOctocat.md
 Copy the next template into your file, delete the boilerplate data and fill the information with yours.
 ```
 ---
-name: FULLNAME-OR-NICKNAME # No longer than 28 characters
+name: Abanoub George Lamie # No longer than 28 characters
 institution: INSTITUTION-NAME 🚩 # no longer than 58 characters
-quote: YOUR-SENIOR-QUOTE # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
-github_user: YOUR-GITHUB-USERNAME
+quote: Senior 2021 # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+github_user: BonyGeorge
 ---
 ```
 
