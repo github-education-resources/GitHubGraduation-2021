@@ -1,4 +1,4 @@
-name: Anand
-institution: New York University
-quote: coders... find a way
+name: ANAND-CHITALE
+institution: NEW-YORK-UNIVERSITY
+quote: CODERS-FIND-A-WAY
 github_user: anandc823
