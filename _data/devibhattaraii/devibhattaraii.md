@@ -1,6 +1,6 @@
-
-
+---
 name: Devi Bhattarai
-institution: Institute of Engineering Pulchowk Campus 
-quote: Expand. Evolve. And Elevate.
+institution: Institure of Engineering Pulchowk Campus
+quote: Expand Evolve and Elevate
 github_user: devibhattaraii
+---
