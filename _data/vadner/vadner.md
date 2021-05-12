@@ -1,6 +1,6 @@
 ---
 name: Chris Vadner
 institution: St. Cloud State University
-quote: null
+quote: Hello World!
 github_user: vadner
 ---
