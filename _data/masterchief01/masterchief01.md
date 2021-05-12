@@ -1,6 +1,6 @@
 ---
 name: Pranjal Walia
-institution: International Institute of Information Technology, Bangalore 🚩
+institution: IIIT, Bangalore 🚩
 quote: Fake it, till you make it!
 github_user: masterchief01
 ---
