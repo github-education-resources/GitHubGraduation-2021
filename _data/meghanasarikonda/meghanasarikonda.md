@@ -1,6 +1,6 @@
 ---
 name: Meghana 
-institution: Univ AI 🚩 characters
+institution: UnivAI 🚩 characters
 quote: Everything is possible with determination and patience
 github_user: meghanasarikonda
 ---
