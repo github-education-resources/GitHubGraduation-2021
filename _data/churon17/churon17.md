@@ -1,6 +1,6 @@
 ---
 name: Jean Carlos Alarcon
 institution: Universidad Nacional de Loja
-quote: What is left for later, is never done.
+quote: Things that are left for later are never done.
 github_user: churon17
 ---
