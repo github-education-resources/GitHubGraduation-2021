@@ -1,4 +1,4 @@
 name: David Wang
-institution: University of Michigan - Ann Arbor
+institution: Woodbury High School
 quote: Good luck don't fail!
 github_user: Bairminer
