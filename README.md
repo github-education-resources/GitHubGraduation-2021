@@ -33,17 +33,17 @@ Information submitted to [the swag shipment form](https://airtable.com/shrM5IigB
 
 Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
-### First, create the folder _data/YOUR-USERNAME/ 
+### First, create the folder _data/PrithirajN/ 
 Fork this repository, create a new folder inside the `_data` folder, and name it with your username. It should look something like this `_data/<YOUR-USERNAME>/`. Ex.
 
 ```
-_data/MonaTheOctocat/
+_data/PrithirajN/
 ```
 ### Second, add your profile information
 Create a markdown file in your folder following the convention `<YOUR-USERNAME>.md`. Ex.
 
 ```
-_data/MonaTheOctocat/MonaTheOctocat.md
+_data/PrithirajN/PrithirajN.md
 ```
 Copy the next template into your file, delete the boilerplate data and fill the information with yours.
 ```
