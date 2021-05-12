@@ -1,4 +1,6 @@
-name: MANISH KUMAR
-institution: GALGOTIAS UNIVERSITY
-quote: Don’t Let Yesterday Take Up Too Much Of Today
+---
+name: Manish Kumar
+institution: Galgotias University
+quote:  Learning never stops.
 github_user: groot-off
+---
