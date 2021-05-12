@@ -1,6 +1,6 @@
 ---
-Name: Anurag Aggarwal
-Institution: Guru Gobind Singh Indraprastha University
-Quote: Education is our passport to the future.
-Github_user: kanurag94
+name: Anurag Aggarwal
+institution: Guru Gobind Singh Indraprastha University
+quote: Education is our passport to the future.
+github_user: kanurag94
 ---
