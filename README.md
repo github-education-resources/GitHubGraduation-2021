@@ -31,10 +31,10 @@ Information submitted to [the swag shipment form](https://airtable.com/shrM5IigB
 
 ## 2. Add yourself to Yearbook 🏫
 
-Replace `tejaswarathe` with your GitHub username in this guide.
+Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
-### First, create the folder _data/tejaswarathe/ 
-Fork this repository, create a new folder inside the `_data` folder, and name it with your username. It should look something like this `_data/tejaswarathe/`. Ex.
+### First, create the folder _data/<YOUR-USERNAME>/ 
+Fork this repository, create a new folder inside the `_data` folder, and name it with your username. It should look something like this `_data/<YOUR-USERNAME>/`. Ex.
 
 ```
 _data/MonaTheOctocat/
