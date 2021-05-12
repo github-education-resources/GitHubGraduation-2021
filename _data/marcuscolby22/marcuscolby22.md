@@ -1,6 +1,6 @@
 ---
-name: N1S
-institution: Github University
-quote: git fetch main/graduate
+name: Colbin
+institution: UIUC
+quote: setGraduated(true)
 github_user: marcuscolby22
 ---
