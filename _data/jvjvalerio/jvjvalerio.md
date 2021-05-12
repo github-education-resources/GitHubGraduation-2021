@@ -2,5 +2,5 @@
 name: JULIO VALERIO
 institution: LAGUARDIA COMMUNITY COLLEGE
 quote: TECHNOLOGY IS BEST WHEN IT BRINGS PEOPLE TOGETHER
-github_user: JVJVALERIO
+github_user: jvjvalerio
 ---
