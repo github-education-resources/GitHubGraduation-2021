@@ -1,9 +1,7 @@
-```
 ---
 name: Rijul Vohra
-institution: University of Southern California
+institution: University of Southern 
 quote: Fight On
 github_user: rijulvohra
 ---
-```
 
