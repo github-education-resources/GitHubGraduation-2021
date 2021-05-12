@@ -7,7 +7,7 @@ The first 5,000 pull request successfully merged into the repository by May 27 w
 
 
 ## Privacy Notice 👀
-Consider that all the information that you add to this repository will be publicly available.
+Consider that all the information that you add to this repository will be publicly available. 
 
 - If you don't feel comfortable with displaying your full name, you can include a short name or nickname instead.
 
