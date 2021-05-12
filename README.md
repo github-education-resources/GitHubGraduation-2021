@@ -3,7 +3,7 @@
 
 This repository contains the [yearbook](https://education.github.com/graduation/yearbook) for **GitHub Graduation 2021**. By issuing a pull request to this repository, you can request to be added to the Class of 2021. 
 
-The first 5,000 pull request successfully merged into the repository by May 27 will receive custom swag in the mail. .
+The first 5,000 pull request successfully merged into the repository by May 27 will receive custom swag in the mail.
 
 
 ## Privacy Notice 👀
