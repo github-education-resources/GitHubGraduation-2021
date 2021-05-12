@@ -1,6 +1,6 @@
 ---
 name: Anjali Anne Prathap
 institution: Jyothi Engineering College
-quote: Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.
+quote: If you follow your dreams, you are capable of anything.
 github_user: AnjaliAnneP
 ---
