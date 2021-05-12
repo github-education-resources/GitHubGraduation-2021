@@ -1,8 +1,6 @@
-# Nolunga.md
-
 ---
-
-## **name: Nolunga
-institution: IIE Varsity College Sandton
-quote: Call me "No lungs" because I'll take your breath away
-github_user: Nolunga**
+name: Nolunga Ngcakane
+institution: IIE Varsity College Sandton 
+quote: People who are crazy enough to think they can change the world, are the ones who do. – Rob Siltanen
+github_user: Nolunga
+---
