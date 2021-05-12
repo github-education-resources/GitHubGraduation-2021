@@ -1,6 +1,6 @@
 ---
 name: Himanshu Chavda
 institution: Sardar Vallabhbhai Patel Institute of Technology
-quote: Be nice to people... maybe it'll be unappreciated, unreciprocated, or ignored, but spread the love anyway. We rise by lifting others.
+quote: You call it privacy, we call it freedom
 github_user: GPCSSI2020
 ---
