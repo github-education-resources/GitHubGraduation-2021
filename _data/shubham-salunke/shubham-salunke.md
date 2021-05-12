@@ -1,4 +1,6 @@
-name: SHUBHAM SALUNKE
-institution: LTCoE, KOPARKHAIRANE
-quote: When killing them with kindness doesn't work, try a hockey stick. Results may vary.
+---
+name: Shubham Salunke
+institution: LTCoE, Koparkhairane
+quote: Remember, every minute you waste, someone out there is getting smart.
 github_user: shubham-salunke
+---
