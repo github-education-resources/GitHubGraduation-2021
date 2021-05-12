@@ -1,6 +1,6 @@
 ---
-name: Kadir Karagöz
+name: Kadir Karagoz
 institution: Anadolu University
-quote: work hard, play hard
+quote: Work hard, play hard
 github_user: kdrkrgz
 ---
