@@ -1,6 +1,6 @@
 ---
 name: Lucas Araújo Pena
 institution: Universidade de Brasilia
-quote: Best now than never.
+quote: I don't have friends. I got family. - Toretto
 github_user: lucpena
 ---
