@@ -1,3 +1,7 @@
-name: Abdelrahman Khattab
-institution: German University in Cairo (GUC)
-github_user: abzokhattab
+name : Abdelrahman Khattab
+
+institution : German University in Cairo (GUC)
+
+quote :
+
+username : Abzokhattab 
