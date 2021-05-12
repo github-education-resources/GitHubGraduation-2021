@@ -1,6 +1,6 @@
 ---
 name: mr.fr3qu3n533 
 institution: Lovely Professional University 🚩 
-quote: Sometimes it's the very people who no one imagines anything of who do the things that no one can imagine
+quote: Everytime you quit, someone else live your dreams.
 github_user: Pratyaksh06
 ---
