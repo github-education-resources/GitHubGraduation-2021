@@ -1,6 +1,6 @@
 ---
 name: Suryansh D Kumar 
-institution: New York UNiversity 
-quote: if (self.graduation_year == 2021) : self.age = self.age - 1 
+institution: New York University 
+quote:  How many quotes would a quote quoter quote, if you banned a quote quoter from quoting?
 github_user: suryansh1
 ---
