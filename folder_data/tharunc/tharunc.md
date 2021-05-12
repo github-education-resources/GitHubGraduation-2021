@@ -1,0 +1,6 @@
+---
+name: THARUN C
+institution: PANIMALAR ENGINEERING COLLEGE
+quote: " _THE GREAT AIM OF EDUCATION IS NOT KNOWLEDGE, BUT ACTION_"
+github_user: tharunc
+---
