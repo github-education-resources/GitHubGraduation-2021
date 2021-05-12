@@ -1,0 +1,6 @@
+---
+name: RAUNIT SINGH
+institution: JABALPUR ENGINEERING COLLEGE 🚩
+quote: WAKE UP CODE AND SLEEP ARE PROGRAMMERS DAILY ROUTINE
+github_user: RaunitS
+---
