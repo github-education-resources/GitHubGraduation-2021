@@ -1,6 +1,6 @@
 ---
-name: Siri Lalitha Adapa
-institution: Vasireddy Venkatadri Institute of Technology 
-quote: Start where you are! Use what you have!
-github_user: sirilalithaadapa
+name : Siri Lalitha Adapa
+insitution : Vasireddy Venkatadri Institute of Technology
+quote : Work Hard , u will suceed 
+github_user : sirilalithaadapa
 ---
