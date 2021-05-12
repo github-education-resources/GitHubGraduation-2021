@@ -33,7 +33,7 @@ Information submitted to [the swag shipment form](https://airtable.com/shrM5IigB
 
 Replace `hrit-ikkumar` with your GitHub username in this guide.
 
-### First, create the folder _data/YOUR-USERNAME/ 
+### First, create the folder _data/hrit-ikkumar/ 
 Fork this repository, create a new folder inside the `_data` folder, and name it with your username. It should look something like this `_data/hrit-ikkumar/`. Ex.
 
 ```
