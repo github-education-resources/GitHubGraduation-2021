@@ -1,6 +1,6 @@
 ---
 name: Ajeel Ahmed
 institution: COMSATS University, Islamabad
-quote: Being a geek is all about learning the inventories of things.
+quote: So long and thanks for all the fish!
 github_user: ajeelahmed1998 
 ---
