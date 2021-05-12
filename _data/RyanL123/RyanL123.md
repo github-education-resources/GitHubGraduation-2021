@@ -1,6 +1,6 @@
 ---
 name: Ryan Li
 institution: John Fraser Secondary School 🚩
-quote: 
+quote: Measure twice, cut once
 github_user: RyanL123
 ---
