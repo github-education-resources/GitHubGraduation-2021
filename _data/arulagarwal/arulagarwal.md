@@ -1,5 +1,3 @@
-name: Arul Agarwal <br>
-institution: Vellore Institute of Technology, Vellore <br>
-quote: Hoping for a better future.<br>
-github_user: arulagarwal <br>
----
+| Name  |   insitution|qurote   |  username |   |
+|---|---|---|---|---|
+|Arul Agarwal|  Vellore Institute of Technology, Vellore| Hoping for a brigther future  | arulagarwal  | 
