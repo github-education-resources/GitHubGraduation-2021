@@ -1,6 +1,6 @@
 ---
 name: Poornima Dave
 institution: Galgotias University 🚩 
-quote: Simplicity is about subtracting the obvious and adding the meaningful 
+quote: Technology is best when it brings people together 
 github_user: poornima027
 ---
