@@ -138,7 +138,7 @@ try {
       feedback.push(`* *Uh Oh! I've found some issues with where you have created your files!* \n\t${isFilePathValid.errors?.join('\n')}`)
     }
 
-    if(!isMarkdownValid.isValid) {
+    if(isMarkdownValid.isValid === false) {
       console.log("markdown is invalid")
       feedback.push(`* *Please take another look at your markdown file, there are errors:* \n\t${isMarkdownValid.errors?.join('\n')}`)
     }
