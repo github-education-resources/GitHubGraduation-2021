@@ -1,6 +1,6 @@
 ---
 name: Patrpg 
-institution: La Universidad Andrés Bello
+institution: Universidad Andrés Bello
 quote: Nothing is impossible
 github_user: Patrpg
 ---
