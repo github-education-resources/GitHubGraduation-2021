@@ -1,6 +1,6 @@
 ---
 name: RajitPaul
-institution: LovelyProfessionalUniversity 
-quote: Exploring while enjoying the process and contributin gwhile learning.
+institution: Lovely Professional University 
+quote: Exploring while enjoying the process and contributing while learning.
 github_user: RajitPaul11
 ---
