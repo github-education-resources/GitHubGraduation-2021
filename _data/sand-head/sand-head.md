@@ -1,6 +1,6 @@
 ---
 name: Justin Schweigert
 institution: The University of Memphis
-quote: Dude, suckin' at something is the first step to being sorta good at something.
+quote: If every porkchop were perfect, we wouldn't have hot dogs!
 github_user: sand-head
 ---
