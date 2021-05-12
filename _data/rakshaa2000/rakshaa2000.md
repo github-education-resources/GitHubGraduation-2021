@@ -1,6 +1,6 @@
 ---
-name: Rakshaa Viswanathan
-institution: National Institute of Technology, Tiruchirappalli
-quote: We need to remember what’s important in life: Friends, waffles and work. Or waffles, friends, work. It doesn’t matter. But work is third - Leslie Knope
+name: Rakshaa Viswanathan # No longer than 28 characters
+institution: National Institute of technology, Tiruchirappalli 🚩 # no longer than 58 characters
+quote: Cool, cool, cool, cool, cool. No doubt, no doubt, no doubt.# no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
 github_user: rakshaa2000
 ---
