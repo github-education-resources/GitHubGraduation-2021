@@ -1,6 +1,6 @@
 ---
-name: Sahil Chachra
-institution: REVA University
-quote: You never fail when you try. Either you achieve it or you learn from it.
-github_user: SahilChachra
+name: Sagar Shah
+institution: Northeastern University
+quote: Fall 10th but make sure you get up 11th time and get going 
+github_user: sagarshah95
 ---
