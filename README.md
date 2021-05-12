@@ -6,7 +6,7 @@ This repository contains the [yearbook](https://education.github.com/graduation/
 The first 5,000 pull request successfully merged into the repository by May 27 will receive custom swag in the mail. 
 
 
-## Privacy Notice 👀
+## Privacy Notic 👀
 Consider that all the information that you add to this repository will be publicly available.
 
 - If you don't feel comfortable with displaying your full name, you can include a short name or nickname instead.
