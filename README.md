@@ -59,7 +59,7 @@ _Do not use special characters in the template above._
 
 ### Third, submit your Pull Request
 
-Go through the checklist on the pull request template to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section. 
+Go through the checklist on the [pull request template](https://github.com/education/GitHubGraduation-2021/blob/main/.github/PULL_REQUEST_TEMPLATE.md) to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section. 
 
 # 3. Share your story of a teacher who made an impact 👩‍🏫👨‍🏫
 This year, we want to hear stories of teachers or educators who made a difference on your journey in 2021. Similar to last year's ["A Message to the Octograds"](https://www.youtube.com/watch?v=w5HykygC43Y&t=7s) video, we're putting together a compilation of your stories. Every participant will level up their swag with an extra special design. To take part,
