@@ -1,0 +1,6 @@
+---
+name: José Daniel Montoya Salazar
+institution: Instituto Tecnológico de Costa Rica
+quote: Bachelor's Degree of Computer Engineering
+github_user: Joseda8
+---
