@@ -1,6 +1,6 @@
 ---
 name: Taufiq Dhanani
 institution: Georgia Tech
-quote: "...is this all about cheeseburgers?" - Bubbles
+quote: It's all probability
 github_user: dhanani94
 ---
