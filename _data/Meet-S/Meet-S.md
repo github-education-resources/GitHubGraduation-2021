@@ -1,3 +1,7 @@
-Name: Meet Mineshbhai Shah 
-Institute: SRM Institute of Science and Technology
-Github user: Meet-S
+---
+name: Meet Mineshbhai Shah
+institution: SRM Institute of Science and Technology
+
+github_user: Meet-S
+---
+
