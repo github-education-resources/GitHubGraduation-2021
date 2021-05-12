@@ -1,6 +1,6 @@
 ---
-name: Fragger
+name: Fragger 
 institution: NIT Rourkela 🚩 
-quote: live
-github_user: @rudranshsharma123
+quote: live 
+github_user: rudranshsharma123
 ---
