@@ -1,6 +1,6 @@
 ---
 name: Alex K
 institution: MS, Loyola University Chicago 🚩
-quote: “Give me six hours to chop down a tree and I will spend the first four sharpening the axe." Abraham Lincoln
+quote: “You cannot escape the responsibility of tomorrow by evading it today." Abraham Lincoln
 github_user: saniaky
 ---
