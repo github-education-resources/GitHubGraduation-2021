@@ -1,6 +1,6 @@
 ---
-name: Jashpreet Malhotra
-institution: Indira Gandhi Delhi Technical University for Women
-quote: Life is not about the destination it is about the journey
-github_user: jashpreet
+name: Piyush Maheshwari
+institution: Medicaps University, Indore
+quote: Life is full of exploration
+github_user: piyushmaheshwari65
 ---
