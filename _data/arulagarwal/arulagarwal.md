@@ -1,3 +1,6 @@
-| Name  |   insitution|qurote   |  username |   |
-|---|---|---|---|---|
-|Arul Agarwal|  Vellore Institute of Technology, Vellore| Hoping for a brigther future  | arulagarwal  | 
+---
+name: Arul Agarwal
+institution: Vellore Institute of Technolgoy, Vellore
+quote: Looking forward to a brigther future
+github_user: arulagarwal
+---
