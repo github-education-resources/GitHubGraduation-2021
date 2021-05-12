@@ -1,6 +1,6 @@
 ---
 name: Mayur Sawarkar
-institution: Ram meghe institute Amravati
-quote:Teachers open the door, but you must enter by yourself
+institution: prof. Ram Meghe institute amravati
+quote: Teacher open door for you, but u need to enter yourself
 github_user: EmpireMayur
 ---
