@@ -1,6 +1,0 @@
----
-name: Akshay Bhansali 
-institution: Ramaiah Institute of Technology 
-quote: Wow, I'm old 
-github_user: AkshayBhansali18
----
