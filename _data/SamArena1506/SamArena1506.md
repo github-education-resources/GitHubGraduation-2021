@@ -1,6 +1,6 @@
-name: Samriddh Kohli
-institution: Inderprastha Engineering College (IPEC)
-quote: When you come to realise, it's either 0 or 1. No midvalues.
+---
+name: SAMMY 
+institution: INDERPRASTHA ENGINEERING COLLEGE 🚩 
+quote: IT'S EITHER 0 OR 1, NO MIDVALUES.
 github_user: SamArena1506
-
-
+---
