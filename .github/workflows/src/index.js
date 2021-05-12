@@ -41,29 +41,39 @@ try {
 
   const feedback = []
 
+  let pull, user2021, user2020, hasSdp
+
   if(actionEvent.name === "review_requested" && actionEvent.requestedReviewer.login !== BOT_ACCOUNT_LOGIN) {
     return true
   }
 
-  const results = await Promise.all([
-    octokit.fetchPr(actionEvent.pullNumber),
-    airtable.userParticipated2020(actionEvent.pullAuthor),
-    educationWeb.hasPack(actionEvent.pullAuthor),
-    airtable.fetch2021Graduate(actionEvent.pullAuthor)
-  ]).catch((error)=>{
-    console.log(error)
-  })
+  try {
+    pull = await octokit.fetchPr(actionEvent.pullNumber)
+  }catch(err) {
+    console.log(err)
+  }
 
-  const pull = results[0]
-  const user2021 = results[3]
+  try {
+    user2021 = await airtable.fetch2021Graduate(actionEvent.pullAuthor)
+  } catch(err) {
+    console.log(err)
+  }
 
   // checks
 
   // graduated already in 2020?
-  const user2020 = results[1]
+  try {
+    user2020 = await airtable.userParticipated2020(actionEvent.pullAuthor)
+  } catch(err) {
+    console.log(err)
+  }
 
   // approved for the student/teacher development pack
-  const hasSdp = results[2]
+  try {
+    hasSdp = await educationWeb.hasPack(actionEvent.pullAuthor)
+  } catch(err) {
+    console.log(err)
+  }
 
   // Has the user completed the shipping form? (address must exist for the form to be submitted)
   const completedShippingForm = user2021 && user2021["Address Line 1"].length > 0
@@ -78,7 +88,7 @@ try {
   try {
     content = isFilePathValid.isValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
   } catch(err) {
-    feedpack.push("I was unable to view the content of the markdown file, please try again in a few minutes")
+    feedback.push("I was unable to view the content of the markdown file, please try again in a few minutes")
     console.log(err)
   }
 
