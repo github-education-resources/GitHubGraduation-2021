@@ -1,6 +1,6 @@
 ---
 name: Gaurang Shukla
-institution: Shri Ram Murti Smarak College of Engineering and Technology
+institution: SRMS CET, Bareilly
 quote: Hello World
 github_user: GaurangShukla
 ---
