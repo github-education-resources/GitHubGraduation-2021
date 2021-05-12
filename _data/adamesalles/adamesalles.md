@@ -1,6 +1,6 @@
 ---
 name: Eduardo Adame Salles
 institution: Fundação Getúlio Vargas
-quote: Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world. - Einstein.
+quote: I love learning things that can help people.
 github_user: adamesalles
 ---
