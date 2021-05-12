@@ -1,6 +1,6 @@
 ---
-name: Dotman14 # No longer than 28 characters
-institution: Indiana University Bloomington 🚩 # no longer than 58 characters
-quote: Dont be evil # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+name: Dotman14 
+institution: Indiana University Bloomington 
+quote: Dont be evil
 github_user: dotman14
 ---
