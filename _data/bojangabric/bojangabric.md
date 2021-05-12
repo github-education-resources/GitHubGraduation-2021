@@ -1,6 +1,6 @@
 ---
 name: Bojan Gabric
 institution: ITS - Information Technology School 🚩
-quote: If you want to win, you can't lose
+quote: If you intend to win, you must not lose.
 github_user: bojangabric
 ---
