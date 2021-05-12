@@ -1,4 +1,6 @@
+---
 name: Lakshay Sangwan
-institution: UIET, Kurukshetra Universtiy
-quote: live love and laugh
+institution: UIET, Kurukshetra University
+quote: Live Love Laugh
 github_user: lakshaysangwan
+---
