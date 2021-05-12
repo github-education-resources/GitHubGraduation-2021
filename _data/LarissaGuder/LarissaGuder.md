@@ -1,6 +1,6 @@
 ---
 name: Larissa Guder
-institution: SETREM
+institution: Faculdade Tres de Maio SETREM
 quote: Dont Panic
 github_user: LarissaGuder
 ---
