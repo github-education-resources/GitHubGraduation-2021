@@ -1,4 +1,6 @@
-name: Madhav A Dihora 
-institution: St. Clair College 🚩
-quote: Rise Above Ordinary: Dream, Believe, Achieve
+---
+name: MADHAV A DIHORA
+institution: ST. CLAIR COLLEGE 🚩 
+quote: DREAM, BELIEVE, ACHIEVE, EXPLORE 
 github_user: themadhavdihora
+---
