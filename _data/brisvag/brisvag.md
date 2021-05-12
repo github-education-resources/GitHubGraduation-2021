@@ -1,6 +1,6 @@
 ---
 name: Lorenzo Gaifas
 institution: University of Grenoble
-quote: git commit -m 'fixed, maybe'
+quote: I use arch btw
 github_user: brisvag
 ---
