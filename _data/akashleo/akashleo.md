@@ -1,0 +1,4 @@
+name: AKASH GHOSH 
+institution: ACADEMY OF TECHNOLOGY 
+quote: IF YOU ARE CODING OPEN SOURCE, YOU ARE CODING COMMUNISM.
+github_user: akashleo
