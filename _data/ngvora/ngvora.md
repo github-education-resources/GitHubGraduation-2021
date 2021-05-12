@@ -1,5 +1,6 @@
 ---
-name: Nehal 'Nel' Vora
+name: Nehal Vora 
 institution: The University of Alabama
-quote: Live in the present
+quote: Live in the present!
 github_user: ngvora
+---
