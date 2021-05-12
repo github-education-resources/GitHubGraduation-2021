@@ -1,9 +1,9 @@
 ![2021-github-graduation-social-card-1](https://user-images.githubusercontent.com/6633808/117580730-3ed6e180-b0ae-11eb-86c9-2bd01c7aa8b6.png)
 
 
-This repository contains the [yearbook](https://education.github.com/graduation/yearbook) for **GitHub Graduation 2021**. By issuing a pull request to this repository, you can request to be added to the Class of 2021. 
+This repository contains the [yearbook](https://education.github.com/graduation/yearbook) for **GitHub Graduation 2021**. By issuing a pull request to this repository, you can request to be added to the Class of 2021.
 
-The first 5,000 pull request successfully merged into the repository by May 27 will receive custom swag in the mail. 
+The first 5,000 pull request successfully merged into the repository by May 27 will receive custom swag in the mail.
 
 
 ## Privacy Notice 👀
@@ -20,7 +20,7 @@ The eligibility criteria are -
 
 # How to join the Class of 2021
 
-Here are two steps to join graduation and receive swag in the mail. 
+Here are two steps to join graduation and receive swag in the mail.
 1. [Fill out the **swag shipment form**](https://airtable.com/shrM5IigBuRFaj33H). Note: the form needs to be done before creating your Pull Request and does not guarantee participation in the event. Your PR must be successfully merged to be included and only the first 5,000 merged PRs will receive swag.
 2. **Submit a pull request** with your profile information to join the Yearbook and be highlighted in the graduation event.
 3. (optional) Level up your swag and make an additional appearance at graduation by **sharing a story** of a teacher who has made an impact in your education. More info below!
@@ -31,19 +31,19 @@ Information submitted to [the swag shipment form](https://airtable.com/shrM5IigB
 
 ## 2. Add yourself to Yearbook 🏫
 
-Replace `mehersaipreetam` with your GitHub username in this guide.
+Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
-### First, create the folder _data/mehersaipreetam/ 
+### First, create the folder _data/<YOUR-USERNAME>/
 Fork this repository, create a new folder inside the `_data` folder, and name it with your username. It should look something like this `_data/mehersaipreetam/`. Ex.
 
 ```
-_data/mehersaipreetam/
+_data/MonaTheOctocat/
 ```
 ### Second, add your profile information
-Create a markdown file in your folder following the convention `mehersaipreetam.md`. Ex.
+Create a markdown file in your folder following the convention `<YOUR-USERNAME.md`. Ex.
 
 ```
-_data/mehersaipreetam/mehersaipreetam.md
+_data/MonaTheOctocat/MonaTheOctocat.md
 ```
 Copy the next template into your file, delete the boilerplate data and fill the information with yours.
 ```
@@ -59,7 +59,7 @@ _Do not use special characters in the template above._
 
 ### Third, submit your Pull Request
 
-Go through the checklist on the pull request template to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section. 
+Go through the checklist on the pull request template to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section.
 
 # 3. Share your story of a teacher who made an impact 👩‍🏫👨‍🏫
 This year, we want to hear stories of teachers or educators who made a difference on your journey in 2021. Similar to last year's ["A Message to the Octograds"](https://www.youtube.com/watch?v=w5HykygC43Y&t=7s) video, we're putting together a compilation of your stories. Every participant will level up their swag with an extra special design. To take part,
@@ -72,12 +72,12 @@ Not sure what to say? Even a "thank-you teachers!" in your local language is app
 [Share your message to teachers.](https://github.com/education/GitHubGraduation-2021/files/6448974/GitHub.Graduation.Teacher.Video.Project.pdf)
 
 # A note on swag 🛍
-The first 5,000 successfully merged PRs will receive a custom holographic developer trading card with their GitHub status in the mail. 
+The first 5,000 successfully merged PRs will receive a custom holographic developer trading card with their GitHub status in the mail.
 
 What does this mean? We will use your public GitHub profile information to create a trading card. To ensure your trading card best reflects you, please make sure your GitHub profile picture and bio are up to date and what you would like shown on the card.
 
 # Graduation Day 🎓
-Don't forget to watch the livestream! 
+Don't forget to watch the livestream!
 
 - 📆 Saturday, June 5, 2021
 - ⏰ 9:00am PT | 21:30 IST
