@@ -1,6 +1,6 @@
 ---
 name: Vanshika Chokhani
-institution: Pune Intitute Of Computer Technology
+institution: Pune Institute Of Computer Technology
 quote: Open source is enjoyable
 github_user: vanshikachokhani
 ---
