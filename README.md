@@ -77,7 +77,7 @@ The first 5,000 successfully merged PRs will receive a custom holographic develo
 What does this mean? We will use your public GitHub profile information to create a trading card. To ensure your trading card best reflects you, please make sure your GitHub profile picture and bio are up to date and what you would like shown on the card.
 
 # Graduation Day 🎓
-Don't forget to watch the livestream! 
+Don't forget to watch the livestream!!
 
 - 📆 Saturday, June 5, 2021
 - ⏰ 9:00am PT | 21:30 IST
