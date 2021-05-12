@@ -1,6 +1,6 @@
 ---
 name: Wenis
-institution: Westmount
+institution: Null
 quote: Null
 github_user: Wenis7
 ---
