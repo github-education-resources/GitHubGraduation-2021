@@ -1,6 +1,6 @@
 ---
-name: SimeonOnSecurity # No longer than 28 characters
-institution: School of Life 🚩 # no longer than 58 characters
-quote: Quis custodiet ipsos custodes? # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+name: SimeonOnSecurity
+institution: School of Life 🚩
+quote: Quis custodiet ipsos custodes?
 github_user: SimeonOnSecurity
 ---
