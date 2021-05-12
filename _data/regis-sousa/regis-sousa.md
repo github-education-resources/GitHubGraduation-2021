@@ -1,6 +1,6 @@
 ---
-name: Francisco Regis Sousa da Silva
-institution: Instituto Federal de Educacao, Ciencia e Tecnologia do Ceara - Campus Caninde
+name: Regis Sousa
+institution: Instituto Federal do Ceara - IFCE Campus Caninde
 quote: Go ahead
 github_user: regis-sousa
 ---
