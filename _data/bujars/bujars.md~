@@ -1,6 +1,6 @@
 ---
 name : Bujar Sefa
 institution: The City College of New York
-quote: Life (or code) is always going to be messy, tough, and full of new things. But you must keep your mind open, beleive in yourself, and continue to overcome the challenges that you face.
+quote: Life (or code) is going to be messy/tought. Keep an open mind to overcome the challenges.
 github_user: bujars
 ---
