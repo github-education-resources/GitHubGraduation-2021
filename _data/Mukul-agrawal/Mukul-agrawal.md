@@ -1,6 +1,6 @@
 ---
 name: Mukul Agrawal
 institution: GLA UNIVERSITY
-quote: Good code is its own best documentation. As you’re about to add a comment, ask yourself, ‘How can I improve the code so that this comment isn’t needed
+quote: It doesn't matter what you know, what matters is when you know
 github_user: Mukul-agrawal
 ---
