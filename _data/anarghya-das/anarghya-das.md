@@ -1,6 +1,6 @@
 ---
 name: Anarghya Das 
 institution: University at Buffalo 🚩 
-quote: We have the power to change the world having not given up this entire year, the class of 2021 has finally earned to celebrate this wonderful achievement!
+quote: I wish all the people graduating this year good luck and lots of success! 🥳
 github_user: anarghya-das
 ---
