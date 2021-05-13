@@ -1,6 +1,6 @@
 ---
 name: Aakanksha Shivani # No longer than 28 characters
 institution: KIET Group of Institutions 🚩 # no longer than 58 characters
-quote: You might fail a few times, but that’s Ok. You end up doing something worthwhile which you learn a great deal from. # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+quote: Keep pushing your limits. # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
 github_user: shivaniaakanksha
 ---
