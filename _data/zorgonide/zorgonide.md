@@ -1,4 +1,6 @@
-name: AMMAR KHURSHID
-institution: MANIPAL INSTITUTE OF TECHNOLOGY
-quote: I many not have exactly studied to pass the tests in my final year
+---
+name: Ammar Khurshid
+institution: Manipal Institute of Technology 
+quote: Keep moving forward - Meet the Robinsons
 github_user: zorgonide
+---
