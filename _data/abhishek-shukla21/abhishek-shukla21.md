@@ -1,4 +1,6 @@
+---
 name: Abhishek Shukla
-institution: Maharaja Surajmal Institute
-quote: Self Taught Developer with a CS Degree
+institution: Maharaja Surajmal Institute 🚩
+quote: self taught developer with a cs degree
 github_user: abhishek-shukla21
+---
