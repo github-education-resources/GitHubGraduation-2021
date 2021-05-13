@@ -1,6 +1,6 @@
 ---
 name: Jay Agaskar
 institution: Northeastern University
-quote: I love Pythonsss
+quote: I heart Pythons
 github_user: AgaskarJ
 ---
