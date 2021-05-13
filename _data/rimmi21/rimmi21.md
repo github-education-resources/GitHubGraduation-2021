@@ -1,5 +1,7 @@
+---
 Name: Sohini Pattanayak
 Institution: Haldia Institute of Technology 🚩
-Quote: Life is 50-50. 50% involves a positive outcome and 50% involves a negative outcome. But for the 50% that could be negative, we shouldn't spoil the 50% positive!
-~by Sohini Pattanayak
-Github_user: @rimmi21
+Quote: Life is 50% +ve and 50% -ve. But, we shouldn't spoil the 50% positive for the 50% negative.
+Github_user: rimmi21
+---
+
