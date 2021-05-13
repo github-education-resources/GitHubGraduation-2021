@@ -1,6 +1,6 @@
 ---
 name: Matheus Ribeiro Gomes
 institution: Universidade Estadual de Ponta Grossa
-quote: YOUR-SENIOR-QUOTE # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+quote: I knew exactly what to do, but in a much more real sense I had no idea what to do.
 github_user: gomesmat
 ---
