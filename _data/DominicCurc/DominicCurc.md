@@ -1,6 +1,6 @@
 ---
 name: Dominic Curcio
 institution: West Chester University of Pennsylvania
-quote: Alea iacta est (let the dice roll (Julius Caesar))
+quote: Can I graduate (Third Eyey Blind (rock band))
 github_user: DominicCurc
 ---
