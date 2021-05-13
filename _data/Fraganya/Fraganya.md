@@ -2,5 +2,5 @@
 name: Francis Ganya
 institution: University of Malawi, The Polytechnic 🚩 
 quote: Aspiring to inspire.
-github_user: fraganya
+github_user: Fraganya
 ---
