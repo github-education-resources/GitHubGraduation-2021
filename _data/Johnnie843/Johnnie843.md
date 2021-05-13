@@ -1,6 +1,6 @@
 ---
 name: Johnnie Cooper
 institution: College of Charleston
-quote: A calm and modest life brings more happiness than the pursuit of success combined with constant restlessness -Albert Einstein
+quote: I Did it!
 github_user: Johnnie843
 ---
