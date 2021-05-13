@@ -41,39 +41,29 @@ try {
 
   const feedback = []
 
-  let pull, user2021, user2020, hasSdp
-
   if(actionEvent.name === "review_requested" && actionEvent.requestedReviewer.login !== BOT_ACCOUNT_LOGIN) {
     return true
   }
 
-  try {
-    pull = await octokit.fetchPr(actionEvent.pullNumber)
-  }catch(err) {
-    console.log(err)
-  }
+  const results = await Promise.all([
+    octokit.fetchPr(actionEvent.pullNumber),
+    airtable.userParticipated2020(actionEvent.pullAuthor),
+    educationWeb.hasPack(actionEvent.pullAuthor),
+    airtable.fetch2021Graduate(actionEvent.pullAuthor)
+  ]).catch((error)=>{
+    console.log(error)
+  })
 
-  try {
-    user2021 = await airtable.fetch2021Graduate(actionEvent.pullAuthor)
-  } catch(err) {
-    console.log(err)
-  }
+  const pull = results[0]
+  const user2021 = results[3]
 
   // checks
 
   // graduated already in 2020?
-  try {
-    user2020 = await airtable.userParticipated2020(actionEvent.pullAuthor)
-  } catch(err) {
-    console.log(err)
-  }
+  const user2020 = results[1]
 
   // approved for the student/teacher development pack
-  try {
-    hasSdp = await educationWeb.hasPack(actionEvent.pullAuthor)
-  } catch(err) {
-    console.log(err)
-  }
+  const hasSdp = results[2]
 
   // Has the user completed the shipping form? (address must exist for the form to be submitted)
   const completedShippingForm = user2021 && user2021["Address Line 1"].length > 0
@@ -88,7 +78,7 @@ try {
   try {
     content = isFilePathValid.isValid && await octokit.getContent(`_data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
   } catch(err) {
-    feedback.push("I was unable to view the content of the markdown file, please try again in a few minutes")
+    feedpack.push("I was unable to view the content of the markdown file, please try again in a few minutes")
     console.log(err)
   }
 
@@ -148,7 +138,7 @@ try {
       feedback.push(`* *Uh Oh! I've found some issues with where you have created your files!* \n\t${isFilePathValid.errors?.join('\n')}`)
     }
 
-    if(isMarkdownValid.isValid === false) {
+    if(!isMarkdownValid.isValid) {
       console.log("markdown is invalid")
       feedback.push(`* *Please take another look at your markdown file, there are errors:* \n\t${isMarkdownValid.errors?.join('\n')}`)
     }
