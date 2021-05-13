@@ -1,7 +1,6 @@
-Name: Anurag Batra
-
-Institution: Birla Institute of Technology and Science
-
-Quote:  Invest on your brain because working on yourself is a best investment. 
-
-Github_user: DevelopedByAnurag
+---
+name: Anurag Batra
+institution: Birla Institute of Technology and Science
+quote: Invest on your brain because working on yourself is a best investment. 
+github_user: DevelopedByAnurag
+---
