@@ -1,6 +1,6 @@
 ---
 name: KP
 institution: Chungbuk National University 🚩
-quote: Peace.
+quote: Peace :)
 github_user: kokpheng
 ---
