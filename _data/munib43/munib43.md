@@ -1,0 +1,6 @@
+---
+name: MUNIB CHOUGLE
+institution: HERIOT-WATT UNIVERSITY, EDINBURGH
+quote: HELLO DUNIYA! JUST DO IT BEFORE YOU REGRET IT!
+github_user: munib43
+---
