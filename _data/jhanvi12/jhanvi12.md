@@ -1,6 +1,6 @@
 ---
 name: Jhanvi Uday
-institution: IGDTUW 🚩
-quote: Debugging is an art and Developer is an artist .
+institution: Indira Gandhi Delhi Technical University for Women
+quote: Satisfaction is happiness !
 github_user: jhanvi12
 ---
