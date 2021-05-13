@@ -1,6 +1,6 @@
 ---
 name: Tanyawat Vittayapalotai
 institution: Chulalongkorn University
-quote: Sometimes your life random number generator (RNG) sucks, but you can overcome that by working hard to increase your chances !
+quote: Sometimes life RNG sucks, but you can overcome that by working hard to increase the chance !
 github_user: hamzaabamboo
 ---
