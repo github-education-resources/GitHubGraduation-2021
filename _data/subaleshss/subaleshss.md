@@ -1,6 +1,5 @@
 ---
 name: Subalesh S
-institution: Mar Baselios College of Engineering & Technology, Trivandrum
-quote: Try until you succeed
+institution: Mar Baselios College of Engineering & Technology
 github_user: subaleshss
 ---
