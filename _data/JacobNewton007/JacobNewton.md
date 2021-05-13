@@ -1,6 +1,6 @@
 ---
-name: JacobNewton # No longer than 28 characters
-institution: Federal university of technology, akure 🚩 # no longer than 58 characters
-quote: Never stop learning # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+name: JacobNewton 
+institution: Federal university of technology, akure 
+quote: Never stop learning, readers are leader
 github_user: JacobNewton007
 ---
