@@ -1,6 +1,6 @@
 ---
 name: Tanish
 institution: SNBP 🚩
-quote: YOUR-SENIOR-QUOTE
+quote: Seek Discomfort
 github_user: devdroid701
 ---
