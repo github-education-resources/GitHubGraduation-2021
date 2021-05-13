@@ -1,6 +1,6 @@
 ---
-name: venkatasai dholendar reddy # No longer than 28 characters
-institution: Sree venkateswara college of engineering 🚩 # no longer than 58 characters
-quote: NOW or NEVER # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+name: venkatasai dholendar reddy 
+institution: Sree venkateswara college of engineering 🚩 
+quote: NOW or NEVER 
 github_user: dholendar14
 ---
