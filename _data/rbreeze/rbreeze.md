@@ -1,6 +1,6 @@
 ---
 name: Remington Breeze
 institution: Chico State
-quote:
+quote: Happy to be here
 github_user: rbreeze
 ---
