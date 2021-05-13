@@ -1,7 +1,0 @@
-
-name: DIVIJ JAIN 
-institution: AMBEDKAR INSTITUTE of  TECHNOLOGY 🚩 
-quote: BELIEVE IN DEVELOPMENT OF SOCIETY RATHER THAN A PERSON
-github_user: diiviij
----
-
