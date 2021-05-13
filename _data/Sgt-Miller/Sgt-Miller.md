@@ -1,6 +1,6 @@
 ---
 name: Ephraim Raj
 institution: Developer Student Club - Google
-quote: “And don't tell me that man doesn't belong out there [space]. Man belongs wherever he wants to go — and he’ll do plenty well when he gets there.”
-github_user: sgt-miller
+quote: Basic research is what I’m doing when I don’t know what I am doing.
+github_user: Sgt-Miller
 ---
