@@ -39,7 +39,7 @@ jobs:
       - name: Get Minute
         id: getminute
         run: echo "::set-output name=minute::$(date -u '+%M')"
-        shell: bash # For Windows, Linux and macOS default to bash alrea
+        shell: bash # For Windows, Linux and macOS default to bash already
       - name: Cache data
         id: cache-data
         uses: actions/cache@v2
