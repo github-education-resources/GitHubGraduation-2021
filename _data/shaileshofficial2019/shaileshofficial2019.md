@@ -1,6 +1,6 @@
 ---
-name: shailesh chaudhary 
-institution: Lalbhai Dalpatbhai College of Engineering
-quote: Don't waste Your Time,If You Save Time Then Time Wll save You. 
-github_user: shaileshofficial2019
+name: Shailesh Chaudhary
+institution: Lalbhai Dalpatbhai College Of Engineering
+quote: Do Not Waste Your Time
+github_user: shaileshofficial2019 
 ---
