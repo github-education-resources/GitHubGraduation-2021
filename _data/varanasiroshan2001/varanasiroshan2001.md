@@ -1,4 +1,3 @@
-
 ---
 name: V Roshan Kumar Patro
 institution: National Institue of Science and Technology, Odisha
