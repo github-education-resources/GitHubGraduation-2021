@@ -1,7 +1,6 @@
 ---
 name: Shubham
 institution: SOCET
-quote:[object Object]
+quote: undefined
 github_user: ShubhamSingh20
 ---
-
