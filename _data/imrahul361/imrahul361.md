@@ -1,6 +1,6 @@
 ---
-Name: Rahul Karmakar
-Institution: City Engineering College
-Quote: "Born to be Engineer"
-Github_user: imrahul361
+name: Rahul Karmakar
+institution: City Engineering College
+quote: "Born to be Engineer"
+github_user: imrahul361
 ---
