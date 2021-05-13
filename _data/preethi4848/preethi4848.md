@@ -1,6 +1,9 @@
-NAME: Preethi G
-INSTITUTION: Vidya Vikas Institute of Engineering & Technology, Mysore
-GITHUB USERNAME: preethi4848
+---
+name: PREETHI G
+institution: VIDYA VIKAS INSTITUTE OF ENGINEERING & TECHNOLOGY
+quote: FORGET WHAT HURTS IN PAST, BUT NEVER FORGET WHAT IT THOUGHT YOU.
+github_user: PREETHI4848
+---
 
 Application to the Class of 2021🎓
 This pull request template helps you complete an application to the Class of 2021. Use the checklist below to verify you have followed the instructions correctly.
