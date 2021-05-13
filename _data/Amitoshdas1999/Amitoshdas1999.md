@@ -1,4 +1,4 @@
 name: AMITOSH DAS
-institution: BCREC 🚩
+institution: Dr. B C Roy Engineering College
 quote: HEALTH IS WEALTH
 github_user: Amitoshdas1999
