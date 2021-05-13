@@ -1,4 +1,4 @@
-Name: Farhan Ali
-Institute: National University of Computer and Emerging Sciences (FAST-NUCES)
-Quote: Success is the best revenge.
-Github Username: farhana1i
+name: Farhan Ali
+institute: National University of Computer and Emerging Sciences (FAST-NUCES)
+quote: Success is the best revenge.
+github_user: farhana1i
