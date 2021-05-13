@@ -1,6 +1,6 @@
 ---
 name: Maximilian Mairinger
 institution: TGM
-quote: Do the thing
+quote: Doing the thing
 github_user: maximilianMairinger
 ---
