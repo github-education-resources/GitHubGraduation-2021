@@ -1,0 +1,4 @@
+name: ELIUD CHIURI MAINA
+institution: UNIVERSITY OF EMBU
+quote: ITS BETTER TO FALL AT THE BEGINNING THAN AT THE END
+github_user: enriqueeliud
