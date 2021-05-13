@@ -1,6 +1,6 @@
 ---
 name: Yeonan Ha
-institution: Yonsei University 🚩
-quote: 내가 가면 길이 된다.
+institution: Yonsei University 
+quote: quote
 github_user: yeonan
 ---
