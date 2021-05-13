@@ -1,6 +1,6 @@
 ---
 name: kotborealis
 institution: RTU MIREA
-quote: ...
+quote: I expected more.
 github_user: kotborealis
 ---
