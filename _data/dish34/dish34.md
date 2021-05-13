@@ -1,6 +1,6 @@
 ---
 name: Dishant Gandhi
 institution: Srm Ncr
-quote: Study while others are sleeping; work while others are loafing; prepare while others are playing; and dream while others are wishing.  ― William A. Ward
+quote: It always seems impossible until it is done.
 github_user: dish34
 ---
