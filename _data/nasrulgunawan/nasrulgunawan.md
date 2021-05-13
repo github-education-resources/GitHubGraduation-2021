@@ -1,6 +1,6 @@
 ---
 name: Nasrul Gunawan
 institution: Universitas Mercu Buana
-quote: Stay curious, keep learning and keep growing. And always strive to be more interested than interesting.
+quote: Stay curious, keep learning and keep growing.
 github_user: nasrulgunawan
 ---
