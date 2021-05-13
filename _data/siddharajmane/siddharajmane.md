@@ -1,6 +1,6 @@
 ---
 name: Siddharaj Mane
 institution: Pimpri Chinchwad College of Engineering, Pune
-quote: Work hard util the excellence feels easy
+quote: Hard work beats talent when talent fails to work hard
 github_user: siddharajmane
 ---
