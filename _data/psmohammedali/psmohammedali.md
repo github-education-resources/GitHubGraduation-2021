@@ -1,3 +1,6 @@
-| name              | institution                        | quote                                                                                                                | github_user |
-|------------------|---------------------------------|---------------------------------------------------------------------------------------------------------------------|-----------------|
-| Mohammed Ali P S | Vellore Institute of Technology, Vellore | Marks are worthless without knowledge,<br>Grades are useless without learning,<br>Skills are lifeless without using it...| psmohammedali   |
+---
+name: Mohammed Ali P S
+institution: Vellore Institute of Technology
+quote: Marks are worthless without knowledge, Grades are useless without learning, Skills are lifeless without using it...
+github_user: psmohammedali
+---
