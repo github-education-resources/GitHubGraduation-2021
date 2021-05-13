@@ -1,6 +1,6 @@
 ---
 name: Abhinava Ghosh 
 institution: KIIT University
-quote: Life life to the fullest.
+quote: Live life to the fullest.
 github_user: logicinfinite
 ---
