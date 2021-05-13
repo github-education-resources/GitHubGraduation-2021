@@ -1,0 +1,6 @@
+---
+name: Andrey # No longer than 28 characters
+institution:KNITU-KAI College of Information Technology # no longer than 58 characters
+quote: On the third day, Eagle Eye noticed that the barn was missing one wall. # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+github_user: Andrey170170
+---
