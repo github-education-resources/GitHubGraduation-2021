@@ -1,4 +1,6 @@
-Jarrel Thomas
-Florida Tech
-We are all geniuses we all have a talent...we should encourage others to find theirs
-JarrelThomas
+---
+name: Jarrel Thomas
+institution: Florida Institute of Technology
+quote: The master has failed more time than the novice has tried
+github_user: JarrelThomas
+---
