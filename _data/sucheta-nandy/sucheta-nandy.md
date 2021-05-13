@@ -1,4 +1,6 @@
-name:Sucheta
-institution:NSEC
-quote:Go the extra mile, it's worth it!
-github_user:sucheta-nandy
+---
+name: Sucheta
+institution: NETAJI SUBHASH ENGINEERING COLLEGE 
+quote: Go the extra mile.
+github_user: sucheta-nandy
+---
