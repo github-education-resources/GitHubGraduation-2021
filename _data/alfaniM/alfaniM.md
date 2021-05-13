@@ -1,6 +1,6 @@
 ---
 name: Muhammad Aulia Alfani
-institution: INSTITUTION-NAME 🚩
-quote: State Islamic University Syarif Hidayatullah Jakarta
+institution: State Islamic University Syarif Hidayatullah Jakarta
+quote: To infinity and beyond!
 github_user: alfaniM
 ---
