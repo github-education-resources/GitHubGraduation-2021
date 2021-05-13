@@ -1,6 +1,6 @@
 ---
-name: Yashwanth T U 
-institution: RR institute of technology 🚩 
-quote: Bring your ideas  to life. avoid using quotes(") to guarantee the format remains the same.
+name: Yashwanth TU 
+institution: RR institute of Technology 🚩 
+quote: bring-your-ideas-to-life 
 github_user: Yashwantlegend
 ---
