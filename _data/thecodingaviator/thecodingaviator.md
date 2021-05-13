@@ -1,6 +1,6 @@
 ---
 name: TCA
 institution: SFC
-quote: If My Parents See This, I'm Toast.
+quote: Slow down, you crazy child
 github_user: thecodingaviator
 ---
