@@ -1,0 +1,6 @@
+---
+name: Raju gupta
+institution: National Institute of science & Technology
+quote: Introspect till you Succeed.
+github_user: rranjangupta
+---
