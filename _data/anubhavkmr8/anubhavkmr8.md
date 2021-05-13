@@ -1,4 +1,6 @@
-name: Anubhav Kumar
-institution: India Institute of Technology (BHU), Varanasi
-quote: There will always be someone who can't see your worth. Don't let it be you.
-github_user: anubhavkmr8
+---
+name: ANUBHAV KUMAR
+institution: INDIAN INSTITUTE OF TECHNOLOGY (BHU), VARANASI
+quote: THERE WILL ALWAYS BE SOMEONE WHO CAN'T SEE YOUR WORTH, JUST DON'T LET IT BE YOU.
+github_user: ANUBHAVKMR8
+---
