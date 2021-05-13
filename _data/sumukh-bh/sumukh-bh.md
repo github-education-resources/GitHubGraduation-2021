@@ -1,7 +1,6 @@
+---
 name: Sumukh Bharadwaj
-
-institution: University of Southern California
-
-quote: Work Hard or Go Home
-
+institution: University of Southern California 🚩 
+quote: WORK HARD OR GO HOME
 github_user: sumukh-bh
+---
