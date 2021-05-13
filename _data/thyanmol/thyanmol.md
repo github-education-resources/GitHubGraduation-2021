@@ -1,6 +1,6 @@
 ---
 name: Anmol Jain
-institution: IIIT Bangalore 🚩 
-quote: We made it !!! YOLO 
+institution: IIIT Bangalore
+quote: We Made It !!! YOLO
 github_user: thyanmol
 ---
