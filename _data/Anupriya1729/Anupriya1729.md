@@ -1,4 +1,6 @@
-name: Anupriya Nishad <br>
-institution: Madan Mohan Malaviya University of Technology <br>
-quote: Hardwork beats talent when talent does not works hard <br>
+---
+name: Anupriya Nishad
+institution: Madan Mohan Malaviya University of Technology
+quote: Hardwork beats talent when talent does not works hard
 github_user: Anupriya1729
+---
