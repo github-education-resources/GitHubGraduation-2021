@@ -1,6 +1,6 @@
 ---
 name: Devseh Raj 
-institution: Devish2 Co 🚩 
+institution: Indira Gandhi National Open University 🚩 
 quote: Do it, until you get the final result.
 github_user: Devish2
 ---
