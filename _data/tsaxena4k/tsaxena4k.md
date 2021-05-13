@@ -1,6 +1,6 @@
 ---
 name: Tushar Saxena
-institution: Shri Ram Murti Smarak College of Engineering and Technology
+institution: SRMS Bareilly
 quote: Lets have some fun!!!!
 github_user: tsaxena4k
 ---
