@@ -1,4 +1,6 @@
+---
 name: ELIUD CHIURI MAINA
 institution: UNIVERSITY OF EMBU
-quote: "ITS BETTER TO FALL AT THE BEGINNING THAN AT THE END"
+quote: SAME OLD SAME GOLD
 github_user: enriqueeliud
+---
