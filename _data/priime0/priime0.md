@@ -1,6 +1,6 @@
 ---
 name: Lucas Sta Maria
 institution: Singapore American School
-quote: template<typename T> requires requires (T x) { x.is_good() } struct senior_quote { T quote };
+quote: impl Productive for Lucas { fn do(_: Task) { unimplemented!() } }
 github_user: priime0
 ---
