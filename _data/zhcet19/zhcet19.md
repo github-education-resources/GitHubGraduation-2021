@@ -1,6 +1,6 @@
 ---
 name: Faiz Alam
 institution: Aligarh Muslim University
-quote:Strive hard until your idol become your competitor.
+quote: Strive till you beat your idol
 github_user: zhcet19
 ---
