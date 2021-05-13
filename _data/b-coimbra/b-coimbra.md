@@ -1,6 +1,6 @@
 ---
 name: Bruno Coimbra
-institution: Fatec
+institution: Fatec Taquaritinga
 quote: Be wary of folly
 github_user: b-coimbra
 ---
