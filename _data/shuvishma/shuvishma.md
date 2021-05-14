@@ -1,6 +1,6 @@
 ---
 name: SHUBHAM VISHWAKARMA
 institution: RAJKIYA ENGINEERING COLLEGE SONBHADRA
-quote: "You are the creater of you destination"
+quote: "YOU ARE THE CREATOR OF YOUR DESTINATION"
 github_user: shuvishma
 ---
