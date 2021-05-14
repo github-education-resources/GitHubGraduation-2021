@@ -1,6 +1,6 @@
 ---
 name: Dmitry Fedorov
 institution: Novosibirsk State Technical University
-quote: Sapnu puas.
+quote: I made it this far? Without Google I would not be graduating...
 github_user: dimafedorov9
 ---
