@@ -1,4 +1,4 @@
-name: Jonathan Gardner # No longer than 28 characters
-institution: Vanderbilt University 🚩 # no longer than 58 characters
-quote: The happiness of your life depends on the quality of your thoughts - Marcus Aurelius
+name: Jonathan Gardner
+institution: Vanderbilt University
+quote: We made it out alive
 github_user: jonathanbgardner
