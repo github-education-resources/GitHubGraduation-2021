@@ -1,6 +1,6 @@
 ---
-name: CATHY WU
-institution: DARTMOUTH COLLEGE
-quote: PLANT LIFE
-github_user: CAXAWU
+name: Cathy Wu
+institution: Dartmouth College
+quote: Plant Life
+github_user: caxawu
 ---
