@@ -1,6 +1,6 @@
 ---
 name: Bimo Prasetyo Afif
-institution: Politeknik Elektronika Negeri Surabaya 🚩
+institution: Electronic Engineering Polytechnic Institute of Surabaya
 quote: keep relax and do the best
 github_user: bimbimprasetyoafif
 ---
