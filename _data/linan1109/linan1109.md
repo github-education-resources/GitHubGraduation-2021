@@ -1,6 +1,6 @@
 ---
 name: Linan
 institution: BUAA
-quote:  what's courage? Grace under pressure.
+quote: Grace under pressure.
 github_user: linan1109
 ---
