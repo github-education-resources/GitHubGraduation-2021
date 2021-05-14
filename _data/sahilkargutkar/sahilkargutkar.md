@@ -1,6 +1,6 @@
 ---
 name: SAHIL KARGUTKAR
 institution: GROUPS AND CO 🚩
-quote: GG
+quote: KAIZOKU UOU NI OREWA NARU
 github_user: sahilkargutkar
 ---
