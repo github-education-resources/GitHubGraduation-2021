@@ -2,5 +2,5 @@
 name: Hari
 institution: BITS Pilani
 quote: God speaks Mathematics.
-github_user: harivallabha
+github_user: Harivallabha
 ---
