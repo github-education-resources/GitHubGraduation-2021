@@ -1,6 +1,6 @@
 ---
 name: Ishan Shanware 
 institution: IIIT Bangalore
-quote: "A hero can be anyone, even a man doing something as reassuring as putting a coat on a young boy's shoulder"
+quote: Madness is like gravity, all it takes is a little push - Joker
 github_user: kernelpanic77
 ---
