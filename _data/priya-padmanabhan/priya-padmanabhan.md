@@ -1,4 +1,6 @@
-name: Priya 
-institution: University of California, Santa Barbara 
-quote: null 
+---
+name: Priya
+institution: University of California, Santa Barbara
+quote: null
 github_user: priya-padmanabhan
+---
