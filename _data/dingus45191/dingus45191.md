@@ -1,6 +1,6 @@
 ---
 name: Mubashir Hasan
 institution: Radiant International School, Patna
-quote: "Technology will change the world for over. You need to believe everything will work out , trust and work on technology."
+quote: "Follow Passion and believe in your dreams."
 github_user: dingus45191
 ---
