@@ -1,6 +1,6 @@
 ---
 name: Shehryar Ahmed Khan
 institution: Nazeer Hussain University 🚩 
-quote: ALHUMDULILLAH GRADUATED and super excited submit in github education 2021!
+quote: To make education as easiest as possible for other.
 github_user: shehryarahmed
 ---
