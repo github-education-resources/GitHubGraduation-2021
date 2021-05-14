@@ -1,6 +1,6 @@
 ---
 name: Audaris Blades
 institution: Dominican University
-quote: “I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.” -Bill Gates
+quote: Code smarter not harder. 
 github_user: ablades
 ---
