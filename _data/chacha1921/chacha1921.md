@@ -1,4 +1,6 @@
-name: chacha1921
+---
+name: Chalie Lijalem
 institution: Adama Science and Technology University
-quote: Success is a choice. Do things that will challenge how you think and don't be afraid to fail fast.
+quote: Never Give Up.
 github_user: chacha1921
+---
