@@ -1,6 +1,6 @@
 ---
-Name: Dhruval Shah
-Institution: California State University - San Marcos
-Quote: Be the best to do the best. Keep Learning!!!
-Github_user: Dhruval10
+name: Dhruval Shah
+institution: California State University - San Marcos
+quote: Be the best to do the best. Keep Learning!!!
+github_user: Dhruval10
 ---
