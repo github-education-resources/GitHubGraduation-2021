@@ -1,8 +1,6 @@
-# MehrotraSan16 says: 
-
 --
 name: Sanket-Mehrotra
 institution: Colorado-State-University 🚩 
-quote: Looking forward to making the RAMs proud!
+quote: RAMs proud! Gonna Have a good time!
 github_user: mehrotrasan16
 ---
