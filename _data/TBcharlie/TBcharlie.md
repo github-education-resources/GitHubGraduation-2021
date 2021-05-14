@@ -1,6 +1,6 @@
 ---
-nome: Charles Pierre Rodrigues Pinto
-instituição: Centro Universitario Uniatenas 
-citação: Divida para conquistar, um programador nunca deve estar sozinho na jornada
+name: Charles Pierre Rodrigues Pinto
+institution: Centro Universitario Uniatenas
+quote: Divide to conquer, a programmer should never be alone on the journey
 github_user: TBcharlie
 ---
