@@ -1,4 +1,3 @@
-name: Devarsh Shah
-institution: Sardar Vallabhbhai National Institute of Technology
-quote: Don't think of future instead work on present
-github_user: ShahDevarsh
+|    name        | institution           | quote  | github_user |
+|----------------|-----------------------|--------|-------------|
+|  Devarsh Shah  | Sardar Vallabhbhai National Institute of Technology | Don't think of future instead work on present | ShahDevarsh | 
