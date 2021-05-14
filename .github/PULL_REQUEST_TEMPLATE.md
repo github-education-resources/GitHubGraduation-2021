@@ -1,10 +1,10 @@
 # Application to the Class of 2021🎓
 
-This pull request template helps you complete an application to the **Class of 2021**. Use the checklist below to verify you have followed the instructions correctly. 
+This pull request template helps you complete an application to the **Class of 2021**. Use the checklist below to verify you have followed the instructions correctly.
 
 ## Checklist ✅
 
-- [x] I have read the instructions on the README file before submitting my application. 
+- [x] I have read the instructions on the README file before submitting my application.
 - [x] I made my submission by creating a folder on the `_data` folder and followed the naming convention mentioned in the instructions (`<username>`) and markdown file.
 - [x] I have submitted a [swag shipping form](https://airtable.com/shrM5IigBuRFaj33H).
 - [x] I have used the Markdown file template to add my information to the Year Book.
