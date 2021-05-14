@@ -1,9 +1,7 @@
-
 ---
-name: Dev Garg
+name: Dev
 institution: Guru Govind singh Indraprasth University
-quote: Hard Work Beats Talent When Talent Doesn't Work Hard.
+quote: Nothing is free except nature
 github_user: DevGarg262
 ---
-
 
