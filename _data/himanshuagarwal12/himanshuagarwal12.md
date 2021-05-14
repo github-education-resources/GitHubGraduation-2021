@@ -1,6 +1,6 @@
 ---
 name: Himanshu Agarwal
 institution: VIT VELLORE
-quote:Follow Your Passion,set your own definition of Success rather than listening to others.
+quote:Follow Your Passion
 github_user: himanshuagarwal12
 ---
