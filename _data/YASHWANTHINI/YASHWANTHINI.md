@@ -1,4 +1,4 @@
-name:Yeshwanthini Saravanan
-institution: Ramco Institute of Technology
-quote: The more you code, you code more
-github_user: YASHWANTHINI
+|name| institution | quote | github_user |
+|---|---|---|---|
+| Yeshwanthini Saravanan |  Ramco Institute of Technology | The more you code, you code more | YASHWANTHINI |
+
