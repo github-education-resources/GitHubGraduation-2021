@@ -1,7 +1,7 @@
 
 ---
-name: Harsh Chandekar 
-institution:Symbiosis Institute Of Technology,Pune 
-quote: Always be motivated and enjoy life xdxd 
+name: Harsh Sachin Chandekar 
+institution: Symbiosis Institute of Technology
+quote: I can and I will
 github_user: harshchan
 ---
