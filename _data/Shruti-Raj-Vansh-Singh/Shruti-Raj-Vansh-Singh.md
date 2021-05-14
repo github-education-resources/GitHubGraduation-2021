@@ -1,0 +1,6 @@
+---
+name: SHRUTI RAJ VANSH SINGH
+institution: SHRI MATA VAISHNO DEVI UNIVERISTY
+quote: I WONT BE HERE IF THE LAST 3 SEMESTERS WERE NOT ONLINE
+github_user: Shruti-Raj-Vansh-Singh
+---
