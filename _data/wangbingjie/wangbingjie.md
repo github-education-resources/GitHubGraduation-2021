@@ -1,6 +1,6 @@
 ---
 name: Bingjie Wang
 institution: Johns Hopkins University
-quote: Two things fill me with wonder, the starry sky above me and the moral law within me.
+quote: At the end of a long journey under the starry night a new chapter awaits.
 github_user: wangbingjie
 ---
