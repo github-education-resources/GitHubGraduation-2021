@@ -2,5 +2,5 @@
 name: Kangju Heo
 institution: Kyungpook National University
 quote: Love to sword, humor to shield
-github_user: cozy-ho
+github_user: Cozy-Ho
 ---
