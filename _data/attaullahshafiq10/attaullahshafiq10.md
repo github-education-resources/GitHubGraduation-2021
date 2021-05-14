@@ -1,7 +1,7 @@
-name: Hafiz Muhammad Attaullah # No longer than 28 characters
+name: Hafiz Muhammad Attaullah 
 
-institution: University of Sindh 🚩 # no longer than 58 characters
+institution: University of Sindh 🚩 
 
-quote: Be bold, be courageous, be your best # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+quote: Be bold, be courageous, be your best 
 
 github_user: attaullahshafiq10
