@@ -1,6 +1,6 @@
 ---
 name: Atharva M
 institution: VIIT, Pune
-quote: Dont put stupid things in your Senior Quote
+quote: I spent 2080 Hours of my life for a handshake and Paper.
 github_user: atharva-9
 ---
