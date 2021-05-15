@@ -1,6 +1,6 @@
 ---
 name: Tumininu
 institution: University of Ibadan
-quote: code shipping freak
+quote: Simplicity matters
 github_user: tumininucodes
 ---
