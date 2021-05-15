@@ -1,6 +1,6 @@
 ---
 name: Samriddhi Agrawal
-institution: Bharati Vidyapeeth's Institute of Computer Applications and Management (GGSIPU)
+institution: BVICAM, GGSIPU
 quote: Deep rivers run quiet. 
 github_user: Samridhi-98
 ---
