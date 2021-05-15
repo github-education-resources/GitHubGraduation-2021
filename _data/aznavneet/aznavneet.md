@@ -1,0 +1,6 @@
+---
+name: NAVNEET BHARDWAJ
+institution: NETAJI SUBHASH ENGINEERING COLLEGE GARIA
+quote: DO IT TODAY AND MAKE IT THE REALITY 
+github_user: aznavneet
+---
