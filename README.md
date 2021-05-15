@@ -2,11 +2,13 @@
 ### May 14, 2021
 
 Hi Octograds!
+
 You all have made our week with your messages, pull requests, and support for each other 💖 We are honored to be a part of your graduation experience.
 
 We have merged 5,000 pull requests and swag eligibility is now closed. If your pull request is merged as of today (May 14), we will send you a custom holographic trading card in the mail. Please have patience. Swag production and shipping takes time and we will post updates to this repository as we have them. It is unlikely you will receive a shipment before the event. 
 
 In the meantime, be sure to update your GitHub profile image and bio! We will use both to create your custom card. 
+
 Our team is offline this weekend and will be back, on Monday (PT), to review pull requests to join the yearbook and "walk" the stage at GitHub Graduation on June 5. Pull requests are no longer eligible for swag but we would love to have you a part of the ceremony🎓! We will review all pull requests submitted before May 27 at 12:00pm PT (May 28 at 12:30am IT) to join the event.
 
 Think there was a mistake? [Send us a link to any relevant pull requests and Issues](https://airtable.com/shrZuXu2OKrxO6PiD), along with a description of events. This does not include pull requests accidentally closed and recreated at a later time, or pull requests not eligible for merge before May 14 at 5:52pm PT (when the 5,000th pull request was merged). Use this form only for scenarios where you believe our bot or team made a mistake.
