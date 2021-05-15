@@ -1,4 +1,6 @@
+---
 name: BJ Warfield
-institution: California State university Fullerton
-quote: Trust me, I'm an Engineer. Let's just make this quicker by assumning everything I say is right.
+institution: California State University Fullerton
+quote:I'm an Engineer. Let's just assume I'm right and we'll save time.
 github_user: bjwarfield
+---
