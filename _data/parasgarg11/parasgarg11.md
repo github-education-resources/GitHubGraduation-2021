@@ -1,6 +1,6 @@
 ---
 name: Paras Garg
 institution: Thapar
-quote: As long as you live, keep learning how to live.
+quote: Show me your code and i'll tell your bugs.
 github_user: parasgarg11
 ---
