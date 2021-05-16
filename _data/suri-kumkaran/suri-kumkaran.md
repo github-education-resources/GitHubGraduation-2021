@@ -1,6 +1,6 @@
 ---
 name: Suryansh Gupta
 institution: IIEST Shibpur
-quote: Out of Difficulties Grow Miracles
+quote: Out of Difficulties grow Miracles
 github_user: suri-kumkaran
 ---
