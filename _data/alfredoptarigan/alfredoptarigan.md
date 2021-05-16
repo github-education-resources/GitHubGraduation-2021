@@ -1,5 +1,5 @@
 ---
-name: Alfredo P Tarigan
+name: Alfredo Tarigan
 institution: Universitas Sumatera Utara
 quote: Love Coding and Coffe
 github_user: alfredoptarigan
