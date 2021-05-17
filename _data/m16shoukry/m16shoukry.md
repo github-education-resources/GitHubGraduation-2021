@@ -1,7 +1,6 @@
 ---
 name: Muhammad Shoukry Arafa
 institution: FCAI-Helwan University
-quote: breack your ice
+quote: break your ice
 github_user: m16shoukry
-
 ---
