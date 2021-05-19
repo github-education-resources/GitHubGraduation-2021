@@ -1,6 +1,6 @@
 ---
-name: EDWIN-VILLA # No longer than 28 characters
-institution: TECNOLOGICO-DE-CULIACAN # no longer than 58 characters
-quote: I-DRINK-AND-GOOGLE-THINGS #
+name: Edwin Villa
+institution: Instituto tecnologico de Culiacán
+quote: I drink and google things
 github_user: edwvilla
 ---
