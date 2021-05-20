@@ -1,4 +1,6 @@
-name: MAYANK SINGH
-institution: RAJARSHI SCHOOL OF MANAGEMENT AND TECHNOLOGY 
-quote: FUTURE COMPUTER VISION ENGINEER
-github_user: VENU-BANARAS
+---
+name: Mayank Singh
+institution: Rajarshi School of Management and Technology
+quote: Future Computer Vision Engineer
+github_user: venu-banaras
+---
