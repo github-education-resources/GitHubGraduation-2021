@@ -1,0 +1,6 @@
+---
+name: HAZIQ MUDZAKIR BIN ABDUL WAHAB
+institution: UNIVERSITI SAINS MALAYSIA
+quote: A PASSION IS THE HUB OFvSUCCESS
+github_user: haze1995-boop
+---
