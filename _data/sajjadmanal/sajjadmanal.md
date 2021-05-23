@@ -7,6 +7,6 @@ institution: IP University
 4
 quote: Know the science around data
 5
-github_user: sajjadmanal
+github_user: Sajjadmanal
 6
 ---
