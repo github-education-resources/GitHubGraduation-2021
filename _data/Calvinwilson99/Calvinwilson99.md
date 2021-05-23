@@ -1,6 +1,6 @@
 ---
 name: Calvin Wilson Chiramal
 institution: Government Engineering College, Thrissur
-quote: Because when I read, the world is just better.
+quote: A reader lives a thousand lives before he dies.
 github_user: Calvinwilson99
 ---
