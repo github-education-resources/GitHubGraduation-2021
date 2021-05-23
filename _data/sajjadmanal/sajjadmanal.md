@@ -3,7 +3,7 @@
 2
 name: Sajjad Manal
 3
-institution: I.P. University
+institution: IP University
 4
 quote: Know the science around data
 5
