@@ -1,2 +1,0 @@
-Pathmila
-GitHubGraduation-2021
