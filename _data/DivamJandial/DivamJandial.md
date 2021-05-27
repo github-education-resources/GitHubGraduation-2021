@@ -1,6 +1,6 @@
 ---
 name: Divam Jandial
-institution: MIET
-quote: Learn everyday.
+institution: Miet
+quote: Be like GitHub, help everyone.
 github_user: DivamJandial
 ---
