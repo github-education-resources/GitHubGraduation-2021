@@ -1,0 +1,6 @@
+---
+name: SHUBHAM SAVAKAR LANDE
+institution: WALCHAND INSTITUTE OF TECHNOLOGY, SOLAPUR 🚩
+quote: EVERYONE IS CREATIVE AND EVERYONE IS A TECHIE
+github_user: landeshubham
+---
