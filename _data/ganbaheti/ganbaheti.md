@@ -1,0 +1,6 @@
+---
+name: GAGAN BAHETI
+institution: JAIPUR ENGINEERING COLLEGE AND RESEARCH CENTRE, JAIPUR
+quote: TIME TELLS THE TRUTH AND LIES
+github_user: ganbaheti
+---
