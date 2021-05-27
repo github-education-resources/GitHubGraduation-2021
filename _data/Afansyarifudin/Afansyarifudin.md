@@ -1,0 +1,6 @@
+---
+name: Nur Afan Syarifudin
+institution: Universitas Negeri Semarang 🚩 
+quote: Never Leave People in 2045 
+github_user: Afansyarifudin
+---
