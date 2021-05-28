@@ -1,4 +1,13 @@
 ## Updates
+
+### May 27, 2021
+And that’s a wrap on the GitHub 2021 Yearbook ✨✅
+
+Submissions to the repository are closed as of 12:00pm PT. Yearbook will be live on Tuesday June 1. Check back here for updates!
+
+If you believe there has been a mistake with reviews, please [let us know in an Issue](https://github.com/education/GitHubGraduation-2021/issues). All Issues will be responded to before the event on June 5.
+Don’t forget to [save the date](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210605T160000Z%2F20210605T180000Z&text=GitHub%20Graduation%202021%20%F0%9F%8E%93&location=twitch.tv%2Fgithubeducation&details=Join%20us%20on%20GitHub%20Campus%20TV%20to%20%22walk%20the%20stage%22%20and%20celebrate%20the%20accomplishments%20of%20this%20year%E2%80%99s%20graduating%20class%20with%20your%20fellow%20developers.%20) and [follow us on Twitch](https://www.twitch.tv/githubeducation) for notifications! See you on stage at graduation 👋
+
 ### May 14, 2021
 
 Hi Octograds!
