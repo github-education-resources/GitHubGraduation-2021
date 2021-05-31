@@ -1,6 +1,6 @@
 ---
-Name: Keerthana H K 
-Institution: GSSSIETW, Mysuru
+name: Keerthana H K 
+institution: GSSSIETW, Mysuru
 quote: Learn-Grow-Evolve
 github_user: KeerthanaHK
 ---
