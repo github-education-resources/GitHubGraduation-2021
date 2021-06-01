@@ -1,7 +1,7 @@
 ## Updates
 
 ### May 27, 2021
-And that’s a wrap on the GitHub 2021 Yearbook ✨✅
+And that’s a wrap on the GitHub 2021 [Yearbook](https://education.github.com/graduation/yearbook) ✨✅
 
 Submissions to the repository are closed as of 12:00pm PT. Yearbook will be live on Tuesday June 1. Check back here for updates!
 
