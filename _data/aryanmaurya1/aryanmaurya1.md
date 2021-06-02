@@ -1,0 +1,6 @@
+---
+name: ARYAN MAURYA 
+institution: G L BAJAJ INSTITUTE OF TECHNOLOGY AND MANAGEMENT
+quote: WE THE ENGINEERS ARE SHAPING THE WORLD, DAY BY DAY.
+github_user: aryanmaurya1
+---
