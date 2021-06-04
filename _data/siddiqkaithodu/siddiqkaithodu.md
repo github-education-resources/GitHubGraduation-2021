@@ -1,6 +1,6 @@
 ---
 name: siddiqkaithodu
 institution: CHMM COLLEGE FOR ADVANCED STUDIES
-quote: Focus Your Work.Forget The Result,It Will Happen.
+quote: Focus Your Work and Forget The Result.
 github_user: siddiqkaithodu
 ---
