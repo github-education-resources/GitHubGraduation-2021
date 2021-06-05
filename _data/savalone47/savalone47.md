@@ -1,6 +1,6 @@
 ---
 name: Josue Yenga Josue
-institution: ECOLE SUPERIEURE D'INFORMATIQUE SALAMA
-quote: It's all about legacy
+institution: ESISALAMA
+quote: Patience is a virtue, but I am learning patience. And it's a hard lesson
 github_user: savalone47
 ---
