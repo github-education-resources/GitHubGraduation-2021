@@ -1,0 +1,6 @@
+---
+name: Bhargav Yagnik
+institution: Symbiosis Institute of Technology
+quote: You miss 100% of the shots you don't take
+github_user: bhargavyagnik
+---
