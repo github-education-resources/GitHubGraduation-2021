@@ -1,0 +1,6 @@
+---
+name: PRANSHU AGGARWAL
+institution: GGSIP UNIVERSITY
+quote: THE WAY TO GET STARTED IS TO QUIT TALKING AND BEGIN DOING.
+github_user: pranshuag9
+---
