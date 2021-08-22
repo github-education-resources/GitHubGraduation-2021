@@ -1,6 +1,6 @@
 ---
 name: Prasanth A R
 institution: Vel Tech University
-quote: Learn then remove the L # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+quote: Learn then remove L  
 github_user: ptech12
 ---
