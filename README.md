@@ -71,11 +71,6 @@ Not sure what to say? Even a "thank-you teachers!" in your local language is app
 
 [Share your message to teachers.](https://github.com/education/GitHubGraduation-2021/files/6448974/GitHub.Graduation.Teacher.Video.Project.pdf)
 
-# A note on swag 🛍
-The first 5,000 successfully merged PRs will receive a custom holographic developer trading card with their GitHub status in the mail. 
-
-What does this mean? We will use your public GitHub profile information to create a trading card. To ensure your trading card best reflects you, please make sure your GitHub profile picture and bio are up to date and what you would like shown on the card.
-
 # Graduation Day 🎓
 Don't forget to watch the livestream! 
 
@@ -83,3 +78,8 @@ Don't forget to watch the livestream!
 - ⏰ 9:00am PT | 21:30 IST
 - 📍 Follow the [GitHub Education Twitch Channel](https://twitch.tv/githubeducation) for notifications.
 - 📎 [Add the event](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210605T160000Z%2F20210605T180000Z&text=GitHub%20Graduation%202021%20%F0%9F%8E%93&location=twitch.tv%2Fgithubeducation&details=Join%20us%20on%20GitHub%20Campus%20TV%20to%20%22walk%20the%20stage%22%20and%20celebrate%20the%20accomplishments%20of%20this%20year%E2%80%99s%20graduating%20class%20with%20your%20fellow%20developers.%20) to your calendar (Google calendar invite).
+
+# A note on swag 🛍
+The first 5,000 successfully merged PRs will receive a custom holographic developer trading card with their GitHub status in the mail. 
+
+What does this mean? We will use your public GitHub profile information to create a trading card. To ensure your trading card best reflects you, please make sure your GitHub profile picture and bio are up to date and what you would like shown on the card.
