@@ -23,18 +23,19 @@ The eligibility criteria are -
 Here are two steps to join graduation and receive swag in the mail. 
 1. [Fill out the **swag shipment form**](https://airtable.com/shrM5IigBuRFaj33H). Note: the form needs to be done before creating your Pull Request and does not guarantee participation in the event. Your PR must be successfully merged to be included and only the first 5,000 merged PRs will receive swag.
 2. **Submit a pull request** with your profile information to join the Yearbook and be highlighted in the graduation event.
-3. (optional) Level up your swag and make an additional appearance at graduation by **sharing a story** of a teacher who has made an impact in your education. More info below!
-4. [**Save the date**](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210605T160000Z%2F20210605T180000Z&text=GitHub%20Graduation%202021%20%F0%9F%8E%93&location=twitch.tv%2Fgithubeducation&details=Join%20us%20on%20GitHub%20Campus%20TV%20to%20%22walk%20the%20stage%22%20and%20celebrate%20the%20accomplishments%20of%20this%20year%E2%80%99s%20graduating%20class%20with%20your%20fellow%20developers.%20) (Google calendar invite) and attend graduation 🥳
+3. [**Save the date**](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210605T160000Z%2F20210605T180000Z&text=GitHub%20Graduation%202021%20%F0%9F%8E%93&location=twitch.tv%2Fgithubeducation&details=Join%20us%20on%20GitHub%20Campus%20TV%20to%20%22walk%20the%20stage%22%20and%20celebrate%20the%20accomplishments%20of%20this%20year%E2%80%99s%20graduating%20class%20with%20your%20fellow%20developers.%20) (Google calendar invite) and attend graduation 🥳
+4. (optional) Level up your swag and make an additional appearance at graduation by **sharing a story** of a teacher who has made an impact in your education. More info below!
 
-## 1. Fill out the swag shipment form.
-Information submitted to [the swag shipment form](https://airtable.com/shrM5IigBuRFaj33H) will only be used to ship swag for graduation. Submitting the form does not guarantee you will receive swag in the mail. Only the first 5,000 graduates to successfully merge their pull request to the Yearbook will receive a shipment.
-
-## 2. Add yourself to Yearbook 🏫
+## 1. Add yourself to Yearbook 🏫
 
 Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
 ### First, create the folder _data/YOUR-USERNAME/ 
 Fork this repository, create a new folder inside the `_data` folder, and name it with your username. It should look something like this `_data/<YOUR-USERNAME>/`. Ex.
+
+## 2. Fill out the swag shipment form.
+Information submitted to [the swag shipment form](https://airtable.com/shrM5IigBuRFaj33H) will only be used to ship swag for graduation. Submitting the form does not guarantee you will receive swag in the mail. Only the first 5,000 graduates to successfully merge their pull request to the Yearbook will receive a shipment.
+
 
 ```
 _data/MonaTheOctocat/
@@ -70,14 +71,6 @@ This year, we want to hear stories of teachers or educators who made a differenc
 Not sure what to say? Even a "thank-you teachers!" in your local language is appreciated to help us in honoring educators around the world.
 
 [Share your message to teachers.](https://github.com/education/GitHubGraduation-2021/files/6448974/GitHub.Graduation.Teacher.Video.Project.pdf)
-
-# Graduation Day 🎓
-Don't forget to watch the livestream! 
-
-- 📆 Saturday, June 5, 2021
-- ⏰ 9:00am PT | 21:30 IST
-- 📍 Follow the [GitHub Education Twitch Channel](https://twitch.tv/githubeducation) for notifications.
-- 📎 [Add the event](http://www.google.com/calendar/event?action=TEMPLATE&dates=20210605T160000Z%2F20210605T180000Z&text=GitHub%20Graduation%202021%20%F0%9F%8E%93&location=twitch.tv%2Fgithubeducation&details=Join%20us%20on%20GitHub%20Campus%20TV%20to%20%22walk%20the%20stage%22%20and%20celebrate%20the%20accomplishments%20of%20this%20year%E2%80%99s%20graduating%20class%20with%20your%20fellow%20developers.%20) to your calendar (Google calendar invite).
 
 # A note on swag 🛍
 The first 5,000 successfully merged PRs will receive a custom holographic developer trading card with their GitHub status in the mail. 
