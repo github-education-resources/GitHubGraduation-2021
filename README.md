@@ -1,5 +1,16 @@
 ## Updates
 
+### October 11, 2021
+
+First off, THANK YOU 🙌 all for your patience. Production and shipping around the world are still quite delayed, but we are getting closer. We are 3-weeks away from finishing printing trading cards. Once printed, we'll work hard to get everything into envelopes and shipped straight to you 💌. For international shipments, this can mean 2-3 additional weeks. Anyone in the United States can expect something in the mail within a week after printing.
+
+If you need to update your shipping information, we can for three more weeks. Please [submit your updated address in the Notes section](https://airtable.com/shrZuXu2OKrxO6PiD) of the question form.
+
+Congrats again on your graduation 💖
+
+@elisemoe + @juanpflores
+
+
 ### May 27, 2021
 And that’s a wrap on the GitHub 2021 Yearbook ✨✅
 
