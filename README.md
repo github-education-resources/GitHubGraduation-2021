@@ -1,5 +1,15 @@
 ## Updates
 
+### December 2, 2021
+Swag has shipped! 🎉🎉🎉🎉🎉🎉🎉
+
+Keep an eye out for something fun in the mail. If you live in the United States, this means anytime from today through next week. If you live internationally, expect 3-4 weeks for shipments to arrive.
+
+If you have not received your swag by **January 31, 2022**, head back to this repository and we'll open a new form to replace lost or damaged shipments.
+
+Happy coding 💖
+GitHub Education
+
 ### October 11, 2021
 
 First off, THANK YOU 🙌 all for your patience. Production and shipping around the world are still quite delayed, but we are getting closer. We are 3-weeks away from finishing printing trading cards. Once printed, we'll work hard to get everything into envelopes and shipped straight to you 💌. For international shipments, this can mean 2-3 additional weeks. Anyone in the United States can expect something in the mail within a week after printing.
