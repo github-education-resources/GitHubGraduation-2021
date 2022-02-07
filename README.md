@@ -1,5 +1,16 @@
 ## Updates
 
+### February 7, 2022
+Thank you all for your patience as swag ships! It's been fun to see your posts on social media as the cards arrive.
+
+**Haven't received swag yet?**
+
+We're so sorry to hear! Please fill out [the trading card replacement form](https://airtable.com/shrfvURjuNzpnk48i) **before March 1** and we'll re-ship your card by March 15, 2022. 
+
+<3
+
+GitHub Education
+
 ### December 2, 2021
 Swag has shipped! 🎉🎉🎉🎉🎉🎉🎉
 
