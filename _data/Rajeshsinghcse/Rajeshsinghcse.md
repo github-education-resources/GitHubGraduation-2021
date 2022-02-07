@@ -1,0 +1,6 @@
+---
+name: RAJESH KUMAR SINGH 
+institution: I.T.S ENGINEERING COLLEGE 🚩
+quote: DON'T COMPARE YOURSELF TO OTHER ,IF YOUR COMPARING THEM YOUR INSULTING YOURSELF.
+github_user: Rajeshsinghcse
+---
