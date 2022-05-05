@@ -1,6 +1,0 @@
----
-name: SHUBHAM KONDEKAR
-institution: WALCHAND INSTITUTE OF TECHNOLOGY 🚩
-quote: THE QUIETER YOU BECOME THE MORE YOU ARE ABLE TO HERE.
-github_user: kondekarshubham123
----

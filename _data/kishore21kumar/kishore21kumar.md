@@ -1,6 +1,0 @@
----
-name: KISHORE KUMAR S
-institution: SRI MANAKULA VINAYAGAR ENGINEERING COLLEGE
-quote: OUR ACTIONS DEFINE OUR CHARACTER
-github_user: kishore21kumar
----

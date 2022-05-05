@@ -1,6 +1,0 @@
----
-name: DHIRAJ KUMAR BURNWAL
-institution: NETAJI SUBHASH ENGINEERING COLLEGE
-quote: IF DECISION IS MINE, HARDSHIP WILL BE MINE TOO.
-github_user: mrburnwal
----

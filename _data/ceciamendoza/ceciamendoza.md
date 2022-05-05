@@ -1,6 +1,0 @@
----
-name: CECIA-KEREN-MENDOZA-GONZALEZ
-institution: BENEMERITA-UNIVERSIDAD-AUTONOMA-DE-PUEBLA
-quote: BE-STRONG-AND-COURAGEOUS
-github_user: ceciamendoza
----
